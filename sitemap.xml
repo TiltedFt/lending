@@ -1,14 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <!-- Root redirect page -->
     <url>
         <loc>https://hiregenix.app/</loc>
-        <lastmod>2024-10-17</lastmod>
+        <lastmod>2025-01-17</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
+
+    <!-- English (en) -->
+    <url>
+        <loc>https://hiregenix.app/en/</loc>
+        <lastmod>2025-01-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hiregenix.app/en/" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://hiregenix.app/es/" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://hiregenix.app/fr/" />
+        <xhtml:link rel="alternate" hreflang="pt" href="https://hiregenix.app/pt/" />
+        <xhtml:link rel="alternate" hreflang="ru" href="https://hiregenix.app/ru/" />
+        <xhtml:link rel="alternate" hreflang="uk" href="https://hiregenix.app/uk/" />
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hiregenix.app/tr/" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://hiregenix.app/de/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://hiregenix.app/en/" />
+    </url>
+
+    <!-- Spanish (es) -->
+    <url>
+        <loc>https://hiregenix.app/es/</loc>
+        <lastmod>2025-01-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hiregenix.app/en/" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://hiregenix.app/es/" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://hiregenix.app/fr/" />
+        <xhtml:link rel="alternate" hreflang="pt" href="https://hiregenix.app/pt/" />
+        <xhtml:link rel="alternate" hreflang="ru" href="https://hiregenix.app/ru/" />
+        <xhtml:link rel="alternate" hreflang="uk" href="https://hiregenix.app/uk/" />
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hiregenix.app/tr/" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://hiregenix.app/de/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://hiregenix.app/en/" />
+    </url>
+
+    <!-- French (fr) -->
+    <url>
+        <loc>https://hiregenix.app/fr/</loc>
+        <lastmod>2025-01-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hiregenix.app/en/" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://hiregenix.app/es/" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://hiregenix.app/fr/" />
+        <xhtml:link rel="alternate" hreflang="pt" href="https://hiregenix.app/pt/" />
+        <xhtml:link rel="alternate" hreflang="ru" href="https://hiregenix.app/ru/" />
+        <xhtml:link rel="alternate" hreflang="uk" href="https://hiregenix.app/uk/" />
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hiregenix.app/tr/" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://hiregenix.app/de/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://hiregenix.app/en/" />
+    </url>
+
+    <!-- Portuguese (pt) -->
+    <url>
+        <loc>https://hiregenix.app/pt/</loc>
+        <lastmod>2025-01-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hiregenix.app/en/" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://hiregenix.app/es/" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://hiregenix.app/fr/" />
+        <xhtml:link rel="alternate" hreflang="pt" href="https://hiregenix.app/pt/" />
+        <xhtml:link rel="alternate" hreflang="ru" href="https://hiregenix.app/ru/" />
+        <xhtml:link rel="alternate" hreflang="uk" href="https://hiregenix.app/uk/" />
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hiregenix.app/tr/" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://hiregenix.app/de/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://hiregenix.app/en/" />
+    </url>
+
+    <!-- Russian (ru) -->
+    <url>
+        <loc>https://hiregenix.app/ru/</loc>
+        <lastmod>2025-01-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hiregenix.app/en/" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://hiregenix.app/es/" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://hiregenix.app/fr/" />
+        <xhtml:link rel="alternate" hreflang="pt" href="https://hiregenix.app/pt/" />
+        <xhtml:link rel="alternate" hreflang="ru" href="https://hiregenix.app/ru/" />
+        <xhtml:link rel="alternate" hreflang="uk" href="https://hiregenix.app/uk/" />
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hiregenix.app/tr/" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://hiregenix.app/de/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://hiregenix.app/en/" />
+    </url>
+
+    <!-- Ukrainian (uk) -->
+    <url>
+        <loc>https://hiregenix.app/uk/</loc>
+        <lastmod>2025-01-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hiregenix.app/en/" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://hiregenix.app/es/" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://hiregenix.app/fr/" />
+        <xhtml:link rel="alternate" hreflang="pt" href="https://hiregenix.app/pt/" />
+        <xhtml:link rel="alternate" hreflang="ru" href="https://hiregenix.app/ru/" />
+        <xhtml:link rel="alternate" hreflang="uk" href="https://hiregenix.app/uk/" />
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hiregenix.app/tr/" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://hiregenix.app/de/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://hiregenix.app/en/" />
+    </url>
+
+    <!-- Turkish (tr) -->
+    <url>
+        <loc>https://hiregenix.app/tr/</loc>
+        <lastmod>2025-01-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hiregenix.app/en/" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://hiregenix.app/es/" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://hiregenix.app/fr/" />
+        <xhtml:link rel="alternate" hreflang="pt" href="https://hiregenix.app/pt/" />
+        <xhtml:link rel="alternate" hreflang="ru" href="https://hiregenix.app/ru/" />
+        <xhtml:link rel="alternate" hreflang="uk" href="https://hiregenix.app/uk/" />
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hiregenix.app/tr/" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://hiregenix.app/de/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://hiregenix.app/en/" />
+    </url>
+
+    <!-- German (de) -->
+    <url>
+        <loc>https://hiregenix.app/de/</loc>
+        <lastmod>2025-01-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hiregenix.app/en/" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://hiregenix.app/es/" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://hiregenix.app/fr/" />
+        <xhtml:link rel="alternate" hreflang="pt" href="https://hiregenix.app/pt/" />
+        <xhtml:link rel="alternate" hreflang="ru" href="https://hiregenix.app/ru/" />
+        <xhtml:link rel="alternate" hreflang="uk" href="https://hiregenix.app/uk/" />
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hiregenix.app/tr/" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://hiregenix.app/de/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://hiregenix.app/en/" />
+    </url>
+
+    <!-- Privacy Pages -->
     <url>
         <loc>https://hiregenix.app/privacy.html</loc>
-        <lastmod>2024-10-17</lastmod>
+        <lastmod>2025-01-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>

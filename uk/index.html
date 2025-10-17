@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Language Alternates -->
+    <link rel="alternate" hreflang="en" href="https://hiregenix.app/en/" />
+    <link rel="alternate" hreflang="es" href="https://hiregenix.app/es/" />
+    <link rel="alternate" hreflang="fr" href="https://hiregenix.app/fr/" />
+    <link rel="alternate" hreflang="pt" href="https://hiregenix.app/pt/" />
+    <link rel="alternate" hreflang="ru" href="https://hiregenix.app/ru/" />
+    <link rel="alternate" hreflang="uk" href="https://hiregenix.app/uk/" />
+    <link rel="alternate" hreflang="tr" href="https://hiregenix.app/tr/" />
+    <link rel="alternate" hreflang="de" href="https://hiregenix.app/de/" />
+    <link rel="alternate" hreflang="x-default" href="https://hiregenix.app/en/" />
+
+    <!-- Primary Meta Tags -->
+    <title>ReadSage - Опануйте Книги за Допомогою ШІ-Тестів | Інструмент для Розуміння Прочитаного</title>
+    <meta
+      name="title"
+      content="ReadSage - Опануйте Книги за Допомогою ШІ-Тестів | Інструмент для Розуміння Прочитаного"
+    />
+    <meta
+      name="description"
+      content="Завантажте будь-яку книгу та отримайте тести, створені ШІ (тести, код, рівняння). Відстежуйте прогрес, отримуйте миттєвий зворотний зв'язок та здавайте іспити. Ідеально для студентів, самоучок та професіоналів."
+    />
+    <meta
+      name="keywords"
+      content="ШІ для читання, генератор тестів з книг, тест на розуміння, додаток для навчання, підготовка до іспитів, навчання за книгами, питання ШІ, трекер читання, тест з підручника, самонавчання, активне читання, запам'ятовування знань, інтервальне повторення, флеш-картки, генератор тестів, питання з коду, математичні задачі, хімічні рівняння, розуміння прочитаного, інструмент оцінювання ШІ"
+    />
+    <meta name="author" content="ReadSage" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="Українська" />
+    <meta name="revisit-after" content="7 days" />
+    <link rel="canonical" href="https://hiregenix.app/uk/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hiregenix.app/uk/" />
+    <meta
+      property="og:title"
+      content="ReadSage - Опануйте Книги за Допомогою ШІ-Тестів"
+    />
+    <meta
+      property="og:description"
+      content="Завантажте будь-яку книгу та отримайте миттєві тести, створені ШІ для кожного розділу. Різні типи питань (тести, код, рівняння, есе). Відстежуйте свій прогрес з показниками точності, серій та рівнів складності. Ідеально для підготовки до іспитів та активного навчання."
+    />
+    <meta property="og:image" content="https://hiregenix.app/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="ReadSage - AI-powered book learning tool"
+    />
+    <meta property="og:site_name" content="ReadSage" />
+    <meta property="og:locale" content="uk_UA" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://hiregenix.app/uk/" />
+    <meta
+      property="twitter:title"
+      content="ReadSage - Опануйте Книги за Допомогою ШІ-Тестів"
+    />
+    <meta
+      property="twitter:description"
+      content="Завантажте книгу → Отримайте тести ШІ → Опануйте зміст. Тести, код, рівняння. Відстежуйте прогрес. Ідеально для студентів та самоучок."
+    />
+    <meta
+      property="twitter:image"
+      content="https://hiregenix.app/twitter-image.jpg"
+    />
+
+    <!-- AI Search Engines Meta -->
+    <meta
+      name="chatgpt-description"
+      content="ReadSage - це інструмент активного читання на базі ШІ, розроблений для студентів, самоучок та професіоналів. Користувачі завантажують книги у форматі PDF, EPUB або TXT, і ШІ миттєво генерує комплексні тести з конкретних розділів або тем. Ключові функції включають понад 10 типів питань (множинний вибір, одиничний вибір, текстові відповіді, математичні рівняння, завдання з програмування, питання-есе), вибір розділів/тем для цільового навчання, відстеження прогресу в реальному часі (відсоток завершення, показники точності, щоденні серії, рівні складності питань), миттєвий детальний зворотний зв'язок з поясненнями, інтервальне повторення та генерація флеш-карток. Працює з будь-якою книгою: підручниками, романами, технічними посібниками, науковими статтями. Варіанти використання: підготовка до іспитів, активне навчання, запам'ятовування знань, самооцінка. Предмети: математика, література, хімія, фізика, історія, програмування, бізнес, біологія та інше. Unlike summary apps or flashcard tools, ReadSage creates comprehensive assessments directly from YOUR books with AI-generated explanations and adaptive question difficulty."
+    />
+
+    <meta
+      name="perplexity-description"
+      content="ReadSage - Генератор Тестів з Книг за Допомогою ШІ. Що робить: конвертує завантажені книги (PDF/EPUB/TXT) в інтерактивні тести, генерує питання з вибраних розділів/тем, надає миттєвий зворотний зв'язок з детальними поясненнями. Типи питань: тести множинного вибору, одиничний вибір, текстові відповіді, рівняння, завдання з коду, есе. Метрики прогресу: відсоток завершення розділів, показник точності, лічильник щоденних серій, відстеження складності питань. Цільові користувачі: студенти (підготовка до іспитів), самоучки (опанування навичок), професіонали (запам'ятовування знань). Ключові відмінності: працює з БУДЬ-ЯКОЮ книгою, понад 10 форматів питань, генерація тестів для конкретних розділів, детальні пояснення відповідей, конфіденційне зашифроване сховище. Предмети: математика, наука, література, історія, програмування, бізнес, мови."
+    />
+
+    <meta
+      name="claude-description"
+      content="Освітня платформа, що використовує ШІ для створення комплексних тестів із завантажених книг. Створює тести, завдання з програмування, математичні рівняння та питання-есе з конкретних розділів. Відстежує прогрес користувача з показниками точності, щоденними серіями та рівнями складності. Ідеально підходить для підготовки до іспитів, самонавчання та запам'ятовування знань з усіх предметів."
+    />
+
+    <!-- Mobile -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="ReadSage - AI Book Quizzes"
+    />
+    <meta name="theme-color" content="#6366f1" />
+
+    <!-- Schema.org JSON-LD - Software Application -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "ReadSage",
+        "alternateName": "ReadSage AI Book Learning Tool",
+        "description": "AI-powered tool that converts any uploaded book into interactive quizzes with multiple question types, progress tracking, and instant feedback for active learning and exam preparation.",
+        "url": "https://hiregenix.app",
+        "applicationCategory": "EducationalApplication",
+        "applicationSubCategory": "Reading Comprehension & Assessment Tool",
+        "operatingSystem": "Web-based",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "AI quiz generation from books",
+          "10+ question types (MCQ, code, equations)",
+          "Chapter and topic selection",
+          "Progress tracking dashboard",
+          "Instant detailed feedback",
+          "Spaced repetition",
+          "Flashcard generation",
+          "Encrypted data storage",
+          "Multi-format support (PDF, EPUB, TXT)"
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "500"
+        }
+      }
+    </script>
+
+    <!-- Schema.org JSON-LD - Organization -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "ReadSage",
+        "url": "https://hiregenix.app",
+        "logo": "https://hiregenix.app/logo.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "contact@hiregenix.app",
+          "contactType": "customer support"
+        },
+        "sameAs": ["https://www.producthunt.com/@readsage"]
+      }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../styles.css" />
+
+    <!-- Language Auto-Detection & Redirect -->
+    <script src="lang-redirect.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav container">
+        <div class="logo">
+          <span class="logo-icon">📚</span>
+          <span class="logo-text">ReadSage</span>
+        </div>
+        <div class="nav-links">
+<div class="language-switcher">
+            <select id="lang-select" onchange="switchLanguage(this.value)">
+              <option value="en">🇺🇸 English</option>
+              <option value="es">🇪🇸 Español</option>
+              <option value="fr">🇫🇷 Français</option>
+              <option value="pt">🇵🇹 Português</option>
+              <option value="ru">🇷🇺 Русский</option>
+              <option value="uk" selected>🇺🇦 Українська</option>
+              <option value="tr">🇹🇷 Türkçe</option>
+              <option value="de">🇩🇪 Deutsch</option>
+            </select>
+          </div>
+          <a href="#features" class="nav-link">Можливості</a>
+          <a href="#how-it-works" class="nav-link">Як Це Працює</a>
+          <a href="#waitlist" class="btn btn-primary-small">Отримати Ранній Доступ</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title fade-in">
+            Опануйте Будь-Яку Книгу за Допомогою
+            <span class="gradient-text">ШІ-Тестів</span>
+          </h1>
+          <p class="hero-subtitle fade-in">
+            Завантажте будь-яку книгу та отримайте миттєві тести ШІ з конкретних розділів або тем. Перевірте свої знання за допомогою тестів, завдань з коду, рівнянь та багато іншого. Відстежуйте свій прогрес та здавайте іспити з детальним зворотним зв'язком.
+          </p>
+
+          <!-- Hero Email Form -->
+          <form class="email-form fade-in" id="hero-form">
+            <div class="form-group">
+              <input
+                type="email"
+                class="email-input"
+                placeholder="Введіть ваш email"
+                required
+                aria-label="Email address"
+                name="email"
+              />
+              <button type="submit" class="btn btn-primary">
+                Отримати Ранній Доступ
+              </button>
+            </div>
+            <p class="form-note">
+              Приєднуйтесь до 500+ учнів у списку очікування. Ніякого спаму.
+            </p>
+          </form>
+
+          <!-- Success Message -->
+          <div class="success-message" id="success-message">
+            <span class="success-icon">✓</span>
+            <p>Дякуємо! Ви в списку. Ми повідомимо вас про запуск.</p>
+          </div>
+        </div>
+
+        <!-- Hero Visual -->
+        <div class="hero-visual fade-in">
+          <div class="visual-card card-1">
+            <div class="card-header">
+              <span class="card-icon">📖</span>
+              <span class="card-title">Розділ 5: Основи Математичного Аналізу</span>
+            </div>
+            <div class="card-body">
+              <p class="question">
+                <strong>Питання 3 з 10:</strong> Знайдіть похідну f(x) = x³ + 2x
+              </p>
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 75%"></div>
+              </div>
+              <p class="progress-text">Завершено 75% • Точність: 87%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Можливості Section -->
+    <section class="features" id="features">
+      <div class="container">
+        <h2 class="section-title">Все Необхідне для Опанування Будь-Якої Книги</h2>
+        <p class="section-subtitle">
+          Інструменти на базі ШІ для активного навчання та підготовки до іспитів
+        </p>
+
+        <div class="features-grid">
+          <!-- Feature 1 -->
+          <div class="feature-card scroll-fade">
+            <div class="feature-icon">🤖</div>
+            <h3 class="feature-title">ШІ-Тестів</h3>
+            <p class="feature-description">
+              Генеруйте комплексні тести миттєво з будь-якої книги. Отримайте понад 10 типів питань, включаючи тести множинного вибору, завдання з коду, рівняння та питання-есе, адаптовані під ваш матеріал.
+            </p>
+          </div>
+
+          <!-- Feature 2 -->
+          <div class="feature-card scroll-fade">
+            <div class="feature-icon">🎯</div>
+            <h3 class="feature-title">Вибір Розділів та Тем</h3>
+            <p class="feature-description">
+              Вибирайте конкретні розділи або теми для вивчення. Створюйте цільові тести для підготовки до іспитів або повторення складних розділів без проходження всієї книги.
+            </p>
+          </div>
+
+          <!-- Feature 3 -->
+          <div class="feature-card scroll-fade">
+            <div class="feature-icon">📊</div>
+            <h3 class="feature-title">Панель Прогресу</h3>
+            <p class="feature-description">
+              Відстежуйте відсоток завершення розділів, показники точності, щоденні навчальні серії та рівні складності питань. Візуалізуйте свій прогрес з часом за допомогою детальної аналітики.
+            </p>
+          </div>
+
+          <!-- Feature 4 -->
+          <div class="feature-card scroll-fade">
+            <div class="feature-icon">💬</div>
+            <h3 class="feature-title">Миттєвий Детальний Зворотний Зв'язок</h3>
+            <p class="feature-description">
+              Отримуйте негайні пояснення для кожної відповіді. Розумійте, чому відповідь правильна чи неправильна, за допомогою інсайтів, створених ШІ, які поглиблюють ваше розуміння.
+            </p>
+          </div>
+
+          <!-- Feature 5 -->
+          <div class="feature-card scroll-fade">
+            <div class="feature-icon">📝</div>
+            <h3 class="feature-title">Множинні Формати Питань</h3>
+            <p class="feature-description">
+              Практикуйтесь з різноманітними типами питань: множинний вибір, одиничний вибір, текстові відповіді, математичні рівняння, завдання з коду та питання-есе для всіх предметів.
+            </p>
+          </div>
+
+          <!-- Feature 6 -->
+          <div class="feature-card scroll-fade">
+            <div class="feature-icon">📚</div>
+            <h3 class="feature-title">Підтримка Будь-Яких Книг</h3>
+            <p class="feature-description">
+              Завантажуйте книги в будь-якому форматі - PDF, EPUB або TXT. Працює з підручниками, романами, технічними посібниками, науковими статтями та будь-яким навчальним матеріалом.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Типів Питань Section -->
+    <section class="question-types">
+      <div class="container">
+        <h2 class="section-title">Понад 10 Типів Питань для Будь-Якого Предмета</h2>
+        <p class="section-subtitle">
+          Від математичних рівнянь до завдань з коду - ReadSage охоплює все
+        </p>
+
+        <div class="question-examples">
+          <!-- Math MCQ -->
+          <div class="question-example scroll-fade">
+            <div class="example-header">
+              <span class="example-badge math">Математика</span>
+              <span class="example-type">Множинний Вибір</span>
+            </div>
+            <div class="example-body">
+              <p class="example-question">
+                <strong>З підручника з математичного аналізу, Розділ 3:</strong><br />Знайдіть похідну f(x) = x³ + 2x
+              </p>
+              <div class="example-options mcq">
+                <label class="option">
+                  <input type="checkbox" disabled />
+                  <span>3x² + 2</span>
+                </label>
+                <label class="option">
+                  <input type="checkbox" disabled checked />
+                  <span>3x² + 2x</span>
+                </label>
+                <label class="option">
+                  <input type="checkbox" disabled />
+                  <span>x² + 2</span>
+                </label>
+                <label class="option">
+                  <input type="checkbox" disabled />
+                  <span>3x³ + 2</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Література Одиничний Вибір -->
+          <div class="question-example scroll-fade">
+            <div class="example-header">
+              <span class="example-badge literature">Література</span>
+              <span class="example-type">Одиничний Вибір</span>
+            </div>
+            <div class="example-body">
+              <p class="example-question">
+                <strong>З "1984" Джорджа Орвелла:</strong><br />Яка основна мета новомови в Океанії?
+              </p>
+              <div class="example-options single">
+                <label class="option">
+                  <input type="radio" name="lit" disabled />
+                  <span>Спростити спілкування</span>
+                </label>
+                <label class="option">
+                  <input type="radio" name="lit" disabled checked />
+                  <span>Обмежити свободу думки</span>
+                </label>
+                <label class="option">
+                  <input type="radio" name="lit" disabled />
+                  <span>Покращити освіту</span>
+                </label>
+                <label class="option">
+                  <input type="radio" name="lit" disabled />
+                  <span>Об'єднати нації</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Історія Текстова Відповідь -->
+          <div class="question-example scroll-fade">
+            <div class="example-header">
+              <span class="example-badge history">Історія</span>
+              <span class="example-type">Текстова Відповідь</span>
+            </div>
+            <div class="example-body">
+              <p class="example-question">
+                <strong>З "Sapiens" Юваля Ноя Харарі:</strong
+                ><br />Поясніть Когнітивну Революцію в 2-3 реченнях.
+              </p>
+              <div class="example-options text">
+                <textarea
+                  class="text-input"
+                  placeholder="Введіть вашу відповідь тут..."
+                  disabled
+                ></textarea>
+              </div>
+            </div>
+          </div>
+
+          <!-- Хімія Рівняння -->
+          <div class="question-example scroll-fade">
+            <div class="example-header">
+              <span class="example-badge chemistry">Хімія</span>
+              <span class="example-type">Рівняння</span>
+            </div>
+            <div class="example-body">
+              <p class="example-question">
+                <strong>З Хімії 101, Розділ 4:</strong><br />Зрівноважте це хімічне рівняння:
+              </p>
+              <div class="example-options equation">
+                <div class="equation-display">H₂ + O₂ → H₂O</div>
+                <input
+                  type="text"
+                  class="equation-input"
+                  placeholder="Введіть збалансоване рівняння..."
+                  disabled
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Програмування Code -->
+          <div class="question-example scroll-fade">
+            <div class="example-header">
+              <span class="example-badge programming">Програмування</span>
+              <span class="example-type">Завдання з Коду</span>
+            </div>
+            <div class="example-body">
+              <p class="example-question">
+                <strong>З "Чистий Код" Роберта Мартіна:</strong
+                ><br />Реалізуйте функцію для перевертання рядка:
+              </p>
+              <div class="example-options code">
+                <pre class="code-block">def reverse_string(s: str) -> str:
+    <span class="code-comment"># Ваш код тут</span>
+    <span class="code-cursor">|</span>
+</pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Як Це Працює Section -->
+    <section class="how-it-works" id="how-it-works">
+      <div class="container">
+        <h2 class="section-title">Як Це Працює</h2>
+        <p class="section-subtitle">Три прості кроки до розумного навчання</p>
+
+        <div class="steps">
+          <!-- Step 1 -->
+          <div class="step scroll-fade">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h3 class="step-title">Завантажте Вашу Книгу</h3>
+              <p class="step-description">
+                Перетягніть будь-який файл книги (PDF, EPUB, TXT) в ReadSage. Наш ШІ обробляє його за секунди та організовує за розділами та темами.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step scroll-fade">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h3 class="step-title">Виберіть Розділи та Отримайте Тести</h3>
+              <p class="step-description">
+                Виберіть конкретні розділи або теми, які ви хочете вивчити. ШІ миттєво генерує комплексні тести з множинними типами питань, від тестів до завдань з коду.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step scroll-fade">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h3 class="step-title">Відстежуйте Прогрес та Отримуйте Зворотний Зв'язок</h3>
+              <p class="step-description">
+                Відповідайте на питання та отримуйте миттєві детальні пояснення. Відстежуйте свій відсоток завершення, показники точності, щоденні серії та спостерігайте за покращенням розуміння.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+      <div class="container">
+        <div class="benefits-content">
+          <div class="benefits-text scroll-fade">
+            <h2 class="benefits-title">
+              Ідеально для Студентів, Самоучок та Професіоналів
+            </h2>
+            <ul class="benefits-list">
+              <li class="benefit-item">
+                <span class="benefit-icon">✓</span>
+                <span
+                  ><strong>Студенти:</strong> Здавайте іспити на відмінно з цільовими тестами за розділами та миттєвим зворотним зв'язком щодо ваших слабких місць</span
+                >
+              </li>
+              <li class="benefit-item">
+                <span class="benefit-icon">✓</span>
+                <span
+                  ><strong>Самоучки:</strong> Опановуйте технічні книги з практичними питаннями та інтервальним повторенням</span
+                >
+              </li>
+              <li class="benefit-item">
+                <span class="benefit-icon">✓</span>
+                <span
+                  ><strong>Професіонали:</strong> Зберігайте знання з бізнес-книг та галузевих видань через активне пригадування</span
+                >
+              </li>
+              <li class="benefit-item">
+                <span class="benefit-icon">✓</span>
+                <span
+                  ><strong>Підготовка до Іспитів:</strong> Перевіряйте себе перед реальним іспитом з реалістичними практичними питаннями</span
+                >
+              </li>
+              <li class="benefit-item">
+                <span class="benefit-icon">✓</span>
+                <span
+                  ><strong>Активне Навчання:</strong> Перетворюйте пасивне читання на захоплюючу практику з негайним зворотним зв'язком</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="benefits-visual scroll-fade">
+            <div class="stat-card">
+              <div class="stat-number">10+</div>
+              <div class="stat-label">Типів Питань</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">95%</div>
+              <div class="stat-label">Точність ШІ</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">500+</div>
+              <div class="stat-label">Ранніх Користувачів</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+      <div class="container">
+        <h2 class="section-title">Часті Питання</h2>
+        <p class="section-subtitle">
+          Все, що вам потрібно знати про ReadSage
+        </p>
+
+        <div class="faq-grid">
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">
+              Які формати файлів підтримує ReadSage?
+            </h3>
+            <p class="faq-answer">
+              ReadSage підтримує формати PDF, EPUB та TXT. Ви можете завантажувати підручники, романи, технічні посібники, наукові статті або будь-який навчальний матеріал у цих форматах.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">Як ReadSage генерує питання?</h3>
+            <p class="faq-answer">
+              Наш ШІ аналізує зміст вашої книги, виявляючи ключові концепції, факти та взаємозв'язки. Потім він генерує різноманітні типи питань (тести, код, рівняння, есе), адаптовані під складність матеріалу та предметну область.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">
+              Чи можу я вибирати конкретні розділи або теми?
+            </h3>
+            <p class="faq-answer">
+              Так! ReadSage автоматично поділяє вашу книгу на розділи та теми. Ви можете вибирати конкретні розділи для створення цільових тестів, ідеально підходящих для підготовки до іспитів або повторення складного матеріалу.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">
+              Які типи питань може створювати ReadSage?
+            </h3>
+            <p class="faq-answer">
+              ReadSage генерує понад 10 типів питань, включаючи множинний вибір, одиничний вибір, текстові відповіді, математичні рівняння, завдання з коду, питання-есе та багато іншого - адаптовані під предмет вашої книги.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">Чи є дані моєї книги конфіденційними та захищеними?</h3>
+            <p class="faq-answer">
+              Абсолютно! Всі ваші книги та дані зашифровані та безпечно зберігаються на наших серверах. Ми поважаємо вашу конфіденційність і ніколи не ділимося вашими даними з третіми сторонами. Ваш прогрес читання та результати тестів доступні лише вам. ReadSage повністю відповідає GDPR.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">Як працює відстеження прогресу?</h3>
+            <p class="faq-answer">
+              ReadSage відстежує відсоток завершення розділів, показники точності для кожного тесту, щоденні навчальні серії та рівні складності питань. Ви можете візуалізувати свій прогрес з часом за допомогою детальних аналітичних панелей.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">
+              Чи можу я використовувати ReadSage для підготовки до іспитів?
+            </h3>
+            <p class="faq-answer">
+              Так! ReadSage ідеально підходить для підготовки до іспитів. Завантажте свої навчальні матеріали, виберіть відповідні розділи та згенеруйте практичні тести. Отримуйте миттєвий зворотний зв'язок з детальними поясненнями, щоб виявити та укріпити слабкі місця перед іспитом.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">Чи працює ReadSage з підручниками?</h3>
+            <p class="faq-answer">
+              Абсолютно! ReadSage відмінно працює з підручниками з усіх предметів - математика, хімія, історія, програмування, література, фізика, біологія, бізнес та багато іншого. Він адаптує типи питань під предметну область.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="cta" id="waitlist">
+      <div class="container">
+        <div class="cta-content scroll-fade">
+          <h2 class="cta-title">Готові Змінити Ваше Навчання?</h2>
+          <p class="cta-subtitle">
+            Приєднуйтесь до нашого списку очікування та станьте одними з перших, хто випробує опанування книг на базі ШІ з миттєвими тестами, відстеженням прогресу та детальним зворотним зв'язком.
+          </p>
+
+          <!-- CTA Email Form -->
+          <form class="email-form" id="cta-form">
+            <div class="form-group">
+              <input
+                type="email"
+                class="email-input"
+                placeholder="Введіть ваш email"
+                required
+                aria-label="Email address"
+                name="email"
+              />
+              <button type="submit" class="btn btn-primary">
+                Приєднатися до Списку Очікування
+              </button>
+            </div>
+            <p class="form-note">
+              Ми поважаємо вашу конфіденційність. Відпишіться в будь-який час.
+            </p>
+          </form>
+
+          <!-- Success Message -->
+          <div class="success-message" id="cta-success-message">
+            <span class="success-icon">✓</span>
+            <p>Чудово! Перевірте ваш email для підтвердження.</p>
+          </div>
+
+          <!-- Social Proof -->
+          <div class="social-proof">
+            <div class="avatars">
+              <div class="avatar">👤</div>
+              <div class="avatar">👤</div>
+              <div class="avatar">👤</div>
+              <div class="avatar">👤</div>
+              <div class="avatar">+500</div>
+            </div>
+            <p class="social-proof-text">
+              Приєднуйтесь до 500+ учнів вже в списку очікування
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <div class="logo">
+              <span class="logo-icon">📚</span>
+              <span class="logo-text">ReadSage</span>
+            </div>
+            <p class="footer-tagline">
+              Опануйте будь-яку книгу за допомогою тестів, створених ШІ
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <div class="footer-column">
+              <h4 class="footer-title">Продукт</h4>
+              <a href="#features" class="footer-link">Можливості</a>
+              <a href="#how-it-works" class="footer-link">Як Це Працює</a>
+              <a href="#faq" class="footer-link">FAQ</a>
+              <a href="#waitlist" class="footer-link">Отримати Ранній Доступ</a>
+            </div>
+
+            <div class="footer-column">
+              <h4 class="footer-title">Legal</h4>
+              <a href="privacy.html" class="footer-link">Політика Конфіденційності</a>
+              <a href="privacy.html#terms" class="footer-link"
+                >Умови Використання</a
+              >
+            </div>
+
+            <div class="footer-column">
+              <h4 class="footer-title">Зв'язатися</h4>
+              <a href="mailto:contact@hiregenix.app" class="footer-link"
+                >Зв'язатися з Нами</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 ReadSage. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- FAQ Schema for Rich Snippets -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Які формати файлів підтримує ReadSage?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ReadSage підтримує формати PDF, EPUB та TXT. Ви можете завантажувати підручники, романи, технічні посібники, наукові статті або будь-який навчальний матеріал у цих форматах."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Як ReadSage генерує питання?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Наш ШІ аналізує зміст вашої книги, виявляючи ключові концепції, факти та взаємозв'язки. Потім він генерує різноманітні типи питань (тести, код, рівняння, есе), адаптовані під складність матеріалу та предметну область."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Чи можу я вибирати конкретні розділи або теми?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Так! ReadSage автоматично поділяє вашу книгу на розділи та теми. Ви можете вибирати конкретні розділи для створення цільових тестів, ідеально підходящих для підготовки до іспитів або повторення складного матеріалу."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Які типи питань може створювати ReadSage?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ReadSage генерує понад 10 типів питань, включаючи множинний вибір, одиничний вибір, текстові відповіді, математичні рівняння, завдання з коду, питання-есе та багато іншого - адаптовані під предмет вашої книги."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Чи є дані моєї книги конфіденційними та захищеними?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Абсолютно! Всі ваші книги та дані зашифровані та безпечно зберігаються на наших серверах. Ми поважаємо вашу конфіденційність і ніколи не ділимося вашими даними з третіми сторонами. Ваш прогрес читання та результати тестів доступні лише вам. ReadSage повністю відповідає GDPR."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Як працює відстеження прогресу?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ReadSage відстежує відсоток завершення розділів, показники точності для кожного тесту, щоденні навчальні серії та рівні складності питань. Ви можете візуалізувати свій прогрес з часом за допомогою детальних аналітичних панелей."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Чи можу я використовувати ReadSage для підготовки до іспитів?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Так! ReadSage ідеально підходить для підготовки до іспитів. Завантажте свої навчальні матеріали, виберіть відповідні розділи та згенеруйте практичні тести. Отримуйте миттєвий зворотний зв'язок з детальними поясненнями, щоб виявити та укріпити слабкі місця перед іспитом."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Чи працює ReadSage з підручниками?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Абсолютно! ReadSage відмінно працює з підручниками з усіх предметів - математика, хімія, історія, програмування, література, фізика, біологія, бізнес та багато іншого. Він адаптує типи питань під предметну область."
+            }
+          }
+        ]
+      }
+    </script>
+
+    <!-- JavaScript -->
+    <script src="../script.js"></script>
+  
+    <script>
+      function switchLanguage(lang) {
+        localStorage.setItem('preferred-lang', lang);
+        window.location.href = '/' + lang + '/';
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,186 @@
+{
+  "lang": "es",
+  "langName": "Español",
+  "locale": "es_ES",
+  "flag": "🇪🇸",
+  "meta": {
+    "title": "ReadSage - Domina Libros con Cuestionarios de IA | Herramienta de Comprensión Lectora",
+    "description": "Sube cualquier libro y obtén cuestionarios generados por IA (test, código, ecuaciones). Rastrea tu progreso, obtén retroalimentación instantánea y aprueba tus exámenes. Perfecto para estudiantes, autodidactas y profesionales.",
+    "keywords": "herramienta de lectura IA, generador de cuestionarios de libros, test de comprensión, app de estudio, preparación de exámenes, aprendizaje de libros, preguntas IA, rastreador de lectura, quiz de libro de texto, autoaprendizaje, lectura activa, retención de conocimiento, repetición espaciada, tarjetas didácticas, generador de tests, preguntas de código, problemas matemáticos, ecuaciones químicas, comprensión lectora, herramienta de evaluación IA",
+    "ogTitle": "ReadSage - Domina Libros con Cuestionarios de IA",
+    "ogDescription": "Sube cualquier libro y obtén cuestionarios instantáneos generados por IA adaptados a cada capítulo. Múltiples tipos de preguntas (test, código, ecuaciones, ensayos). Rastrea tu progreso con puntuaciones de precisión, rachas y niveles de dificultad. Perfecto para preparación de exámenes y aprendizaje activo.",
+    "twitterTitle": "ReadSage - Domina Libros con Cuestionarios de IA",
+    "twitterDescription": "Sube un libro → Obtén cuestionarios IA → Domina el contenido. Tests, código, ecuaciones. Rastrea progreso. Perfecto para estudiantes y autodidactas.",
+    "chatgptDescription": "ReadSage es una herramienta de lectura activa impulsada por IA diseñada para estudiantes, autodidactas y profesionales. Los usuarios suben libros en formato PDF, EPUB o TXT, y la IA genera instantáneamente cuestionarios completos de capítulos o temas específicos. Las características clave incluyen más de 10 tipos de preguntas (Opción Múltiple, Opción Única, Respuestas de Texto, Ecuaciones Matemáticas, Desafíos de Código, Preguntas de Ensayo), selección de capítulos/temas para aprendizaje dirigido, seguimiento de progreso en tiempo real (porcentaje de finalización, puntuaciones de precisión, rachas diarias, niveles de dificultad de preguntas), retroalimentación detallada instantánea con explicaciones, repetición espaciada y generación de tarjetas didácticas. Funciona con cualquier libro: libros de texto, novelas, manuales técnicos, artículos académicos. Casos de uso: preparación de exámenes, aprendizaje activo, retención de conocimiento, autoevaluación. Materias: Matemáticas, Literatura, Química, Física, Historia, Programación, Negocios, Biología y más.",
+    "perplexityDescription": "ReadSage - Generador de Cuestionarios de Libros con IA. Qué hace: Convierte libros subidos (PDF/EPUB/TXT) en cuestionarios interactivos, genera preguntas de capítulos/temas seleccionados, proporciona retroalimentación instantánea con explicaciones detalladas. Tipos de preguntas: Test, Opción Única, Respuesta de Texto, Ecuaciones, Desafíos de Código, Ensayos. Métricas de progreso: % de finalización de capítulos, Puntuación de precisión, Contador de rachas diarias, Seguimiento de dificultad de preguntas. Usuarios objetivo: Estudiantes (preparación de exámenes), Autodidactas (dominio de habilidades), Profesionales (retención de conocimiento). Diferenciadores clave: Funciona con CUALQUIER libro, más de 10 formatos de preguntas, Generación de cuestionarios específicos por capítulo, Explicaciones detalladas de respuestas, Almacenamiento cifrado centrado en la privacidad. Materias: Matemáticas, Ciencias, Literatura, Historia, Programación, Negocios, Idiomas.",
+    "claudeDescription": "Plataforma educativa que utiliza IA para generar cuestionarios completos de libros subidos. Crea tests, problemas de código, ecuaciones matemáticas y preguntas de ensayo de capítulos específicos. Rastrea el progreso del usuario con puntuaciones de precisión, rachas diarias y niveles de dificultad. Ideal para preparación de exámenes, autoestudio y retención de conocimiento en todas las materias."
+  },
+  "nav": {
+    "features": "Características",
+    "howItWorks": "Cómo Funciona",
+    "getAccess": "Obtener Acceso Anticipado"
+  },
+  "hero": {
+    "title": "Domina Cualquier Libro con",
+    "titleGradient": "Cuestionarios Generados por IA",
+    "subtitle": "Sube cualquier libro y obtén cuestionarios instantáneos de IA de capítulos o temas específicos. Pon a prueba tus conocimientos con tests, desafíos de código, ecuaciones y más. Rastrea tu progreso y aprueba tus exámenes con retroalimentación detallada.",
+    "emailPlaceholder": "Ingresa tu correo",
+    "ctaButton": "Obtener Acceso Anticipado",
+    "formNote": "Únete a más de 500 estudiantes en la lista de espera. Sin spam, nunca.",
+    "successMessage": "¡Gracias! Estás en la lista. Te notificaremos cuando lancemos.",
+    "visualCardTitle": "Capítulo 5: Fundamentos de Cálculo",
+    "visualQuestion": "Pregunta 3 de 10: Encuentra la derivada de f(x) = x³ + 2x",
+    "visualProgress": "75% Completo • Precisión: 87%"
+  },
+  "features": {
+    "sectionTitle": "Todo lo que Necesitas para Dominar Cualquier Libro",
+    "sectionSubtitle": "Herramientas impulsadas por IA para aprendizaje activo y preparación de exámenes",
+    "feature1": {
+      "icon": "🤖",
+      "title": "Cuestionarios Generados por IA",
+      "description": "Genera cuestionarios completos instantáneamente de cualquier libro. Obtén más de 10 tipos de preguntas incluyendo tests, desafíos de código, ecuaciones y preguntas de ensayo adaptadas a tu material."
+    },
+    "feature2": {
+      "icon": "🎯",
+      "title": "Selección de Capítulos y Temas",
+      "description": "Elige capítulos o temas específicos en los que enfocarte. Crea cuestionarios dirigidos para preparación de exámenes o repasa secciones difíciles sin repasar todo el libro."
+    },
+    "feature3": {
+      "icon": "📊",
+      "title": "Panel de Progreso",
+      "description": "Rastrea el porcentaje de finalización de capítulos, puntuaciones de precisión, rachas de aprendizaje diarias y niveles de dificultad de preguntas. Visualiza tu mejora con el tiempo con análisis detallados."
+    },
+    "feature4": {
+      "icon": "💬",
+      "title": "Retroalimentación Detallada Instantánea",
+      "description": "Obtén explicaciones inmediatas para cada respuesta. Comprende por qué una respuesta es correcta o incorrecta con perspectivas generadas por IA que profundizan tu comprensión."
+    },
+    "feature5": {
+      "icon": "📝",
+      "title": "Múltiples Formatos de Preguntas",
+      "description": "Practica con diversos tipos de preguntas: Opción Múltiple, Opción Única, Respuestas de Texto, Ecuaciones Matemáticas, Desafíos de Código y Preguntas de Ensayo para todas las materias."
+    },
+    "feature6": {
+      "icon": "📚",
+      "title": "Soporte Universal de Libros",
+      "description": "Sube libros en cualquier formato - PDF, EPUB o TXT. Funciona con libros de texto, novelas, manuales técnicos, artículos académicos y cualquier material de aprendizaje que tengas."
+    }
+  },
+  "questionTypes": {
+    "sectionTitle": "Más de 10 Tipos de Preguntas para Cada Materia",
+    "sectionSubtitle": "Desde ecuaciones matemáticas hasta desafíos de código - ReadSage lo cubre todo",
+    "math": {
+      "badge": "Matemáticas",
+      "type": "Opción Múltiple",
+      "question": "Del Libro de Cálculo, Capítulo 3:<br />Encuentra la derivada de f(x) = x³ + 2x",
+      "options": ["3x² + 2", "3x² + 2x", "x² + 2", "3x³ + 2"]
+    },
+    "literature": {
+      "badge": "Literatura",
+      "type": "Opción Única",
+      "question": "De \"1984\" de George Orwell:<br />¿Cuál es el propósito principal del Neolengua en Oceanía?",
+      "options": ["Simplificar la comunicación", "Limitar la libertad de pensamiento", "Mejorar la educación", "Unir naciones"]
+    },
+    "history": {
+      "badge": "Historia",
+      "type": "Respuesta de Texto",
+      "question": "De \"Sapiens\" de Yuval Noah Harari:<br />Explica la Revolución Cognitiva en 2-3 frases.",
+      "placeholder": "Escribe tu respuesta aquí..."
+    },
+    "chemistry": {
+      "badge": "Química",
+      "type": "Ecuación",
+      "question": "De Química 101, Capítulo 4:<br />Balancea esta ecuación química:",
+      "equation": "H₂ + O₂ → H₂O",
+      "placeholder": "Ingresa la ecuación balanceada..."
+    },
+    "programming": {
+      "badge": "Programación",
+      "type": "Desafío de Código",
+      "question": "De \"Código Limpio\" de Robert Martin:<br />Implementa una función para invertir una cadena:",
+      "codeComment": "# Tu código aquí"
+    }
+  },
+  "howItWorks": {
+    "sectionTitle": "Cómo Funciona",
+    "sectionSubtitle": "Tres simples pasos para un aprendizaje más inteligente",
+    "step1": {
+      "title": "Sube Tu Libro",
+      "description": "Arrastra y suelta cualquier archivo de libro (PDF, EPUB, TXT) en ReadSage. Nuestra IA lo procesa en segundos y lo organiza por capítulos y temas."
+    },
+    "step2": {
+      "title": "Elige Capítulos y Obtén Cuestionarios",
+      "description": "Selecciona capítulos o temas específicos que quieras estudiar. La IA genera instantáneamente cuestionarios completos con múltiples tipos de preguntas, desde tests hasta desafíos de código."
+    },
+    "step3": {
+      "title": "Rastrea Progreso y Obtén Retroalimentación",
+      "description": "Responde preguntas y recibe explicaciones detalladas instantáneas. Monitorea tu porcentaje de finalización, puntuaciones de precisión, rachas diarias y observa cómo mejora tu comprensión."
+    }
+  },
+  "benefits": {
+    "title": "Perfecto para Estudiantes, Autodidactas y Profesionales",
+    "item1": "Estudiantes: Aprueba exámenes con cuestionarios dirigidos por capítulo y retroalimentación instantánea sobre tus áreas débiles",
+    "item2": "Autodidactas: Domina libros técnicos con preguntas prácticas y repetición espaciada",
+    "item3": "Profesionales: Retén conocimiento de libros de negocios e industria a través del recuerdo activo",
+    "item4": "Preparación de Exámenes: Ponte a prueba antes del examen real con preguntas prácticas realistas",
+    "item5": "Aprendizaje Activo: Transforma la lectura pasiva en práctica atractiva con retroalimentación inmediata",
+    "stat1Label": "Tipos de Preguntas",
+    "stat2Label": "Precisión de IA",
+    "stat3Label": "Usuarios Tempranos"
+  },
+  "faq": {
+    "sectionTitle": "Preguntas Frecuentes",
+    "sectionSubtitle": "Todo lo que necesitas saber sobre ReadSage",
+    "q1": {
+      "question": "¿Qué formatos de archivo soporta ReadSage?",
+      "answer": "ReadSage soporta formatos PDF, EPUB y TXT. Puedes subir libros de texto, novelas, manuales técnicos, artículos académicos o cualquier material de aprendizaje en estos formatos."
+    },
+    "q2": {
+      "question": "¿Cómo genera ReadSage las preguntas?",
+      "answer": "Nuestra IA analiza el contenido de tu libro, identificando conceptos clave, hechos y relaciones. Luego genera diversos tipos de preguntas (tests, código, ecuaciones, ensayos) adaptadas a la complejidad del material y la materia."
+    },
+    "q3": {
+      "question": "¿Puedo elegir capítulos o temas específicos?",
+      "answer": "¡Sí! ReadSage divide automáticamente tu libro en capítulos y temas. Puedes seleccionar secciones específicas para crear cuestionarios dirigidos, perfectos para preparación de exámenes o repasar material difícil."
+    },
+    "q4": {
+      "question": "¿Qué tipos de preguntas puede crear ReadSage?",
+      "answer": "ReadSage genera más de 10 tipos de preguntas incluyendo Opción Múltiple, Opción Única, Respuestas de Texto, Ecuaciones Matemáticas, Desafíos de Código, Preguntas de Ensayo y más - adaptadas a la materia de tu libro."
+    },
+    "q5": {
+      "question": "¿Son privados y seguros los datos de mi libro?",
+      "answer": "¡Absolutamente! Todos tus libros y datos están cifrados y almacenados de forma segura en nuestros servidores. Respetamos tu privacidad y nunca compartimos tus datos con terceros. Tu progreso de lectura y resultados de cuestionarios son privados solo para ti. ReadSage cumple totalmente con GDPR."
+    },
+    "q6": {
+      "question": "¿Cómo funciona el seguimiento de progreso?",
+      "answer": "ReadSage rastrea tu porcentaje de finalización de capítulos, puntuaciones de precisión para cada cuestionario, rachas de aprendizaje diarias y niveles de dificultad de preguntas. Puedes visualizar tu mejora con el tiempo con paneles de análisis detallados."
+    },
+    "q7": {
+      "question": "¿Puedo usar ReadSage para preparación de exámenes?",
+      "answer": "¡Sí! ReadSage es perfecto para preparación de exámenes. Sube tus materiales de estudio, selecciona capítulos relevantes y genera pruebas prácticas. Obtén retroalimentación instantánea con explicaciones detalladas para identificar y fortalecer áreas débiles antes de tu examen."
+    },
+    "q8": {
+      "question": "¿Funciona ReadSage con libros de texto?",
+      "answer": "¡Absolutamente! ReadSage sobresale con libros de texto de todas las materias - matemáticas, química, historia, programación, literatura, física, biología, negocios y más. Adapta los tipos de preguntas para coincidir con la materia."
+    }
+  },
+  "cta": {
+    "title": "¿Listo para Transformar Tu Aprendizaje?",
+    "subtitle": "Únete a nuestra lista de espera y sé de los primeros en experimentar el dominio de libros impulsado por IA con cuestionarios instantáneos, seguimiento de progreso y retroalimentación detallada.",
+    "emailPlaceholder": "Ingresa tu correo",
+    "ctaButton": "Unirse a la Lista de Espera",
+    "formNote": "Respetamos tu privacidad. Cancela suscripción en cualquier momento.",
+    "successMessage": "¡Increíble! Revisa tu correo para confirmación.",
+    "socialProof": "Únete a más de 500 estudiantes ya en la lista de espera"
+  },
+  "footer": {
+    "tagline": "Domina cualquier libro con cuestionarios generados por IA",
+    "product": "Producto",
+    "legal": "Legal",
+    "connect": "Conectar",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio",
+    "contactUs": "Contáctanos",
+    "copyright": "© 2025 ReadSage. Todos los derechos reservados."
+  }
+}

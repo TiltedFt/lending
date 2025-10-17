@@ -4,10 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Language Alternates -->
+    <link rel="alternate" hreflang="en" href="https://hiregenix.app/en/" />
+    <link rel="alternate" hreflang="es" href="https://hiregenix.app/es/" />
+    <link rel="alternate" hreflang="fr" href="https://hiregenix.app/fr/" />
+    <link rel="alternate" hreflang="pt" href="https://hiregenix.app/pt/" />
+    <link rel="alternate" hreflang="ru" href="https://hiregenix.app/ru/" />
+    <link rel="alternate" hreflang="uk" href="https://hiregenix.app/uk/" />
+    <link rel="alternate" hreflang="tr" href="https://hiregenix.app/tr/" />
+    <link rel="alternate" hreflang="de" href="https://hiregenix.app/de/" />
+    <link rel="alternate" hreflang="x-default" href="https://hiregenix.app/en/" />
+
     <!-- Primary Meta Tags -->
-    <title>
-      ReadSage - Master Books with AI Quizzes | Reading Comprehension Tool
-    </title>
+    <title>ReadSage - Master Books with AI Quizzes | Reading Comprehension Tool</title>
     <meta
       name="title"
       content="ReadSage - Master Books with AI Quizzes | Reading Comprehension Tool"
@@ -24,11 +33,11 @@
     <meta name="robots" content="index, follow" />
     <meta name="language" content="English" />
     <meta name="revisit-after" content="7 days" />
-    <link rel="canonical" href="https://hiregenix.app/" />
+    <link rel="canonical" href="https://hiregenix.app/en/" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://hiregenix.app/" />
+    <meta property="og:url" content="https://hiregenix.app/en/" />
     <meta
       property="og:title"
       content="ReadSage - Master Books with AI Quizzes"
@@ -49,7 +58,7 @@
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://hiregenix.app/" />
+    <meta property="twitter:url" content="https://hiregenix.app/en/" />
     <meta
       property="twitter:title"
       content="ReadSage - Master Books with AI Quizzes"
@@ -144,7 +153,7 @@
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../styles.css" />
 
     <!-- Language Auto-Detection & Redirect -->
     <script src="lang-redirect.js"></script>
@@ -158,6 +167,18 @@
           <span class="logo-text">ReadSage</span>
         </div>
         <div class="nav-links">
+<div class="language-switcher">
+            <select id="lang-select" onchange="switchLanguage(this.value)">
+              <option value="en" selected>🇺🇸 English</option>
+              <option value="es">🇪🇸 Español</option>
+              <option value="fr">🇫🇷 Français</option>
+              <option value="pt">🇵🇹 Português</option>
+              <option value="ru">🇷🇺 Русский</option>
+              <option value="uk">🇺🇦 Українська</option>
+              <option value="tr">🇹🇷 Türkçe</option>
+              <option value="de">🇩🇪 Deutsch</option>
+            </select>
+          </div>
           <a href="#features" class="nav-link">Features</a>
           <a href="#how-it-works" class="nav-link">How It Works</a>
           <a href="#waitlist" class="btn btn-primary-small">Get Early Access</a>
@@ -833,6 +854,13 @@
     </script>
 
     <!-- JavaScript -->
-    <script src="script.js"></script>
+    <script src="../script.js"></script>
+  
+    <script>
+      function switchLanguage(lang) {
+        localStorage.setItem('preferred-lang', lang);
+        window.location.href = '/' + lang + '/';
+      }
+    </script>
   </body>
 </html>

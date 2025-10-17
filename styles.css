@@ -94,6 +94,38 @@ body {
     transition: color 0.3s ease;
 }
 
+/* Language Switcher */
+.language-switcher {
+    position: relative;
+}
+
+.language-switcher select {
+    padding: 0.5rem 2.5rem 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' stroke='%2364748b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+}
+
+.language-switcher select:hover {
+    background-color: var(--bg-tertiary);
+    border-color: var(--primary-color);
+}
+
+.language-switcher select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
 .nav-link:hover {
     color: var(--primary-color);
 }
@@ -697,6 +729,11 @@ body {
 
     .nav-link {
         display: none;
+    }
+
+    .language-switcher select {
+        padding: 0.4rem 2rem 0.4rem 0.75rem;
+        font-size: 0.8rem;
     }
 
     .hero {

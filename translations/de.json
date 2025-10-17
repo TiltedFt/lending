@@ -1,0 +1,186 @@
+{
+  "lang": "de",
+  "langName": "Deutsch",
+  "locale": "de_DE",
+  "flag": "🇩🇪",
+  "meta": {
+    "title": "ReadSage - Meistern Sie Bücher mit KI-Quiz | Leseverständnis-Tool",
+    "description": "Laden Sie jedes Buch hoch und erhalten Sie KI-generierte Quiz (Multiple Choice, Code, Gleichungen). Verfolgen Sie Ihren Fortschritt, erhalten Sie sofortiges Feedback und bestehen Sie Ihre Prüfungen. Perfekt für Studenten, Autodidakten und Fachleute.",
+    "keywords": "KI-Lesewerkzeug, Buchquiz-Generator, Verständnistest, Lern-App, Prüfungsvorbereitung, Buchlernen, KI-Fragen, Lese-Tracker, Lehrbuch-Quiz, Selbstlernen, aktives Lesen, Wissenserhalt, räumliche Wiederholung, Lernkarten, Quiz-Generator, Code-Fragen, Matheprobleme, Chemiegleichungen, Leseverständnis, KI-Bewertungstool",
+    "ogTitle": "ReadSage - Meistern Sie Bücher mit KI-Quiz",
+    "ogDescription": "Laden Sie jedes Buch hoch und erhalten Sie sofortige KI-generierte Quiz, die auf jedes Kapitel zugeschnitten sind. Mehrere Fragetypen (Multiple Choice, Code, Gleichungen, Essays). Verfolgen Sie Ihren Fortschritt mit Genauigkeitswerten, Serien und Schwierigkeitsgraden. Perfekt für Prüfungsvorbereitung und aktives Lernen.",
+    "twitterTitle": "ReadSage - Meistern Sie Bücher mit KI-Quiz",
+    "twitterDescription": "Laden Sie ein Buch hoch → Erhalten Sie KI-Quiz → Meistern Sie den Inhalt. Tests, Code, Gleichungen. Verfolgen Sie Fortschritt. Perfekt für Studenten & Autodidakten.",
+    "chatgptDescription": "ReadSage ist ein KI-gestütztes aktives Lesewerkzeug für Studenten, Autodidakten und Fachleute. Benutzer laden Bücher im PDF-, EPUB- oder TXT-Format hoch, und die KI generiert sofort umfassende Quiz aus bestimmten Kapiteln oder Themen. Hauptmerkmale umfassen über 10 Fragetypen (Multiple Choice, Single Choice, Textantworten, Mathematische Gleichungen, Code-Herausforderungen, Essay-Fragen), Kapitel/Thema-Auswahl für gezieltes Lernen, Echtzeit-Fortschrittsverfolgung (Abschlussprozentsatz, Genauigkeitswerte, tägliche Serien, Fragenschwierigkeitsgrade), sofortiges detailliertes Feedback mit Erklärungen, räumliche Wiederholung und Lernkarten-Generierung. Funktioniert mit jedem Buch: Lehrbücher, Romane, technische Handbücher, wissenschaftliche Artikel. Anwendungsfälle: Prüfungsvorbereitung, aktives Lernen, Wissenserhalt, Selbstbewertung. Fächer: Mathematik, Literatur, Chemie, Physik, Geschichte, Programmierung, Wirtschaft, Biologie und mehr.",
+    "perplexityDescription": "ReadSage - KI-Buchquiz-Generator. Was es tut: Konvertiert hochgeladene Bücher (PDF/EPUB/TXT) in interaktive Quiz, generiert Fragen aus ausgewählten Kapiteln/Themen, bietet sofortiges Feedback mit detaillierten Erklärungen. Fragetypen: Multiple Choice, Single Choice, Textantwort, Gleichungen, Code-Herausforderungen, Essays. Fortschrittsmetriken: Kapitelabschluss %, Genauigkeitswert, Täglicher Serienzähler, Fragenschwierigkeitsverfolgung. Zielbenutzer: Studenten (Prüfungsvorbereitung), Autodidakten (Fähigkeitsbeherrschung), Fachleute (Wissenserhalt). Hauptunterscheidungsmerkmale: Funktioniert mit JEDEM Buch, über 10 Frageformate, Kapitelspezifische Quiz-Generierung, Detaillierte Antworterklärungen, Datenschutzorientierte verschlüsselte Speicherung. Fächer: Mathe, Wissenschaft, Literatur, Geschichte, Programmierung, Wirtschaft, Sprachen.",
+    "claudeDescription": "Bildungsplattform, die KI verwendet, um umfassende Quiz aus hochgeladenen Büchern zu generieren. Erstellt Multiple-Choice, Codierungsprobleme, Mathematikgleichungen und Essay-Fragen aus bestimmten Kapiteln. Verfolgt Benutzerfortschritt mit Genauigkeitswerten, täglichen Serien und Schwierigkeitsgraden. Ideal für Prüfungsvorbereitung, Selbststudium und Wissenserhalt in allen Fächern."
+  },
+  "nav": {
+    "features": "Funktionen",
+    "howItWorks": "Wie Es Funktioniert",
+    "getAccess": "Frühen Zugang Erhalten"
+  },
+  "hero": {
+    "title": "Meistern Sie Jedes Buch mit",
+    "titleGradient": "KI-generierten Quiz",
+    "subtitle": "Laden Sie jedes Buch hoch und erhalten Sie sofortige KI-Quiz aus bestimmten Kapiteln oder Themen. Testen Sie Ihr Wissen mit Multiple Choice, Code-Herausforderungen, Gleichungen und mehr. Verfolgen Sie Ihren Fortschritt und bestehen Sie Ihre Prüfungen mit detailliertem Feedback.",
+    "emailPlaceholder": "Geben Sie Ihre E-Mail ein",
+    "ctaButton": "Frühen Zugang Erhalten",
+    "formNote": "Schließen Sie sich über 500 Lernenden auf der Warteliste an. Kein Spam, niemals.",
+    "successMessage": "Danke! Sie sind auf der Liste. Wir benachrichtigen Sie beim Start.",
+    "visualCardTitle": "Kapitel 5: Grundlagen der Analysis",
+    "visualQuestion": "Frage 3 von 10: Finden Sie die Ableitung von f(x) = x³ + 2x",
+    "visualProgress": "75% Abgeschlossen • Genauigkeit: 87%"
+  },
+  "features": {
+    "sectionTitle": "Alles, Was Sie Brauchen, Um Jedes Buch zu Meistern",
+    "sectionSubtitle": "KI-gestützte Tools für aktives Lernen und Prüfungsvorbereitung",
+    "feature1": {
+      "icon": "🤖",
+      "title": "KI-generierte Quiz",
+      "description": "Generieren Sie sofort umfassende Quiz aus jedem Buch. Erhalten Sie über 10 Fragetypen einschließlich Multiple Choice, Code-Herausforderungen, Gleichungen und Essay-Fragen, die auf Ihr Material zugeschnitten sind."
+    },
+    "feature2": {
+      "icon": "🎯",
+      "title": "Kapitel- und Themenauswahl",
+      "description": "Wählen Sie bestimmte Kapitel oder Themen zum Fokussieren. Erstellen Sie gezielte Quiz für die Prüfungsvorbereitung oder überprüfen Sie schwierige Abschnitte, ohne das gesamte Buch durchzugehen."
+    },
+    "feature3": {
+      "icon": "📊",
+      "title": "Fortschritts-Dashboard",
+      "description": "Verfolgen Sie Kapitelabschlussprozentsatz, Genauigkeitswerte, tägliche Lernserien und Fragenschwierigkeitsgrade. Visualisieren Sie Ihre Verbesserung im Laufe der Zeit mit detaillierten Analysen."
+    },
+    "feature4": {
+      "icon": "💬",
+      "title": "Sofortiges Detailliertes Feedback",
+      "description": "Erhalten Sie sofortige Erklärungen für jede Antwort. Verstehen Sie, warum eine Antwort richtig oder falsch ist, mit KI-generierten Einblicken, die Ihr Verständnis vertiefen."
+    },
+    "feature5": {
+      "icon": "📝",
+      "title": "Mehrere Frageformate",
+      "description": "Üben Sie mit verschiedenen Fragetypen: Multiple Choice, Single Choice, Textantworten, Mathematische Gleichungen, Code-Herausforderungen und Essay-Fragen für alle Fächer."
+    },
+    "feature6": {
+      "icon": "📚",
+      "title": "Universelle Buchunterstützung",
+      "description": "Laden Sie Bücher in jedem Format hoch - PDF, EPUB oder TXT. Funktioniert mit Lehrbüchern, Romanen, technischen Handbüchern, wissenschaftlichen Artikeln und jedem Lernmaterial, das Sie haben."
+    }
+  },
+  "questionTypes": {
+    "sectionTitle": "Über 10 Fragetypen für Jedes Fach",
+    "sectionSubtitle": "Von Mathegleichungen bis Code-Herausforderungen - ReadSage deckt alles ab",
+    "math": {
+      "badge": "Mathematik",
+      "type": "Multiple Choice",
+      "question": "Aus dem Analysis-Lehrbuch, Kapitel 3:<br />Finden Sie die Ableitung von f(x) = x³ + 2x",
+      "options": ["3x² + 2", "3x² + 2x", "x² + 2", "3x³ + 2"]
+    },
+    "literature": {
+      "badge": "Literatur",
+      "type": "Single Choice",
+      "question": "Aus \"1984\" von George Orwell:<br />Was ist der Hauptzweck von Neusprech in Ozeanien?",
+      "options": ["Kommunikation vereinfachen", "Gedankenfreiheit einschränken", "Bildung verbessern", "Nationen vereinen"]
+    },
+    "history": {
+      "badge": "Geschichte",
+      "type": "Textantwort",
+      "question": "Aus \"Sapiens\" von Yuval Noah Harari:<br />Erklären Sie die Kognitive Revolution in 2-3 Sätzen.",
+      "placeholder": "Geben Sie Ihre Antwort hier ein..."
+    },
+    "chemistry": {
+      "badge": "Chemie",
+      "type": "Gleichung",
+      "question": "Aus Chemie 101, Kapitel 4:<br />Gleichen Sie diese chemische Gleichung aus:",
+      "equation": "H₂ + O₂ → H₂O",
+      "placeholder": "Geben Sie die ausgeglichene Gleichung ein..."
+    },
+    "programming": {
+      "badge": "Programmierung",
+      "type": "Code-Herausforderung",
+      "question": "Aus \"Clean Code\" von Robert Martin:<br />Implementieren Sie eine Funktion zum Umkehren einer Zeichenkette:",
+      "codeComment": "# Ihr Code hier"
+    }
+  },
+  "howItWorks": {
+    "sectionTitle": "Wie Es Funktioniert",
+    "sectionSubtitle": "Drei einfache Schritte zu intelligentem Lernen",
+    "step1": {
+      "title": "Laden Sie Ihr Buch Hoch",
+      "description": "Ziehen Sie jede Buchdatei (PDF, EPUB, TXT) in ReadSage. Unsere KI verarbeitet es in Sekunden und organisiert es nach Kapiteln und Themen."
+    },
+    "step2": {
+      "title": "Wählen Sie Kapitel und Erhalten Sie Quiz",
+      "description": "Wählen Sie bestimmte Kapitel oder Themen aus, die Sie studieren möchten. KI generiert sofort umfassende Quiz mit mehreren Fragetypen, von Multiple Choice bis Code-Herausforderungen."
+    },
+    "step3": {
+      "title": "Verfolgen Sie Fortschritt und Erhalten Sie Feedback",
+      "description": "Beantworten Sie Fragen und erhalten Sie sofortige detaillierte Erklärungen. Überwachen Sie Ihren Abschlussprozentsatz, Genauigkeitswerte, tägliche Serien und beobachten Sie, wie sich Ihr Verständnis verbessert."
+    }
+  },
+  "benefits": {
+    "title": "Perfekt für Studenten, Autodidakten und Fachleute",
+    "item1": "Studenten: Bestehen Sie Prüfungen mit gezielten Kapitel-Quiz und sofortigem Feedback zu Ihren Schwachstellen",
+    "item2": "Autodidakten: Meistern Sie technische Bücher mit Übungsfragen und räumlicher Wiederholung",
+    "item3": "Fachleute: Behalten Sie Wissen aus Wirtschafts- und Branchenbüchern durch aktives Erinnern",
+    "item4": "Prüfungsvorbereitung: Testen Sie sich vor der echten Prüfung mit realistischen Übungsfragen",
+    "item5": "Aktives Lernen: Verwandeln Sie passives Lesen in ansprechende Praxis mit sofortigem Feedback",
+    "stat1Label": "Fragetypen",
+    "stat2Label": "KI-Genauigkeit",
+    "stat3Label": "Frühe Benutzer"
+  },
+  "faq": {
+    "sectionTitle": "Häufig Gestellte Fragen",
+    "sectionSubtitle": "Alles, was Sie über ReadSage wissen müssen",
+    "q1": {
+      "question": "Welche Dateiformate unterstützt ReadSage?",
+      "answer": "ReadSage unterstützt PDF-, EPUB- und TXT-Formate. Sie können Lehrbücher, Romane, technische Handbücher, wissenschaftliche Artikel oder jedes Lernmaterial in diesen Formaten hochladen."
+    },
+    "q2": {
+      "question": "Wie generiert ReadSage Fragen?",
+      "answer": "Unsere KI analysiert den Inhalt Ihres Buches und identifiziert Schlüsselkonzepte, Fakten und Beziehungen. Dann generiert sie verschiedene Fragetypen (Multiple Choice, Code, Gleichungen, Essays), die auf die Komplexität des Materials und das Fach zugeschnitten sind."
+    },
+    "q3": {
+      "question": "Kann ich bestimmte Kapitel oder Themen auswählen?",
+      "answer": "Ja! ReadSage unterteilt Ihr Buch automatisch in Kapitel und Themen. Sie können bestimmte Abschnitte auswählen, um gezielte Quiz zu erstellen, die sich perfekt für die Prüfungsvorbereitung oder das Überprüfen schwieriger Materialien eignen."
+    },
+    "q4": {
+      "question": "Welche Arten von Fragen kann ReadSage erstellen?",
+      "answer": "ReadSage generiert über 10 Fragetypen einschließlich Multiple Choice, Single Choice, Textantworten, Mathematische Gleichungen, Code-Herausforderungen, Essay-Fragen und mehr - angepasst an das Fach Ihres Buches."
+    },
+    "q5": {
+      "question": "Sind meine Buchdaten privat und sicher?",
+      "answer": "Absolut! Alle Ihre Bücher und Daten sind verschlüsselt und werden sicher auf unseren Servern gespeichert. Wir respektieren Ihre Privatsphäre und teilen Ihre Daten niemals mit Dritten. Ihr Lesefortschritt und Quiz-Ergebnisse sind nur für Sie privat. ReadSage ist vollständig DSGVO-konform."
+    },
+    "q6": {
+      "question": "Wie funktioniert die Fortschrittsverfolgung?",
+      "answer": "ReadSage verfolgt Ihren Kapitelabschlussprozentsatz, Genauigkeitswerte für jedes Quiz, tägliche Lernserien und Fragenschwierigkeitsgrade. Sie können Ihre Verbesserung im Laufe der Zeit mit detaillierten Analyse-Dashboards visualisieren."
+    },
+    "q7": {
+      "question": "Kann ich ReadSage für die Prüfungsvorbereitung verwenden?",
+      "answer": "Ja! ReadSage ist perfekt für die Prüfungsvorbereitung. Laden Sie Ihre Lernmaterialien hoch, wählen Sie relevante Kapitel aus und generieren Sie Übungstests. Erhalten Sie sofortiges Feedback mit detaillierten Erklärungen, um Schwachstellen vor Ihrer Prüfung zu identifizieren und zu stärken."
+    },
+    "q8": {
+      "question": "Funktioniert ReadSage mit Lehrbüchern?",
+      "answer": "Absolut! ReadSage zeichnet sich durch Lehrbücher in allen Fächern aus - Mathematik, Chemie, Geschichte, Programmierung, Literatur, Physik, Biologie, Wirtschaft und mehr. Es passt Fragetypen an das Fach an."
+    }
+  },
+  "cta": {
+    "title": "Bereit, Ihr Lernen zu Transformieren?",
+    "subtitle": "Treten Sie unserer Warteliste bei und gehören Sie zu den Ersten, die KI-gestütztes Buchlernen mit sofortigen Quiz, Fortschrittsverfolgung und detailliertem Feedback erleben.",
+    "emailPlaceholder": "Geben Sie Ihre E-Mail ein",
+    "ctaButton": "Der Warteliste Beitreten",
+    "formNote": "Wir respektieren Ihre Privatsphäre. Abmelden jederzeit möglich.",
+    "successMessage": "Fantastisch! Überprüfen Sie Ihre E-Mail zur Bestätigung.",
+    "socialProof": "Schließen Sie sich über 500 Lernenden an, die bereits auf der Warteliste stehen"
+  },
+  "footer": {
+    "tagline": "Meistern Sie jedes Buch mit KI-generierten Quiz",
+    "product": "Produkt",
+    "legal": "Rechtliches",
+    "connect": "Verbinden",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen",
+    "contactUs": "Kontaktieren Sie Uns",
+    "copyright": "© 2025 ReadSage. Alle Rechte vorbehalten."
+  }
+}

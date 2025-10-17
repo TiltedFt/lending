@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Language Alternates -->
+    <link rel="alternate" hreflang="en" href="https://hiregenix.app/en/" />
+    <link rel="alternate" hreflang="es" href="https://hiregenix.app/es/" />
+    <link rel="alternate" hreflang="fr" href="https://hiregenix.app/fr/" />
+    <link rel="alternate" hreflang="pt" href="https://hiregenix.app/pt/" />
+    <link rel="alternate" hreflang="ru" href="https://hiregenix.app/ru/" />
+    <link rel="alternate" hreflang="uk" href="https://hiregenix.app/uk/" />
+    <link rel="alternate" hreflang="tr" href="https://hiregenix.app/tr/" />
+    <link rel="alternate" hreflang="de" href="https://hiregenix.app/de/" />
+    <link rel="alternate" hreflang="x-default" href="https://hiregenix.app/en/" />
+
+    <!-- Primary Meta Tags -->
+    <title>ReadSage - Yapay Zeka Testleriyle Kitapları Öğrenin | Okuma Anlama Aracı</title>
+    <meta
+      name="title"
+      content="ReadSage - Yapay Zeka Testleriyle Kitapları Öğrenin | Okuma Anlama Aracı"
+    />
+    <meta
+      name="description"
+      content="Herhangi bir kitabı yükleyin ve YZ tarafından oluşturulan testler alın (çoktan seçmeli, kod, denklemler). İlerlemenizi takip edin, anında geri bildirim alın ve sınavlarınızı geçin. Öğrenciler, kendi kendine öğrenenler ve profesyoneller için mükemmel."
+    />
+    <meta
+      name="keywords"
+      content="YZ okuma aracı, kitap quiz oluşturucu, anlama testi, çalışma uygulaması, sınav hazırlığı, kitap öğrenimi, YZ soruları, okuma takipçisi, ders kitabı testi, kendi kendine öğrenme, aktif okuma, bilgi saklama, aralıklı tekrar, hafıza kartları, test oluşturucu, kod soruları, matematik problemleri, kimya denklemleri, okuma anlama, YZ değerlendirme aracı"
+    />
+    <meta name="author" content="ReadSage" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="Türkçe" />
+    <meta name="revisit-after" content="7 days" />
+    <link rel="canonical" href="https://hiregenix.app/tr/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hiregenix.app/tr/" />
+    <meta
+      property="og:title"
+      content="ReadSage - Yapay Zeka Testleriyle Kitapları Öğrenin"
+    />
+    <meta
+      property="og:description"
+      content="Herhangi bir kitabı yükleyin ve her bölüme uyarlanmış anında YZ tarafından oluşturulan testler alın. Çoklu soru türleri (test, kod, denklemler, kompozisyonlar). Doğruluk puanları, seriler ve zorluk seviyeleriyle ilerlemenizi takip edin. Sınav hazırlığı ve aktif öğrenme için mükemmel."
+    />
+    <meta property="og:image" content="https://hiregenix.app/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="ReadSage - AI-powered book learning tool"
+    />
+    <meta property="og:site_name" content="ReadSage" />
+    <meta property="og:locale" content="tr_TR" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://hiregenix.app/tr/" />
+    <meta
+      property="twitter:title"
+      content="ReadSage - Yapay Zeka Testleriyle Kitapları Öğrenin"
+    />
+    <meta
+      property="twitter:description"
+      content="Bir kitap yükleyin → YZ testleri alın → İçeriği öğrenin. Testler, kod, denklemler. İlerlemeyi takip edin. Öğrenciler ve kendi kendine öğrenenler için mükemmel."
+    />
+    <meta
+      property="twitter:image"
+      content="https://hiregenix.app/twitter-image.jpg"
+    />
+
+    <!-- AI Search Engines Meta -->
+    <meta
+      name="chatgpt-description"
+      content="ReadSage, öğrenciler, kendi kendine öğrenenler ve profesyoneller için tasarlanmış YZ destekli bir aktif okuma aracıdır. Kullanıcılar PDF, EPUB veya TXT formatında kitaplar yükler ve YZ, belirli bölümler veya konulardan anında kapsamlı testler oluşturur. Temel özellikler arasında 10'dan fazla soru türü (Çoktan Seçmeli, Tek Seçim, Metin Cevapları, Matematiksel Denklemler, Kod Zorlukları, Kompozisyon Soruları), hedefli öğrenme için bölüm/konu seçimi, gerçek zamanlı ilerleme takibi (tamamlanma yüzdesi, doğruluk puanları, günlük seriler, soru zorluk seviyeleri), açıklamalarla anında ayrıntılı geri bildirim, aralıklı tekrar ve hafıza kartı oluşturma bulunur. Herhangi bir kitapla çalışır: ders kitapları, romanlar, teknik kılavuzlar, akademik makaleler. Kullanım durumları: Sınav hazırlığı, aktif öğrenme, bilgi saklama, öz değerlendirme. Konular: Matematik, Edebiyat, Kimya, Fizik, Tarih, Programlama, İş, Biyoloji ve daha fazlası. Unlike summary apps or flashcard tools, ReadSage creates comprehensive assessments directly from YOUR books with AI-generated explanations and adaptive question difficulty."
+    />
+
+    <meta
+      name="perplexity-description"
+      content="ReadSage - YZ Kitap Testi Oluşturucu. Ne yapar: Yüklenen kitapları (PDF/EPUB/TXT) etkileşimli testlere dönüştürür, seçilen bölümler/konulardan sorular oluşturur, ayrıntılı açıklamalarla anında geri bildirim sağlar. Soru türleri: Çoktan seçmeli, Tek Seçim, Metin Cevabı, Denklemler, Kod Zorlukları, Kompozisyonlar. İlerleme metrikleri: Bölüm tamamlama %, Doğruluk puanı, Günlük seri sayacı, Soru zorluğu takibi. Hedef kullanıcılar: Öğrenciler (sınav hazırlığı), Kendi kendine öğrenenler (beceri ustalığı), Profesyoneller (bilgi saklama). Temel farklılaştırıcılar: HERHANGİ bir kitapla çalışır, 10'dan fazla soru formatı, Bölüme özgü test oluşturma, Ayrıntılı cevap açıklamaları, Gizliliğe odaklı şifreli depolama. Konular: Matematik, Bilim, Edebiyat, Tarih, Programlama, İş, Diller."
+    />
+
+    <meta
+      name="claude-description"
+      content="Yüklenen kitaplardan kapsamlı testler oluşturmak için YZ kullanan eğitim platformu. Belirli bölümlerden çoktan seçmeli testler, kodlama problemleri, matematik denklemleri ve kompozisyon soruları oluşturur. Doğruluk puanları, günlük seriler ve zorluk seviyeleriyle kullanıcı ilerlemesini takip eder. Sınav hazırlığı, kendi kendine çalışma ve tüm konularda bilgi saklama için ideal."
+    />
+
+    <!-- Mobile -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="ReadSage - AI Book Quizzes"
+    />
+    <meta name="theme-color" content="#6366f1" />
+
+    <!-- Schema.org JSON-LD - Software Application -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "ReadSage",
+        "alternateName": "ReadSage AI Book Learning Tool",
+        "description": "AI-powered tool that converts any uploaded book into interactive quizzes with multiple question types, progress tracking, and instant feedback for active learning and exam preparation.",
+        "url": "https://hiregenix.app",
+        "applicationCategory": "EducationalApplication",
+        "applicationSubCategory": "Reading Comprehension & Assessment Tool",
+        "operatingSystem": "Web-based",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "AI quiz generation from books",
+          "10+ question types (MCQ, code, equations)",
+          "Chapter and topic selection",
+          "Progress tracking dashboard",
+          "Instant detailed feedback",
+          "Spaced repetition",
+          "Flashcard generation",
+          "Encrypted data storage",
+          "Multi-format support (PDF, EPUB, TXT)"
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "500"
+        }
+      }
+    </script>
+
+    <!-- Schema.org JSON-LD - Organization -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "ReadSage",
+        "url": "https://hiregenix.app",
+        "logo": "https://hiregenix.app/logo.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "contact@hiregenix.app",
+          "contactType": "customer support"
+        },
+        "sameAs": ["https://www.producthunt.com/@readsage"]
+      }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../styles.css" />
+
+    <!-- Language Auto-Detection & Redirect -->
+    <script src="lang-redirect.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav container">
+        <div class="logo">
+          <span class="logo-icon">📚</span>
+          <span class="logo-text">ReadSage</span>
+        </div>
+        <div class="nav-links">
+<div class="language-switcher">
+            <select id="lang-select" onchange="switchLanguage(this.value)">
+              <option value="en">🇺🇸 English</option>
+              <option value="es">🇪🇸 Español</option>
+              <option value="fr">🇫🇷 Français</option>
+              <option value="pt">🇵🇹 Português</option>
+              <option value="ru">🇷🇺 Русский</option>
+              <option value="uk">🇺🇦 Українська</option>
+              <option value="tr" selected>🇹🇷 Türkçe</option>
+              <option value="de">🇩🇪 Deutsch</option>
+            </select>
+          </div>
+          <a href="#features" class="nav-link">Özellikler</a>
+          <a href="#how-it-works" class="nav-link">Nasıl Çalışır</a>
+          <a href="#waitlist" class="btn btn-primary-small">Erken Erişim Al</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title fade-in">
+            Herhangi Bir Kitabı
+            <span class="gradient-text">Yapay Zeka Testleriyle Öğrenin</span>
+          </h1>
+          <p class="hero-subtitle fade-in">
+            Herhangi bir kitabı yükleyin ve belirli bölümler veya konulardan anında YZ testleri alın. Çoktan seçmeli testler, kod zorlukları, denklemler ve daha fazlasıyla bilginizi test edin. İlerlemenizi takip edin ve ayrıntılı geri bildirimle sınavlarınızı geçin.
+          </p>
+
+          <!-- Hero Email Form -->
+          <form class="email-form fade-in" id="hero-form">
+            <div class="form-group">
+              <input
+                type="email"
+                class="email-input"
+                placeholder="E-postanızı girin"
+                required
+                aria-label="Email address"
+                name="email"
+              />
+              <button type="submit" class="btn btn-primary">
+                Erken Erişim Al
+              </button>
+            </div>
+            <p class="form-note">
+              Bekleme listesindeki 500'den fazla öğrenciye katılın. Spam yok, asla.
+            </p>
+          </form>
+
+          <!-- Success Message -->
+          <div class="success-message" id="success-message">
+            <span class="success-icon">✓</span>
+            <p>Teşekkürler! Listedesiniz. Başlatınca sizi bilgilendireceğiz.</p>
+          </div>
+        </div>
+
+        <!-- Hero Visual -->
+        <div class="hero-visual fade-in">
+          <div class="visual-card card-1">
+            <div class="card-header">
+              <span class="card-icon">📖</span>
+              <span class="card-title">Bölüm 5: Kalkülüs Temelleri</span>
+            </div>
+            <div class="card-body">
+              <p class="question">
+                <strong>Soru 3 / 10:</strong> f(x) = x³ + 2x fonksiyonunun türevini bulun
+              </p>
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 75%"></div>
+              </div>
+              <p class="progress-text">75% Tamamlandı • Doğruluk: %87</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Özellikler Section -->
+    <section class="features" id="features">
+      <div class="container">
+        <h2 class="section-title">Herhangi Bir Kitabı Öğrenmek İçin İhtiyacınız Olan Her Şey</h2>
+        <p class="section-subtitle">
+          Aktif öğrenme ve sınav hazırlığı için YZ destekli araçlar
+        </p>
+
+        <div class="features-grid">
+          <!-- Feature 1 -->
+          <div class="feature-card scroll-fade">
+            <div class="feature-icon">🤖</div>
+            <h3 class="feature-title">Yapay Zeka Testleriyle Öğrenin</h3>
+            <p class="feature-description">
+              Herhangi bir kitaptan anında kapsamlı testler oluşturun. Çoktan seçmeli testler, kod zorlukları, denklemler ve materyalinize uyarlanmış kompozisyon soruları dahil olmak üzere 10'dan fazla soru türü alın.
+            </p>
+          </div>
+
+          <!-- Feature 2 -->
+          <div class="feature-card scroll-fade">
+            <div class="feature-icon">🎯</div>
+            <h3 class="feature-title">Bölüm ve Konu Seçimi</h3>
+            <p class="feature-description">
+              Odaklanmak istediğiniz belirli bölümleri veya konuları seçin. Sınav hazırlığı için hedeflenmiş testler oluşturun veya tüm kitabı gözden geçirmeden zor bölümleri tekrarlayın.
+            </p>
+          </div>
+
+          <!-- Feature 3 -->
+          <div class="feature-card scroll-fade">
+            <div class="feature-icon">📊</div>
+            <h3 class="feature-title">İlerleme Panosu</h3>
+            <p class="feature-description">
+              Bölüm tamamlama yüzdesini, doğruluk puanlarını, günlük öğrenme serilerini ve soru zorluk seviyelerini takip edin. Ayrıntılı analizlerle zaman içinde gelişiminizi görselleştirin.
+            </p>
+          </div>
+
+          <!-- Feature 4 -->
+          <div class="feature-card scroll-fade">
+            <div class="feature-icon">💬</div>
+            <h3 class="feature-title">Anında Ayrıntılı Geri Bildirim</h3>
+            <p class="feature-description">
+              Her cevap için anında açıklamalar alın. YZ tarafından oluşturulan içgörülerle bir cevabın neden doğru veya yanlış olduğunu anlayın ve anlayışınızı derinleştirin.
+            </p>
+          </div>
+
+          <!-- Feature 5 -->
+          <div class="feature-card scroll-fade">
+            <div class="feature-icon">📝</div>
+            <h3 class="feature-title">Çoklu Soru Formatları</h3>
+            <p class="feature-description">
+              Çeşitli soru türleriyle pratik yapın: Çoktan Seçmeli, Tek Seçim, Metin Cevapları, Matematiksel Denklemler, Kod Zorlukları ve tüm konular için Kompozisyon Soruları.
+            </p>
+          </div>
+
+          <!-- Feature 6 -->
+          <div class="feature-card scroll-fade">
+            <div class="feature-icon">📚</div>
+            <h3 class="feature-title">Evrensel Kitap Desteği</h3>
+            <p class="feature-description">
+              Herhangi bir formatta kitap yükleyin - PDF, EPUB veya TXT. Ders kitapları, romanlar, teknik kılavuzlar, akademik makaleler ve sahip olduğunuz herhangi bir öğrenme materyaliyle çalışır.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Soru Türü Section -->
+    <section class="question-types">
+      <div class="container">
+        <h2 class="section-title">Her Konu İçin 10'dan Fazla Soru Türü</h2>
+        <p class="section-subtitle">
+          Matematik denklemlerinden kod zorluklarına - ReadSage hepsini kapsar
+        </p>
+
+        <div class="question-examples">
+          <!-- Math MCQ -->
+          <div class="question-example scroll-fade">
+            <div class="example-header">
+              <span class="example-badge math">Matematik</span>
+              <span class="example-type">Çoktan Seçmeli</span>
+            </div>
+            <div class="example-body">
+              <p class="example-question">
+                <strong>Kalkülüs Ders Kitabından, Bölüm 3:</strong><br />f(x) = x³ + 2x fonksiyonunun türevini bulun
+              </p>
+              <div class="example-options mcq">
+                <label class="option">
+                  <input type="checkbox" disabled />
+                  <span>3x² + 2</span>
+                </label>
+                <label class="option">
+                  <input type="checkbox" disabled checked />
+                  <span>3x² + 2x</span>
+                </label>
+                <label class="option">
+                  <input type="checkbox" disabled />
+                  <span>x² + 2</span>
+                </label>
+                <label class="option">
+                  <input type="checkbox" disabled />
+                  <span>3x³ + 2</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Edebiyat Tek Seçim -->
+          <div class="question-example scroll-fade">
+            <div class="example-header">
+              <span class="example-badge literature">Edebiyat</span>
+              <span class="example-type">Tek Seçim</span>
+            </div>
+            <div class="example-body">
+              <p class="example-question">
+                <strong>George Orwell'ın "1984" kitabından:</strong><br />Okyanusya'da Yenisöylem'in temel amacı nedir?
+              </p>
+              <div class="example-options single">
+                <label class="option">
+                  <input type="radio" name="lit" disabled />
+                  <span>İletişimi basitleştirmek</span>
+                </label>
+                <label class="option">
+                  <input type="radio" name="lit" disabled checked />
+                  <span>Düşünce özgürlüğünü sınırlamak</span>
+                </label>
+                <label class="option">
+                  <input type="radio" name="lit" disabled />
+                  <span>Eğitimi geliştirmek</span>
+                </label>
+                <label class="option">
+                  <input type="radio" name="lit" disabled />
+                  <span>Ulusları birleştirmek</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tarih Metin Cevabı -->
+          <div class="question-example scroll-fade">
+            <div class="example-header">
+              <span class="example-badge history">Tarih</span>
+              <span class="example-type">Metin Cevabı</span>
+            </div>
+            <div class="example-body">
+              <p class="example-question">
+                <strong>Yuval Noah Harari'nin "Sapiens" kitabından:</strong
+                ><br />Bilişsel Devrimi 2-3 cümleyle açıklayın.
+              </p>
+              <div class="example-options text">
+                <textarea
+                  class="text-input"
+                  placeholder="Cevabınızı buraya yazın..."
+                  disabled
+                ></textarea>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kimya Denklem -->
+          <div class="question-example scroll-fade">
+            <div class="example-header">
+              <span class="example-badge chemistry">Kimya</span>
+              <span class="example-type">Denklem</span>
+            </div>
+            <div class="example-body">
+              <p class="example-question">
+                <strong>Kimya 101'den, Bölüm 4:</strong><br />Bu kimyasal denklemi dengeleyin:
+              </p>
+              <div class="example-options equation">
+                <div class="equation-display">H₂ + O₂ → H₂O</div>
+                <input
+                  type="text"
+                  class="equation-input"
+                  placeholder="Dengeli denklemi girin..."
+                  disabled
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Programlama Code -->
+          <div class="question-example scroll-fade">
+            <div class="example-header">
+              <span class="example-badge programming">Programlama</span>
+              <span class="example-type">Kod Zorluğu</span>
+            </div>
+            <div class="example-body">
+              <p class="example-question">
+                <strong>Robert Martin'in "Temiz Kod" kitabından:</strong
+                ><br />Bir dizeyi tersine çevirmek için bir fonksiyon uygulayın:
+              </p>
+              <div class="example-options code">
+                <pre class="code-block">def reverse_string(s: str) -> str:
+    <span class="code-comment"># Kodunuz burada</span>
+    <span class="code-cursor">|</span>
+</pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nasıl Çalışır Section -->
+    <section class="how-it-works" id="how-it-works">
+      <div class="container">
+        <h2 class="section-title">Nasıl Çalışır</h2>
+        <p class="section-subtitle">Daha akıllı öğrenme için üç basit adım</p>
+
+        <div class="steps">
+          <!-- Step 1 -->
+          <div class="step scroll-fade">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h3 class="step-title">Kitabınızı Yükleyin</h3>
+              <p class="step-description">
+                Herhangi bir kitap dosyasını (PDF, EPUB, TXT) ReadSage'e sürükleyip bırakın. YZ'miz saniyeler içinde işler ve bölümlere ve konulara göre düzenler.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step scroll-fade">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h3 class="step-title">Bölümleri Seçin ve Testler Alın</h3>
+              <p class="step-description">
+                Çalışmak istediğiniz belirli bölümleri veya konuları seçin. YZ, çoktan seçmeli testlerden kod zorluklarına kadar birçok soru türüyle anında kapsamlı testler oluşturur.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step scroll-fade">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h3 class="step-title">İlerlemeyi Takip Edin ve Geri Bildirim Alın</h3>
+              <p class="step-description">
+                Soruları cevaplayın ve anında ayrıntılı açıklamalar alın. Tamamlanma yüzdenizi, doğruluk puanlarınızı, günlük serilerinizi izleyin ve anlayışınızın geliştiğini görün.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+      <div class="container">
+        <div class="benefits-content">
+          <div class="benefits-text scroll-fade">
+            <h2 class="benefits-title">
+              Öğrenciler, Kendi Kendine Öğrenenler ve Profesyoneller İçin Mükemmel
+            </h2>
+            <ul class="benefits-list">
+              <li class="benefit-item">
+                <span class="benefit-icon">✓</span>
+                <span
+                  ><strong>Öğrenciler:</strong> Hedeflenmiş bölüm testleri ve zayıf alanlarınız hakkında anında geri bildirimle sınavları geçin</span
+                >
+              </li>
+              <li class="benefit-item">
+                <span class="benefit-icon">✓</span>
+                <span
+                  ><strong>Kendi Kendine Öğrenenler:</strong> Pratik sorular ve aralıklı tekrarla teknik kitapları öğrenin</span
+                >
+              </li>
+              <li class="benefit-item">
+                <span class="benefit-icon">✓</span>
+                <span
+                  ><strong>Profesyoneller:</strong> Aktif hatırlama yoluyla iş ve endüstri kitaplarından bilgi saklayın</span
+                >
+              </li>
+              <li class="benefit-item">
+                <span class="benefit-icon">✓</span>
+                <span
+                  ><strong>Sınav Hazırlığı:</strong> Gerçekçi pratik sorularla gerçek sınavdan önce kendinizi test edin</span
+                >
+              </li>
+              <li class="benefit-item">
+                <span class="benefit-icon">✓</span>
+                <span
+                  ><strong>Aktif Öğrenme:</strong> Anında geri bildirimle pasif okumayı ilgi çekici pratiğe dönüştürün</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="benefits-visual scroll-fade">
+            <div class="stat-card">
+              <div class="stat-number">10+</div>
+              <div class="stat-label">Soru Türü</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">95%</div>
+              <div class="stat-label">YZ Doğruluğu</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">500+</div>
+              <div class="stat-label">Erken Kullanıcı</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+      <div class="container">
+        <h2 class="section-title">Sık Sorulan Sorular</h2>
+        <p class="section-subtitle">
+          ReadSage hakkında bilmeniz gereken her şey
+        </p>
+
+        <div class="faq-grid">
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">
+              ReadSage hangi dosya formatlarını destekler?
+            </h3>
+            <p class="faq-answer">
+              ReadSage PDF, EPUB ve TXT formatlarını destekler. Ders kitapları, romanlar, teknik kılavuzlar, akademik makaleler veya bu formatlarda herhangi bir öğrenme materyali yükleyebilirsiniz.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">ReadSage soruları nasıl oluşturur?</h3>
+            <p class="faq-answer">
+              YZ'miz, kitabınızın içeriğini analiz ederek temel kavramları, gerçekleri ve ilişkileri tanımlar. Ardından, materyalin karmaşıklığına ve konusuna uyarlanmış çeşitli soru türleri (test, kod, denklemler, kompozisyonlar) oluşturur.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">
+              Belirli bölümleri veya konuları seçebilir miyim?
+            </h3>
+            <p class="faq-answer">
+              Evet! ReadSage kitabınızı otomatik olarak bölümlere ve konulara ayırır. Sınav hazırlığı veya zor materyali tekrar etmek için mükemmel olan hedeflenmiş testler oluşturmak için belirli bölümleri seçebilirsiniz.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">
+              ReadSage hangi tür soruları oluşturabilir?
+            </h3>
+            <p class="faq-answer">
+              ReadSage, Çoktan Seçmeli, Tek Seçim, Metin Cevapları, Matematiksel Denklemler, Kod Zorlukları, Kompozisyon Soruları ve daha fazlası dahil olmak üzere 10'dan fazla soru türü oluşturur - kitabınızın konusuna uyarlanmıştır.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">Kitap verilerim özel ve güvenli mi?</h3>
+            <p class="faq-answer">
+              Kesinlikle! Tüm kitaplarınız ve verileriniz şifrelenir ve sunucularımızda güvenli bir şekilde saklanır. Gizliliğinize saygı duyuyoruz ve verilerinizi asla üçüncü taraflarla paylaşmıyoruz. Okuma ilerlemeniz ve test sonuçlarınız yalnızca size özeldir. ReadSage tamamen GDPR uyumludur.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">İlerleme takibi nasıl çalışır?</h3>
+            <p class="faq-answer">
+              ReadSage, bölüm tamamlama yüzdenizi, her test için doğruluk puanlarınızı, günlük öğrenme serilerinizi ve soru zorluk seviyelerini takip eder. Ayrıntılı analiz panolarıyla zaman içinde gelişiminizi görselleştirebilirsiniz.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">
+              ReadSage'i sınav hazırlığı için kullanabilir miyim?
+            </h3>
+            <p class="faq-answer">
+              Evet! ReadSage sınav hazırlığı için mükemmeldir. Çalışma materyallerinizi yükleyin, ilgili bölümleri seçin ve pratik testler oluşturun. Sınavınızdan önce zayıf alanları belirlemek ve güçlendirmek için ayrıntılı açıklamalarla anında geri bildirim alın.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">ReadSage ders kitaplarıyla çalışır mı?</h3>
+            <p class="faq-answer">
+              Kesinlikle! ReadSage, tüm konulardaki ders kitaplarıyla mükemmel çalışır - matematik, kimya, tarih, programlama, edebiyat, fizik, biyoloji, iş ve daha fazlası. Soru türlerini konuyla eşleşecek şekilde uyarlar.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="cta" id="waitlist">
+      <div class="container">
+        <div class="cta-content scroll-fade">
+          <h2 class="cta-title">Öğreniminizi Dönüştürmeye Hazır mısınız?</h2>
+          <p class="cta-subtitle">
+            Bekleme listemize katılın ve anında testler, ilerleme takibi ve ayrıntılı geri bildirimle YZ destekli kitap öğrenimini ilk deneyimleyenler arasında olun.
+          </p>
+
+          <!-- CTA Email Form -->
+          <form class="email-form" id="cta-form">
+            <div class="form-group">
+              <input
+                type="email"
+                class="email-input"
+                placeholder="E-postanızı girin"
+                required
+                aria-label="Email address"
+                name="email"
+              />
+              <button type="submit" class="btn btn-primary">
+                Bekleme Listesine Katıl
+              </button>
+            </div>
+            <p class="form-note">
+              Gizliliğinize saygı duyuyoruz. İstediğiniz zaman abonelikten çıkın.
+            </p>
+          </form>
+
+          <!-- Success Message -->
+          <div class="success-message" id="cta-success-message">
+            <span class="success-icon">✓</span>
+            <p>Harika! Onay için e-postanızı kontrol edin.</p>
+          </div>
+
+          <!-- Social Proof -->
+          <div class="social-proof">
+            <div class="avatars">
+              <div class="avatar">👤</div>
+              <div class="avatar">👤</div>
+              <div class="avatar">👤</div>
+              <div class="avatar">👤</div>
+              <div class="avatar">+500</div>
+            </div>
+            <p class="social-proof-text">
+              Zaten bekleme listesindeki 500'den fazla öğrenciye katılın
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <div class="logo">
+              <span class="logo-icon">📚</span>
+              <span class="logo-text">ReadSage</span>
+            </div>
+            <p class="footer-tagline">
+              Yapay zeka tarafından oluşturulan testlerle herhangi bir kitabı öğrenin
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <div class="footer-column">
+              <h4 class="footer-title">Ürün</h4>
+              <a href="#features" class="footer-link">Özellikler</a>
+              <a href="#how-it-works" class="footer-link">Nasıl Çalışır</a>
+              <a href="#faq" class="footer-link">FAQ</a>
+              <a href="#waitlist" class="footer-link">Erken Erişim Al</a>
+            </div>
+
+            <div class="footer-column">
+              <h4 class="footer-title">Legal</h4>
+              <a href="privacy.html" class="footer-link">Gizlilik Politikası</a>
+              <a href="privacy.html#terms" class="footer-link"
+                >Hizmet Şartları</a
+              >
+            </div>
+
+            <div class="footer-column">
+              <h4 class="footer-title">Bağlan</h4>
+              <a href="mailto:contact@hiregenix.app" class="footer-link"
+                >Bize Ulaşın</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 ReadSage. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- FAQ Schema for Rich Snippets -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "ReadSage hangi dosya formatlarını destekler?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ReadSage PDF, EPUB ve TXT formatlarını destekler. Ders kitapları, romanlar, teknik kılavuzlar, akademik makaleler veya bu formatlarda herhangi bir öğrenme materyali yükleyebilirsiniz."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "ReadSage soruları nasıl oluşturur?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "YZ'miz, kitabınızın içeriğini analiz ederek temel kavramları, gerçekleri ve ilişkileri tanımlar. Ardından, materyalin karmaşıklığına ve konusuna uyarlanmış çeşitli soru türleri (test, kod, denklemler, kompozisyonlar) oluşturur."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Belirli bölümleri veya konuları seçebilir miyim?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evet! ReadSage kitabınızı otomatik olarak bölümlere ve konulara ayırır. Sınav hazırlığı veya zor materyali tekrar etmek için mükemmel olan hedeflenmiş testler oluşturmak için belirli bölümleri seçebilirsiniz."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "ReadSage hangi tür soruları oluşturabilir?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ReadSage, Çoktan Seçmeli, Tek Seçim, Metin Cevapları, Matematiksel Denklemler, Kod Zorlukları, Kompozisyon Soruları ve daha fazlası dahil olmak üzere 10'dan fazla soru türü oluşturur - kitabınızın konusuna uyarlanmıştır."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kitap verilerim özel ve güvenli mi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kesinlikle! Tüm kitaplarınız ve verileriniz şifrelenir ve sunucularımızda güvenli bir şekilde saklanır. Gizliliğinize saygı duyuyoruz ve verilerinizi asla üçüncü taraflarla paylaşmıyoruz. Okuma ilerlemeniz ve test sonuçlarınız yalnızca size özeldir. ReadSage tamamen GDPR uyumludur."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "İlerleme takibi nasıl çalışır?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ReadSage, bölüm tamamlama yüzdenizi, her test için doğruluk puanlarınızı, günlük öğrenme serilerinizi ve soru zorluk seviyelerini takip eder. Ayrıntılı analiz panolarıyla zaman içinde gelişiminizi görselleştirebilirsiniz."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "ReadSage'i sınav hazırlığı için kullanabilir miyim?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evet! ReadSage sınav hazırlığı için mükemmeldir. Çalışma materyallerinizi yükleyin, ilgili bölümleri seçin ve pratik testler oluşturun. Sınavınızdan önce zayıf alanları belirlemek ve güçlendirmek için ayrıntılı açıklamalarla anında geri bildirim alın."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "ReadSage ders kitaplarıyla çalışır mı?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kesinlikle! ReadSage, tüm konulardaki ders kitaplarıyla mükemmel çalışır - matematik, kimya, tarih, programlama, edebiyat, fizik, biyoloji, iş ve daha fazlası. Soru türlerini konuyla eşleşecek şekilde uyarlar."
+            }
+          }
+        ]
+      }
+    </script>
+
+    <!-- JavaScript -->
+    <script src="../script.js"></script>
+  
+    <script>
+      function switchLanguage(lang) {
+        localStorage.setItem('preferred-lang', lang);
+        window.location.href = '/' + lang + '/';
+      }
+    </script>
+  </body>
+</html>

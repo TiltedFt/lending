@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Language Alternates -->
+    <link rel="alternate" hreflang="en" href="https://hiregenix.app/en/" />
+    <link rel="alternate" hreflang="es" href="https://hiregenix.app/es/" />
+    <link rel="alternate" hreflang="fr" href="https://hiregenix.app/fr/" />
+    <link rel="alternate" hreflang="pt" href="https://hiregenix.app/pt/" />
+    <link rel="alternate" hreflang="ru" href="https://hiregenix.app/ru/" />
+    <link rel="alternate" hreflang="uk" href="https://hiregenix.app/uk/" />
+    <link rel="alternate" hreflang="tr" href="https://hiregenix.app/tr/" />
+    <link rel="alternate" hreflang="de" href="https://hiregenix.app/de/" />
+    <link rel="alternate" hreflang="x-default" href="https://hiregenix.app/en/" />
+
+    <!-- Primary Meta Tags -->
+    <title>ReadSage - Domine Livros com Questionários de IA | Ferramenta de Compreensão de Leitura</title>
+    <meta
+      name="title"
+      content="ReadSage - Domine Livros com Questionários de IA | Ferramenta de Compreensão de Leitura"
+    />
+    <meta
+      name="description"
+      content="Carregue qualquer livro e obtenha questionários gerados por IA (testes, código, equações). Acompanhe o progresso, obtenha feedback instantâneo e passe nos seus exames. Perfeito para estudantes, autodidatas e profissionais."
+    />
+    <meta
+      name="keywords"
+      content="ferramenta de leitura IA, gerador de questionários de livros, teste de compreensão, app de estudo, preparação para exames, aprendizagem de livros, perguntas IA, rastreador de leitura, quiz de livro didático, auto-aprendizagem, leitura ativa, retenção de conhecimento, repetição espaçada, flashcards, gerador de testes, perguntas de código, problemas matemáticos, equações químicas, compreensão de leitura, ferramenta de avaliação IA"
+    />
+    <meta name="author" content="ReadSage" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="Português" />
+    <meta name="revisit-after" content="7 days" />
+    <link rel="canonical" href="https://hiregenix.app/pt/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hiregenix.app/pt/" />
+    <meta
+      property="og:title"
+      content="ReadSage - Domine Livros com Questionários de IA"
+    />
+    <meta
+      property="og:description"
+      content="Carregue qualquer livro e obtenha questionários instantâneos gerados por IA adaptados a cada capítulo. Múltiplos tipos de perguntas (testes, código, equações, ensaios). Acompanhe o seu progresso com pontuações de precisão, sequências e níveis de dificuldade. Perfeito para preparação de exames e aprendizagem ativa."
+    />
+    <meta property="og:image" content="https://hiregenix.app/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="ReadSage - AI-powered book learning tool"
+    />
+    <meta property="og:site_name" content="ReadSage" />
+    <meta property="og:locale" content="pt_PT" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://hiregenix.app/pt/" />
+    <meta
+      property="twitter:title"
+      content="ReadSage - Domine Livros com Questionários de IA"
+    />
+    <meta
+      property="twitter:description"
+      content="Carregue um livro → Obtenha questionários IA → Domine o conteúdo. Testes, código, equações. Acompanhe o progresso. Perfeito para estudantes e autodidatas."
+    />
+    <meta
+      property="twitter:image"
+      content="https://hiregenix.app/twitter-image.jpg"
+    />
+
+    <!-- AI Search Engines Meta -->
+    <meta
+      name="chatgpt-description"
+      content="ReadSage é uma ferramenta de leitura ativa alimentada por IA projetada para estudantes, autodidatas e profissionais. Os utilizadores carregam livros em formato PDF, EPUB ou TXT, e a IA gera instantaneamente questionários abrangentes de capítulos ou tópicos específicos. As principais características incluem mais de 10 tipos de perguntas (Escolha Múltipla, Escolha Única, Respostas de Texto, Equações Matemáticas, Desafios de Código, Perguntas de Ensaio), seleção de capítulos/tópicos para aprendizagem direcionada, acompanhamento de progresso em tempo real (percentagem de conclusão, pontuações de precisão, sequências diárias, níveis de dificuldade de perguntas), feedback detalhado instantâneo com explicações, repetição espaçada e geração de flashcards. Funciona com qualquer livro: livros didáticos, romances, manuais técnicos, artigos académicos. Casos de uso: preparação para exames, aprendizagem ativa, retenção de conhecimento, auto-avaliação. Disciplinas: Matemática, Literatura, Química, Física, História, Programação, Negócios, Biologia e mais. Unlike summary apps or flashcard tools, ReadSage creates comprehensive assessments directly from YOUR books with AI-generated explanations and adaptive question difficulty."
+    />
+
+    <meta
+      name="perplexity-description"
+      content="ReadSage - Gerador de Questionários de Livros com IA. O que faz: Converte livros carregados (PDF/EPUB/TXT) em questionários interativos, gera perguntas de capítulos/tópicos selecionados, fornece feedback instantâneo com explicações detalhadas. Tipos de perguntas: Testes, Escolha Única, Resposta de Texto, Equações, Desafios de Código, Ensaios. Métricas de progresso: % de conclusão de capítulos, Pontuação de precisão, Contador de sequências diárias, Rastreamento de dificuldade de perguntas. Utilizadores-alvo: Estudantes (preparação para exames), Autodidatas (domínio de competências), Profissionais (retenção de conhecimento). Diferenciadores-chave: Funciona com QUALQUER livro, mais de 10 formatos de perguntas, Geração de questionários específicos por capítulo, Explicações detalhadas de respostas, Armazenamento criptografado focado na privacidade. Disciplinas: Matemática, Ciências, Literatura, História, Programação, Negócios, Línguas."
+    />
+
+    <meta
+      name="claude-description"
+      content="Plataforma educacional usando IA para gerar questionários abrangentes de livros carregados. Cria testes, problemas de código, equações matemáticas e perguntas de ensaio de capítulos específicos. Acompanha o progresso do utilizador com pontuações de precisão, sequências diárias e níveis de dificuldade. Ideal para preparação de exames, auto-estudo e retenção de conhecimento em todas as disciplinas."
+    />
+
+    <!-- Mobile -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="ReadSage - AI Book Quizzes"
+    />
+    <meta name="theme-color" content="#6366f1" />
+
+    <!-- Schema.org JSON-LD - Software Application -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "ReadSage",
+        "alternateName": "ReadSage AI Book Learning Tool",
+        "description": "AI-powered tool that converts any uploaded book into interactive quizzes with multiple question types, progress tracking, and instant feedback for active learning and exam preparation.",
+        "url": "https://hiregenix.app",
+        "applicationCategory": "EducationalApplication",
+        "applicationSubCategory": "Reading Comprehension & Assessment Tool",
+        "operatingSystem": "Web-based",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "AI quiz generation from books",
+          "10+ question types (MCQ, code, equations)",
+          "Chapter and topic selection",
+          "Progress tracking dashboard",
+          "Instant detailed feedback",
+          "Spaced repetition",
+          "Flashcard generation",
+          "Encrypted data storage",
+          "Multi-format support (PDF, EPUB, TXT)"
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "500"
+        }
+      }
+    </script>
+
+    <!-- Schema.org JSON-LD - Organization -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "ReadSage",
+        "url": "https://hiregenix.app",
+        "logo": "https://hiregenix.app/logo.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "contact@hiregenix.app",
+          "contactType": "customer support"
+        },
+        "sameAs": ["https://www.producthunt.com/@readsage"]
+      }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../styles.css" />
+
+    <!-- Language Auto-Detection & Redirect -->
+    <script src="lang-redirect.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav container">
+        <div class="logo">
+          <span class="logo-icon">📚</span>
+          <span class="logo-text">ReadSage</span>
+        </div>
+        <div class="nav-links">
+<div class="language-switcher">
+            <select id="lang-select" onchange="switchLanguage(this.value)">
+              <option value="en">🇺🇸 English</option>
+              <option value="es">🇪🇸 Español</option>
+              <option value="fr">🇫🇷 Français</option>
+              <option value="pt" selected>🇵🇹 Português</option>
+              <option value="ru">🇷🇺 Русский</option>
+              <option value="uk">🇺🇦 Українська</option>
+              <option value="tr">🇹🇷 Türkçe</option>
+              <option value="de">🇩🇪 Deutsch</option>
+            </select>
+          </div>
+          <a href="#features" class="nav-link">Funcionalidades</a>
+          <a href="#how-it-works" class="nav-link">Como Funciona</a>
+          <a href="#waitlist" class="btn btn-primary-small">Obter Acesso Antecipado</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title fade-in">
+            Domine Qualquer Livro com
+            <span class="gradient-text">Questionários Gerados por IA</span>
+          </h1>
+          <p class="hero-subtitle fade-in">
+            Carregue qualquer livro e obtenha questionários instantâneos de IA de capítulos ou tópicos específicos. Teste os seus conhecimentos com testes, desafios de código, equações e mais. Acompanhe o seu progresso e passe nos seus exames com feedback detalhado.
+          </p>
+
+          <!-- Hero Email Form -->
+          <form class="email-form fade-in" id="hero-form">
+            <div class="form-group">
+              <input
+                type="email"
+                class="email-input"
+                placeholder="Digite o seu email"
+                required
+                aria-label="Email address"
+                name="email"
+              />
+              <button type="submit" class="btn btn-primary">
+                Obter Acesso Antecipado
+              </button>
+            </div>
+            <p class="form-note">
+              Junte-se a mais de 500 estudantes na lista de espera. Sem spam, nunca.
+            </p>
+          </form>
+
+          <!-- Success Message -->
+          <div class="success-message" id="success-message">
+            <span class="success-icon">✓</span>
+            <p>Obrigado! Está na lista. Iremos notificá-lo quando lançarmos.</p>
+          </div>
+        </div>
+
+        <!-- Hero Visual -->
+        <div class="hero-visual fade-in">
+          <div class="visual-card card-1">
+            <div class="card-header">
+              <span class="card-icon">📖</span>
+              <span class="card-title">Capítulo 5: Fundamentos de Cálculo</span>
+            </div>
+            <div class="card-body">
+              <p class="question">
+                <strong>Pergunta 3 de 10:</strong> Encontre a derivada de f(x) = x³ + 2x
+              </p>
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 75%"></div>
+              </div>
+              <p class="progress-text">75% Completo • Precisão: 87%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Funcionalidades Section -->
+    <section class="features" id="features">
+      <div class="container">
+        <h2 class="section-title">Tudo o que Precisa para Dominar Qualquer Livro</h2>
+        <p class="section-subtitle">
+          Ferramentas alimentadas por IA para aprendizagem ativa e preparação para exames
+        </p>
+
+        <div class="features-grid">
+          <!-- Feature 1 -->
+          <div class="feature-card scroll-fade">
+            <div class="feature-icon">🤖</div>
+            <h3 class="feature-title">Questionários Gerados por IA</h3>
+            <p class="feature-description">
+              Gere questionários abrangentes instantaneamente de qualquer livro. Obtenha mais de 10 tipos de perguntas incluindo testes, desafios de código, equações e perguntas de ensaio adaptadas ao seu material.
+            </p>
+          </div>
+
+          <!-- Feature 2 -->
+          <div class="feature-card scroll-fade">
+            <div class="feature-icon">🎯</div>
+            <h3 class="feature-title">Seleção de Capítulos e Tópicos</h3>
+            <p class="feature-description">
+              Escolha capítulos ou tópicos específicos para focar. Crie questionários direcionados para preparação de exames ou reveja secções difíceis sem passar por todo o livro.
+            </p>
+          </div>
+
+          <!-- Feature 3 -->
+          <div class="feature-card scroll-fade">
+            <div class="feature-icon">📊</div>
+            <h3 class="feature-title">Painel de Progresso</h3>
+            <p class="feature-description">
+              Acompanhe a percentagem de conclusão de capítulos, pontuações de precisão, sequências de aprendizagem diárias e níveis de dificuldade de perguntas. Visualize a sua melhoria ao longo do tempo com análises detalhadas.
+            </p>
+          </div>
+
+          <!-- Feature 4 -->
+          <div class="feature-card scroll-fade">
+            <div class="feature-icon">💬</div>
+            <h3 class="feature-title">Feedback Detalhado Instantâneo</h3>
+            <p class="feature-description">
+              Obtenha explicações imediatas para cada resposta. Compreenda porque uma resposta está correta ou incorreta com insights gerados por IA que aprofundam a sua compreensão.
+            </p>
+          </div>
+
+          <!-- Feature 5 -->
+          <div class="feature-card scroll-fade">
+            <div class="feature-icon">📝</div>
+            <h3 class="feature-title">Múltiplos Formatos de Perguntas</h3>
+            <p class="feature-description">
+              Pratique com diversos tipos de perguntas: Escolha Múltipla, Escolha Única, Respostas de Texto, Equações Matemáticas, Desafios de Código e Perguntas de Ensaio para todas as disciplinas.
+            </p>
+          </div>
+
+          <!-- Feature 6 -->
+          <div class="feature-card scroll-fade">
+            <div class="feature-icon">📚</div>
+            <h3 class="feature-title">Suporte Universal de Livros</h3>
+            <p class="feature-description">
+              Carregue livros em qualquer formato - PDF, EPUB ou TXT. Funciona com livros didáticos, romances, manuais técnicos, artigos académicos e qualquer material de aprendizagem que tenha.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tipos de Perguntas Section -->
+    <section class="question-types">
+      <div class="container">
+        <h2 class="section-title">Mais de 10 Tipos de Perguntas para Cada Disciplina</h2>
+        <p class="section-subtitle">
+          De equações matemáticas a desafios de código - ReadSage cobre tudo
+        </p>
+
+        <div class="question-examples">
+          <!-- Math MCQ -->
+          <div class="question-example scroll-fade">
+            <div class="example-header">
+              <span class="example-badge math">Matemática</span>
+              <span class="example-type">Escolha Múltipla</span>
+            </div>
+            <div class="example-body">
+              <p class="example-question">
+                <strong>Do Livro de Cálculo, Capítulo 3:</strong><br />Encontre a derivada de f(x) = x³ + 2x
+              </p>
+              <div class="example-options mcq">
+                <label class="option">
+                  <input type="checkbox" disabled />
+                  <span>3x² + 2</span>
+                </label>
+                <label class="option">
+                  <input type="checkbox" disabled checked />
+                  <span>3x² + 2x</span>
+                </label>
+                <label class="option">
+                  <input type="checkbox" disabled />
+                  <span>x² + 2</span>
+                </label>
+                <label class="option">
+                  <input type="checkbox" disabled />
+                  <span>3x³ + 2</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Literatura Escolha Única -->
+          <div class="question-example scroll-fade">
+            <div class="example-header">
+              <span class="example-badge literature">Literatura</span>
+              <span class="example-type">Escolha Única</span>
+            </div>
+            <div class="example-body">
+              <p class="example-question">
+                <strong>De "1984" de George Orwell:</strong><br />Qual é o propósito principal da Novilíngua na Oceânia?
+              </p>
+              <div class="example-options single">
+                <label class="option">
+                  <input type="radio" name="lit" disabled />
+                  <span>Simplificar a comunicação</span>
+                </label>
+                <label class="option">
+                  <input type="radio" name="lit" disabled checked />
+                  <span>Limitar a liberdade de pensamento</span>
+                </label>
+                <label class="option">
+                  <input type="radio" name="lit" disabled />
+                  <span>Melhorar a educação</span>
+                </label>
+                <label class="option">
+                  <input type="radio" name="lit" disabled />
+                  <span>Unir nações</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- História Resposta de Texto -->
+          <div class="question-example scroll-fade">
+            <div class="example-header">
+              <span class="example-badge history">História</span>
+              <span class="example-type">Resposta de Texto</span>
+            </div>
+            <div class="example-body">
+              <p class="example-question">
+                <strong>De "Sapiens" de Yuval Noah Harari:</strong
+                ><br />Explique a Revolução Cognitiva em 2-3 frases.
+              </p>
+              <div class="example-options text">
+                <textarea
+                  class="text-input"
+                  placeholder="Digite a sua resposta aqui..."
+                  disabled
+                ></textarea>
+              </div>
+            </div>
+          </div>
+
+          <!-- Química Equação -->
+          <div class="question-example scroll-fade">
+            <div class="example-header">
+              <span class="example-badge chemistry">Química</span>
+              <span class="example-type">Equação</span>
+            </div>
+            <div class="example-body">
+              <p class="example-question">
+                <strong>De Química 101, Capítulo 4:</strong><br />Equilibre esta equação química:
+              </p>
+              <div class="example-options equation">
+                <div class="equation-display">H₂ + O₂ → H₂O</div>
+                <input
+                  type="text"
+                  class="equation-input"
+                  placeholder="Insira a equação equilibrada..."
+                  disabled
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Programação Code -->
+          <div class="question-example scroll-fade">
+            <div class="example-header">
+              <span class="example-badge programming">Programação</span>
+              <span class="example-type">Desafio de Código</span>
+            </div>
+            <div class="example-body">
+              <p class="example-question">
+                <strong>De "Código Limpo" de Robert Martin:</strong
+                ><br />Implemente uma função para inverter uma string:
+              </p>
+              <div class="example-options code">
+                <pre class="code-block">def reverse_string(s: str) -> str:
+    <span class="code-comment"># O seu código aqui</span>
+    <span class="code-cursor">|</span>
+</pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Como Funciona Section -->
+    <section class="how-it-works" id="how-it-works">
+      <div class="container">
+        <h2 class="section-title">Como Funciona</h2>
+        <p class="section-subtitle">Três passos simples para uma aprendizagem mais inteligente</p>
+
+        <div class="steps">
+          <!-- Step 1 -->
+          <div class="step scroll-fade">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h3 class="step-title">Carregue o Seu Livro</h3>
+              <p class="step-description">
+                Arraste e solte qualquer ficheiro de livro (PDF, EPUB, TXT) no ReadSage. A nossa IA processa-o em segundos e organiza-o por capítulos e tópicos.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step scroll-fade">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h3 class="step-title">Escolha Capítulos e Obtenha Questionários</h3>
+              <p class="step-description">
+                Selecione capítulos ou tópicos específicos que deseja estudar. A IA gera instantaneamente questionários abrangentes com múltiplos tipos de perguntas, de testes a desafios de código.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step scroll-fade">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h3 class="step-title">Acompanhe o Progresso e Obtenha Feedback</h3>
+              <p class="step-description">
+                Responda às perguntas e receba explicações detalhadas instantâneas. Monitorize a sua percentagem de conclusão, pontuações de precisão, sequências diárias e observe a sua compreensão melhorar.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+      <div class="container">
+        <div class="benefits-content">
+          <div class="benefits-text scroll-fade">
+            <h2 class="benefits-title">
+              Perfeito para Estudantes, Autodidatas e Profissionais
+            </h2>
+            <ul class="benefits-list">
+              <li class="benefit-item">
+                <span class="benefit-icon">✓</span>
+                <span
+                  ><strong>Estudantes:</strong> Passe nos exames com questionários direcionados por capítulo e feedback instantâneo sobre as suas áreas fracas</span
+                >
+              </li>
+              <li class="benefit-item">
+                <span class="benefit-icon">✓</span>
+                <span
+                  ><strong>Autodidatas:</strong> Domine livros técnicos com perguntas práticas e repetição espaçada</span
+                >
+              </li>
+              <li class="benefit-item">
+                <span class="benefit-icon">✓</span>
+                <span
+                  ><strong>Profissionais:</strong> Retenha conhecimento de livros de negócios e indústria através da recordação ativa</span
+                >
+              </li>
+              <li class="benefit-item">
+                <span class="benefit-icon">✓</span>
+                <span
+                  ><strong>Preparação para Exames:</strong> Teste-se antes do exame real com perguntas práticas realistas</span
+                >
+              </li>
+              <li class="benefit-item">
+                <span class="benefit-icon">✓</span>
+                <span
+                  ><strong>Aprendizagem Ativa:</strong> Transforme a leitura passiva em prática envolvente com feedback imediato</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="benefits-visual scroll-fade">
+            <div class="stat-card">
+              <div class="stat-number">10+</div>
+              <div class="stat-label">Tipos de Perguntas</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">95%</div>
+              <div class="stat-label">Precisão da IA</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">500+</div>
+              <div class="stat-label">Utilizadores Iniciais</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+      <div class="container">
+        <h2 class="section-title">Perguntas Frequentes</h2>
+        <p class="section-subtitle">
+          Tudo o que precisa saber sobre ReadSage
+        </p>
+
+        <div class="faq-grid">
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">
+              Que formatos de ficheiro o ReadSage suporta?
+            </h3>
+            <p class="faq-answer">
+              O ReadSage suporta formatos PDF, EPUB e TXT. Pode carregar livros didáticos, romances, manuais técnicos, artigos académicos ou qualquer material de aprendizagem nestes formatos.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">Como é que o ReadSage gera perguntas?</h3>
+            <p class="faq-answer">
+              A nossa IA analisa o conteúdo do seu livro, identificando conceitos-chave, factos e relações. Depois gera diversos tipos de perguntas (testes, código, equações, ensaios) adaptadas à complexidade do material e à disciplina.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">
+              Posso escolher capítulos ou tópicos específicos?
+            </h3>
+            <p class="faq-answer">
+              Sim! O ReadSage divide automaticamente o seu livro em capítulos e tópicos. Pode selecionar secções específicas para criar questionários direcionados, perfeitos para preparação de exames ou revisão de material difícil.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">
+              Que tipos de perguntas pode o ReadSage criar?
+            </h3>
+            <p class="faq-answer">
+              O ReadSage gera mais de 10 tipos de perguntas incluindo Escolha Múltipla, Escolha Única, Respostas de Texto, Equações Matemáticas, Desafios de Código, Perguntas de Ensaio e mais - adaptadas à disciplina do seu livro.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">Os dados do meu livro são privados e seguros?</h3>
+            <p class="faq-answer">
+              Absolutamente! Todos os seus livros e dados são encriptados e armazenados de forma segura nos nossos servidores. Respeitamos a sua privacidade e nunca partilhamos os seus dados com terceiros. O seu progresso de leitura e resultados de questionários são privados apenas para si. O ReadSage está totalmente em conformidade com o RGPD.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">Como funciona o acompanhamento de progresso?</h3>
+            <p class="faq-answer">
+              O ReadSage acompanha a sua percentagem de conclusão de capítulos, pontuações de precisão para cada questionário, sequências de aprendizagem diárias e níveis de dificuldade de perguntas. Pode visualizar a sua melhoria ao longo do tempo com painéis de análise detalhados.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">
+              Posso usar o ReadSage para preparação de exames?
+            </h3>
+            <p class="faq-answer">
+              Sim! O ReadSage é perfeito para preparação de exames. Carregue os seus materiais de estudo, selecione capítulos relevantes e gere testes práticos. Obtenha feedback instantâneo com explicações detalhadas para identificar e fortalecer áreas fracas antes do seu exame.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">O ReadSage funciona com livros didáticos?</h3>
+            <p class="faq-answer">
+              Absolutamente! O ReadSage destaca-se com livros didáticos de todas as disciplinas - matemática, química, história, programação, literatura, física, biologia, negócios e mais. Adapta os tipos de perguntas para corresponder à disciplina.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="cta" id="waitlist">
+      <div class="container">
+        <div class="cta-content scroll-fade">
+          <h2 class="cta-title">Pronto para Transformar a Sua Aprendizagem?</h2>
+          <p class="cta-subtitle">
+            Junte-se à nossa lista de espera e seja dos primeiros a experimentar o domínio de livros alimentado por IA com questionários instantâneos, acompanhamento de progresso e feedback detalhado.
+          </p>
+
+          <!-- CTA Email Form -->
+          <form class="email-form" id="cta-form">
+            <div class="form-group">
+              <input
+                type="email"
+                class="email-input"
+                placeholder="Digite o seu email"
+                required
+                aria-label="Email address"
+                name="email"
+              />
+              <button type="submit" class="btn btn-primary">
+                Juntar-se à Lista de Espera
+              </button>
+            </div>
+            <p class="form-note">
+              Respeitamos a sua privacidade. Cancele a subscrição a qualquer momento.
+            </p>
+          </form>
+
+          <!-- Success Message -->
+          <div class="success-message" id="cta-success-message">
+            <span class="success-icon">✓</span>
+            <p>Fantástico! Verifique o seu email para confirmação.</p>
+          </div>
+
+          <!-- Social Proof -->
+          <div class="social-proof">
+            <div class="avatars">
+              <div class="avatar">👤</div>
+              <div class="avatar">👤</div>
+              <div class="avatar">👤</div>
+              <div class="avatar">👤</div>
+              <div class="avatar">+500</div>
+            </div>
+            <p class="social-proof-text">
+              Junte-se a mais de 500 estudantes já na lista de espera
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <div class="logo">
+              <span class="logo-icon">📚</span>
+              <span class="logo-text">ReadSage</span>
+            </div>
+            <p class="footer-tagline">
+              Domine qualquer livro com questionários gerados por IA
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <div class="footer-column">
+              <h4 class="footer-title">Produto</h4>
+              <a href="#features" class="footer-link">Funcionalidades</a>
+              <a href="#how-it-works" class="footer-link">Como Funciona</a>
+              <a href="#faq" class="footer-link">FAQ</a>
+              <a href="#waitlist" class="footer-link">Obter Acesso Antecipado</a>
+            </div>
+
+            <div class="footer-column">
+              <h4 class="footer-title">Legal</h4>
+              <a href="privacy.html" class="footer-link">Política de Privacidade</a>
+              <a href="privacy.html#terms" class="footer-link"
+                >Termos de Serviço</a
+              >
+            </div>
+
+            <div class="footer-column">
+              <h4 class="footer-title">Conectar</h4>
+              <a href="mailto:contact@hiregenix.app" class="footer-link"
+                >Contacte-nos</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 ReadSage. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- FAQ Schema for Rich Snippets -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Que formatos de ficheiro o ReadSage suporta?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "O ReadSage suporta formatos PDF, EPUB e TXT. Pode carregar livros didáticos, romances, manuais técnicos, artigos académicos ou qualquer material de aprendizagem nestes formatos."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Como é que o ReadSage gera perguntas?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A nossa IA analisa o conteúdo do seu livro, identificando conceitos-chave, factos e relações. Depois gera diversos tipos de perguntas (testes, código, equações, ensaios) adaptadas à complexidade do material e à disciplina."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Posso escolher capítulos ou tópicos específicos?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sim! O ReadSage divide automaticamente o seu livro em capítulos e tópicos. Pode selecionar secções específicas para criar questionários direcionados, perfeitos para preparação de exames ou revisão de material difícil."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Que tipos de perguntas pode o ReadSage criar?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "O ReadSage gera mais de 10 tipos de perguntas incluindo Escolha Múltipla, Escolha Única, Respostas de Texto, Equações Matemáticas, Desafios de Código, Perguntas de Ensaio e mais - adaptadas à disciplina do seu livro."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Os dados do meu livro são privados e seguros?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutamente! Todos os seus livros e dados são encriptados e armazenados de forma segura nos nossos servidores. Respeitamos a sua privacidade e nunca partilhamos os seus dados com terceiros. O seu progresso de leitura e resultados de questionários são privados apenas para si. O ReadSage está totalmente em conformidade com o RGPD."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Como funciona o acompanhamento de progresso?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "O ReadSage acompanha a sua percentagem de conclusão de capítulos, pontuações de precisão para cada questionário, sequências de aprendizagem diárias e níveis de dificuldade de perguntas. Pode visualizar a sua melhoria ao longo do tempo com painéis de análise detalhados."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Posso usar o ReadSage para preparação de exames?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sim! O ReadSage é perfeito para preparação de exames. Carregue os seus materiais de estudo, selecione capítulos relevantes e gere testes práticos. Obtenha feedback instantâneo com explicações detalhadas para identificar e fortalecer áreas fracas antes do seu exame."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "O ReadSage funciona com livros didáticos?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutamente! O ReadSage destaca-se com livros didáticos de todas as disciplinas - matemática, química, história, programação, literatura, física, biologia, negócios e mais. Adapta os tipos de perguntas para corresponder à disciplina."
+            }
+          }
+        ]
+      }
+    </script>
+
+    <!-- JavaScript -->
+    <script src="../script.js"></script>
+  
+    <script>
+      function switchLanguage(lang) {
+        localStorage.setItem('preferred-lang', lang);
+        window.location.href = '/' + lang + '/';
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,186 @@
+{
+  "lang": "fr",
+  "langName": "Français",
+  "locale": "fr_FR",
+  "flag": "🇫🇷",
+  "meta": {
+    "title": "ReadSage - Maîtrisez les Livres avec des Quiz IA | Outil de Compréhension de Lecture",
+    "description": "Téléchargez n'importe quel livre et obtenez des quiz générés par IA (QCM, code, équations). Suivez vos progrès, obtenez des retours instantanés et réussissez vos examens. Parfait pour les étudiants, autodidactes et professionnels.",
+    "keywords": "outil de lecture IA, générateur de quiz de livres, test de compréhension, application d'étude, préparation aux examens, apprentissage de livres, questions IA, suivi de lecture, quiz de manuel, auto-apprentissage, lecture active, rétention des connaissances, répétition espacée, cartes mémoire, générateur de QCM, questions de code, problèmes mathématiques, équations chimiques, compréhension de lecture, outil d'évaluation IA",
+    "ogTitle": "ReadSage - Maîtrisez les Livres avec des Quiz IA",
+    "ogDescription": "Téléchargez n'importe quel livre et obtenez des quiz instantanés générés par IA adaptés à chaque chapitre. Plusieurs types de questions (QCM, code, équations, essais). Suivez vos progrès avec des scores de précision, des séries et des niveaux de difficulté. Parfait pour la préparation aux examens et l'apprentissage actif.",
+    "twitterTitle": "ReadSage - Maîtrisez les Livres avec des Quiz IA",
+    "twitterDescription": "Téléchargez un livre → Obtenez des quiz IA → Maîtrisez le contenu. QCM, code, équations. Suivez les progrès. Parfait pour étudiants et autodidactes.",
+    "chatgptDescription": "ReadSage est un outil de lecture active alimenté par IA conçu pour les étudiants, autodidactes et professionnels. Les utilisateurs téléchargent des livres au format PDF, EPUB ou TXT, et l'IA génère instantanément des quiz complets à partir de chapitres ou sujets spécifiques. Les principales fonctionnalités incluent plus de 10 types de questions (Choix Multiple, Choix Unique, Réponses Textuelles, Équations Mathématiques, Défis de Code, Questions d'Essai), sélection de chapitres/sujets pour un apprentissage ciblé, suivi des progrès en temps réel (pourcentage d'achèvement, scores de précision, séries quotidiennes, niveaux de difficulté des questions), retour détaillé instantané avec explications, répétition espacée et génération de cartes mémoire. Fonctionne avec n'importe quel livre : manuels, romans, guides techniques, articles académiques. Cas d'usage : préparation aux examens, apprentissage actif, rétention des connaissances, auto-évaluation. Matières : Mathématiques, Littérature, Chimie, Physique, Histoire, Programmation, Affaires, Biologie et plus.",
+    "perplexityDescription": "ReadSage - Générateur de Quiz de Livres IA. Ce qu'il fait : Convertit les livres téléchargés (PDF/EPUB/TXT) en quiz interactifs, génère des questions à partir de chapitres/sujets sélectionnés, fournit un retour instantané avec des explications détaillées. Types de questions : QCM, Choix Unique, Réponse Textuelle, Équations, Défis de Code, Essais. Métriques de progrès : % d'achèvement des chapitres, Score de précision, Compteur de séries quotidiennes, Suivi de difficulté des questions. Utilisateurs cibles : Étudiants (préparation aux examens), Autodidactes (maîtrise des compétences), Professionnels (rétention des connaissances). Différenciateurs clés : Fonctionne avec N'IMPORTE QUEL livre, plus de 10 formats de questions, Génération de quiz spécifiques par chapitre, Explications détaillées des réponses, Stockage crypté axé sur la confidentialité. Matières : Maths, Sciences, Littérature, Histoire, Programmation, Affaires, Langues.",
+    "claudeDescription": "Plateforme éducative utilisant l'IA pour générer des quiz complets à partir de livres téléchargés. Crée des QCM, problèmes de code, équations mathématiques et questions d'essai à partir de chapitres spécifiques. Suit les progrès de l'utilisateur avec des scores de précision, des séries quotidiennes et des niveaux de difficulté. Idéal pour la préparation aux examens, l'auto-étude et la rétention des connaissances dans toutes les matières."
+  },
+  "nav": {
+    "features": "Fonctionnalités",
+    "howItWorks": "Comment Ça Marche",
+    "getAccess": "Obtenir un Accès Anticipé"
+  },
+  "hero": {
+    "title": "Maîtrisez N'importe Quel Livre avec",
+    "titleGradient": "des Quiz Générés par IA",
+    "subtitle": "Téléchargez n'importe quel livre et obtenez des quiz IA instantanés de chapitres ou sujets spécifiques. Testez vos connaissances avec des QCM, défis de code, équations et plus. Suivez vos progrès et réussissez vos examens avec des retours détaillés.",
+    "emailPlaceholder": "Entrez votre email",
+    "ctaButton": "Obtenir un Accès Anticipé",
+    "formNote": "Rejoignez plus de 500 apprenants sur la liste d'attente. Pas de spam, jamais.",
+    "successMessage": "Merci ! Vous êtes sur la liste. Nous vous préviendrons lors du lancement.",
+    "visualCardTitle": "Chapitre 5 : Bases du Calcul",
+    "visualQuestion": "Question 3 sur 10 : Trouvez la dérivée de f(x) = x³ + 2x",
+    "visualProgress": "75% Terminé • Précision : 87%"
+  },
+  "features": {
+    "sectionTitle": "Tout ce dont Vous Avez Besoin pour Maîtriser N'importe Quel Livre",
+    "sectionSubtitle": "Outils alimentés par IA pour l'apprentissage actif et la préparation aux examens",
+    "feature1": {
+      "icon": "🤖",
+      "title": "Quiz Générés par IA",
+      "description": "Générez des quiz complets instantanément à partir de n'importe quel livre. Obtenez plus de 10 types de questions incluant QCM, défis de code, équations et questions d'essai adaptées à votre matériel."
+    },
+    "feature2": {
+      "icon": "🎯",
+      "title": "Sélection de Chapitres et Sujets",
+      "description": "Choisissez des chapitres ou sujets spécifiques sur lesquels vous concentrer. Créez des quiz ciblés pour la préparation aux examens ou révisez les sections difficiles sans parcourir tout le livre."
+    },
+    "feature3": {
+      "icon": "📊",
+      "title": "Tableau de Bord des Progrès",
+      "description": "Suivez le pourcentage d'achèvement des chapitres, les scores de précision, les séries d'apprentissage quotidiennes et les niveaux de difficulté des questions. Visualisez votre amélioration au fil du temps avec des analyses détaillées."
+    },
+    "feature4": {
+      "icon": "💬",
+      "title": "Retour Détaillé Instantané",
+      "description": "Obtenez des explications immédiates pour chaque réponse. Comprenez pourquoi une réponse est correcte ou incorrecte avec des aperçus générés par IA qui approfondissent votre compréhension."
+    },
+    "feature5": {
+      "icon": "📝",
+      "title": "Formats de Questions Multiples",
+      "description": "Pratiquez avec divers types de questions : Choix Multiple, Choix Unique, Réponses Textuelles, Équations Mathématiques, Défis de Code et Questions d'Essai pour toutes les matières."
+    },
+    "feature6": {
+      "icon": "📚",
+      "title": "Support Universel des Livres",
+      "description": "Téléchargez des livres dans n'importe quel format - PDF, EPUB ou TXT. Fonctionne avec des manuels, romans, guides techniques, articles académiques et tout matériel d'apprentissage que vous avez."
+    }
+  },
+  "questionTypes": {
+    "sectionTitle": "Plus de 10 Types de Questions pour Chaque Matière",
+    "sectionSubtitle": "Des équations mathématiques aux défis de code - ReadSage couvre tout",
+    "math": {
+      "badge": "Mathématiques",
+      "type": "Choix Multiple",
+      "question": "Du Manuel de Calcul, Chapitre 3 :<br />Trouvez la dérivée de f(x) = x³ + 2x",
+      "options": ["3x² + 2", "3x² + 2x", "x² + 2", "3x³ + 2"]
+    },
+    "literature": {
+      "badge": "Littérature",
+      "type": "Choix Unique",
+      "question": "De \"1984\" de George Orwell :<br />Quel est le but principal du Novlangue en Océania ?",
+      "options": ["Simplifier la communication", "Limiter la liberté de pensée", "Améliorer l'éducation", "Unir les nations"]
+    },
+    "history": {
+      "badge": "Histoire",
+      "type": "Réponse Textuelle",
+      "question": "De \"Sapiens\" de Yuval Noah Harari :<br />Expliquez la Révolution Cognitive en 2-3 phrases.",
+      "placeholder": "Tapez votre réponse ici..."
+    },
+    "chemistry": {
+      "badge": "Chimie",
+      "type": "Équation",
+      "question": "De Chimie 101, Chapitre 4 :<br />Équilibrez cette équation chimique :",
+      "equation": "H₂ + O₂ → H₂O",
+      "placeholder": "Entrez l'équation équilibrée..."
+    },
+    "programming": {
+      "badge": "Programmation",
+      "type": "Défi de Code",
+      "question": "De \"Code Propre\" de Robert Martin :<br />Implémentez une fonction pour inverser une chaîne :",
+      "codeComment": "# Votre code ici"
+    }
+  },
+  "howItWorks": {
+    "sectionTitle": "Comment Ça Marche",
+    "sectionSubtitle": "Trois étapes simples vers un apprentissage plus intelligent",
+    "step1": {
+      "title": "Téléchargez Votre Livre",
+      "description": "Glissez-déposez n'importe quel fichier de livre (PDF, EPUB, TXT) dans ReadSage. Notre IA le traite en quelques secondes et l'organise par chapitres et sujets."
+    },
+    "step2": {
+      "title": "Choisissez des Chapitres et Obtenez des Quiz",
+      "description": "Sélectionnez des chapitres ou sujets spécifiques que vous souhaitez étudier. L'IA génère instantanément des quiz complets avec plusieurs types de questions, des QCM aux défis de code."
+    },
+    "step3": {
+      "title": "Suivez les Progrès et Obtenez un Retour",
+      "description": "Répondez aux questions et recevez des explications détaillées instantanées. Surveillez votre pourcentage d'achèvement, scores de précision, séries quotidiennes et observez votre compréhension s'améliorer."
+    }
+  },
+  "benefits": {
+    "title": "Parfait pour les Étudiants, Autodidactes et Professionnels",
+    "item1": "Étudiants : Réussissez les examens avec des quiz ciblés par chapitre et un retour instantané sur vos points faibles",
+    "item2": "Autodidactes : Maîtrisez les livres techniques avec des questions pratiques et une répétition espacée",
+    "item3": "Professionnels : Retenez les connaissances des livres d'affaires et de l'industrie grâce au rappel actif",
+    "item4": "Préparation aux Examens : Testez-vous avant le vrai examen avec des questions pratiques réalistes",
+    "item5": "Apprentissage Actif : Transformez la lecture passive en pratique engageante avec un retour immédiat",
+    "stat1Label": "Types de Questions",
+    "stat2Label": "Précision de l'IA",
+    "stat3Label": "Utilisateurs Précoces"
+  },
+  "faq": {
+    "sectionTitle": "Questions Fréquemment Posées",
+    "sectionSubtitle": "Tout ce que vous devez savoir sur ReadSage",
+    "q1": {
+      "question": "Quels formats de fichiers ReadSage supporte-t-il ?",
+      "answer": "ReadSage supporte les formats PDF, EPUB et TXT. Vous pouvez télécharger des manuels, romans, guides techniques, articles académiques ou tout matériel d'apprentissage dans ces formats."
+    },
+    "q2": {
+      "question": "Comment ReadSage génère-t-il les questions ?",
+      "answer": "Notre IA analyse le contenu de votre livre, identifiant les concepts clés, faits et relations. Elle génère ensuite divers types de questions (QCM, code, équations, essais) adaptées à la complexité du matériel et au sujet."
+    },
+    "q3": {
+      "question": "Puis-je choisir des chapitres ou sujets spécifiques ?",
+      "answer": "Oui ! ReadSage divise automatiquement votre livre en chapitres et sujets. Vous pouvez sélectionner des sections spécifiques pour créer des quiz ciblés, parfaits pour la préparation aux examens ou la révision de matériel difficile."
+    },
+    "q4": {
+      "question": "Quels types de questions ReadSage peut-il créer ?",
+      "answer": "ReadSage génère plus de 10 types de questions incluant Choix Multiple (QCM), Choix Unique, Réponses Textuelles, Équations Mathématiques, Défis de Code, Questions d'Essai et plus - adaptées au sujet de votre livre."
+    },
+    "q5": {
+      "question": "Mes données de livre sont-elles privées et sécurisées ?",
+      "answer": "Absolument ! Tous vos livres et données sont cryptés et stockés en toute sécurité sur nos serveurs. Nous respectons votre vie privée et ne partageons jamais vos données avec des tiers. Vos progrès de lecture et résultats de quiz sont privés pour vous uniquement. ReadSage est entièrement conforme au RGPD."
+    },
+    "q6": {
+      "question": "Comment fonctionne le suivi des progrès ?",
+      "answer": "ReadSage suit votre pourcentage d'achèvement des chapitres, scores de précision pour chaque quiz, séries d'apprentissage quotidiennes et niveaux de difficulté des questions. Vous pouvez visualiser votre amélioration au fil du temps avec des tableaux de bord d'analyse détaillés."
+    },
+    "q7": {
+      "question": "Puis-je utiliser ReadSage pour la préparation aux examens ?",
+      "answer": "Oui ! ReadSage est parfait pour la préparation aux examens. Téléchargez vos matériels d'étude, sélectionnez les chapitres pertinents et générez des tests pratiques. Obtenez un retour instantané avec des explications détaillées pour identifier et renforcer les points faibles avant votre examen."
+    },
+    "q8": {
+      "question": "ReadSage fonctionne-t-il avec les manuels ?",
+      "answer": "Absolument ! ReadSage excelle avec les manuels de toutes les matières - mathématiques, chimie, histoire, programmation, littérature, physique, biologie, affaires et plus. Il adapte les types de questions pour correspondre au sujet."
+    }
+  },
+  "cta": {
+    "title": "Prêt à Transformer Votre Apprentissage ?",
+    "subtitle": "Rejoignez notre liste d'attente et soyez parmi les premiers à expérimenter la maîtrise de livres alimentée par IA avec quiz instantanés, suivi des progrès et retour détaillé.",
+    "emailPlaceholder": "Entrez votre email",
+    "ctaButton": "Rejoindre la Liste d'Attente",
+    "formNote": "Nous respectons votre vie privée. Désabonnez-vous à tout moment.",
+    "successMessage": "Incroyable ! Vérifiez votre email pour confirmation.",
+    "socialProof": "Rejoignez plus de 500 apprenants déjà sur la liste d'attente"
+  },
+  "footer": {
+    "tagline": "Maîtrisez n'importe quel livre avec des quiz générés par IA",
+    "product": "Produit",
+    "legal": "Légal",
+    "connect": "Connecter",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions d'Utilisation",
+    "contactUs": "Nous Contacter",
+    "copyright": "© 2025 ReadSage. Tous droits réservés."
+  }
+}

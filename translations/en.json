@@ -1,0 +1,186 @@
+{
+  "lang": "en",
+  "langName": "English",
+  "locale": "en_US",
+  "flag": "🇺🇸",
+  "meta": {
+    "title": "ReadSage - Master Books with AI Quizzes | Reading Comprehension Tool",
+    "description": "Upload any book and get AI-generated quizzes (MCQ, code, equations). Track progress, get instant feedback, and ace your exams. Perfect for students, self-learners, and professionals.",
+    "keywords": "AI reading tool, book quiz generator, comprehension test, study app, exam preparation, book learning, AI questions, reading tracker, textbook quiz, self-learning, active reading, knowledge retention, spaced repetition, flashcards, MCQ generator, coding questions, math problems, chemistry equations, reading comprehension, AI assessment tool",
+    "ogTitle": "ReadSage - Master Books with AI Quizzes",
+    "ogDescription": "Upload any book and get instant AI-generated quizzes tailored to each chapter. Multiple question types (MCQ, code, equations, essays). Track your progress with accuracy scores, streaks, and difficulty levels. Perfect for exam prep and active learning.",
+    "twitterTitle": "ReadSage - Master Books with AI Quizzes",
+    "twitterDescription": "Upload any book → Get AI quizzes → Master the content. MCQ, code, equations. Track progress. Perfect for students & self-learners.",
+    "chatgptDescription": "ReadSage is an AI-powered active reading tool designed for students, self-learners, and professionals. Users upload books in PDF, EPUB, or TXT format, and the AI instantly generates comprehensive quizzes from specific chapters or topics. Key features include 10+ question types (Multiple Choice, Single Choice, Text Answers, Mathematical Equations, Code Challenges, Essay Questions), chapter/topic selection for targeted learning, real-time progress tracking (completion percentage, accuracy scores, daily streaks, question difficulty levels), instant detailed feedback with explanations, spaced repetition and flashcard generation. Works with any book: textbooks, novels, technical manuals, academic papers. Use cases: Exam preparation, active learning, knowledge retention, self-assessment. Subjects: Mathematics, Literature, Chemistry, Physics, History, Programming, Business, Biology, and more.",
+    "perplexityDescription": "ReadSage - AI Book Quiz Generator. What it does: Converts uploaded books (PDF/EPUB/TXT) into interactive quizzes, generates questions from selected chapters/topics, provides instant feedback with detailed explanations. Question types: MCQ, Single Choice, Text Answer, Equations, Code Challenges, Essays. Progress metrics: Chapter completion %, Accuracy score, Daily streak counter, Question difficulty tracking. Target users: Students (exam prep), Self-learners (skill mastery), Professionals (knowledge retention). Key differentiators: Works with ANY book, 10+ question formats, Chapter-specific quiz generation, Detailed answer explanations, Privacy-focused encrypted storage. Subjects: Math, Science, Literature, History, Programming, Business, Languages.",
+    "claudeDescription": "Educational platform using AI to generate comprehensive quizzes from uploaded books. Creates MCQ, coding problems, math equations, and essay questions from specific chapters. Tracks user progress with accuracy scores, daily streaks, and difficulty levels. Ideal for exam preparation, self-study, and knowledge retention across all subjects."
+  },
+  "nav": {
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "getAccess": "Get Early Access"
+  },
+  "hero": {
+    "title": "Master Any Book with",
+    "titleGradient": "AI-Generated Quizzes",
+    "subtitle": "Upload any book and get instant AI quizzes from specific chapters or topics. Test your knowledge with MCQ, code challenges, equations, and more. Track your progress and ace your exams with detailed feedback.",
+    "emailPlaceholder": "Enter your email",
+    "ctaButton": "Get Early Access",
+    "formNote": "Join 500+ learners on the waitlist. No spam, ever.",
+    "successMessage": "Thanks! You're on the list. We'll notify you when we launch.",
+    "visualCardTitle": "Chapter 5: Calculus Basics",
+    "visualQuestion": "Question 3 of 10: Find the derivative of f(x) = x³ + 2x",
+    "visualProgress": "75% Complete • Accuracy: 87%"
+  },
+  "features": {
+    "sectionTitle": "Everything You Need to Master Any Book",
+    "sectionSubtitle": "AI-powered tools for active learning and exam preparation",
+    "feature1": {
+      "icon": "🤖",
+      "title": "AI-Generated Quizzes",
+      "description": "Generate comprehensive quizzes instantly from any book. Get 10+ question types including MCQ, code challenges, equations, and essay questions tailored to your material."
+    },
+    "feature2": {
+      "icon": "🎯",
+      "title": "Chapter & Topic Selection",
+      "description": "Choose specific chapters or topics to focus on. Create targeted quizzes for exam prep or review difficult sections without going through the entire book."
+    },
+    "feature3": {
+      "icon": "📊",
+      "title": "Progress Dashboard",
+      "description": "Track chapter completion percentage, accuracy scores, daily learning streaks, and question difficulty levels. Visualize your improvement over time with detailed analytics."
+    },
+    "feature4": {
+      "icon": "💬",
+      "title": "Instant Detailed Feedback",
+      "description": "Get immediate explanations for every answer. Understand why an answer is correct or incorrect with AI-generated insights that deepen your comprehension."
+    },
+    "feature5": {
+      "icon": "📝",
+      "title": "Multiple Question Formats",
+      "description": "Practice with diverse question types: Multiple Choice, Single Choice, Text Answers, Mathematical Equations, Code Challenges, and Essay Questions for all subjects."
+    },
+    "feature6": {
+      "icon": "📚",
+      "title": "Universal Book Support",
+      "description": "Upload books in any format - PDF, EPUB, or TXT. Works with textbooks, novels, technical manuals, academic papers, and any learning material you have."
+    }
+  },
+  "questionTypes": {
+    "sectionTitle": "10+ Question Types for Every Subject",
+    "sectionSubtitle": "From math equations to code challenges - ReadSage covers it all",
+    "math": {
+      "badge": "Mathematics",
+      "type": "Multiple Choice",
+      "question": "From Calculus Textbook, Chapter 3:<br />Find the derivative of f(x) = x³ + 2x",
+      "options": ["3x² + 2", "3x² + 2x", "x² + 2", "3x³ + 2"]
+    },
+    "literature": {
+      "badge": "Literature",
+      "type": "Single Choice",
+      "question": "From \"1984\" by George Orwell:<br />What is the primary purpose of Newspeak in Oceania?",
+      "options": ["To simplify communication", "To limit freedom of thought", "To improve education", "To unite nations"]
+    },
+    "history": {
+      "badge": "History",
+      "type": "Text Answer",
+      "question": "From \"Sapiens\" by Yuval Noah Harari:<br />Explain the Cognitive Revolution in 2-3 sentences.",
+      "placeholder": "Type your answer here..."
+    },
+    "chemistry": {
+      "badge": "Chemistry",
+      "type": "Equation",
+      "question": "From Chemistry 101, Chapter 4:<br />Balance this chemical equation:",
+      "equation": "H₂ + O₂ → H₂O",
+      "placeholder": "Enter balanced equation..."
+    },
+    "programming": {
+      "badge": "Programming",
+      "type": "Code Challenge",
+      "question": "From \"Clean Code\" by Robert Martin:<br />Implement a function to reverse a string:",
+      "codeComment": "# Your code here"
+    }
+  },
+  "howItWorks": {
+    "sectionTitle": "How It Works",
+    "sectionSubtitle": "Three simple steps to smarter learning",
+    "step1": {
+      "title": "Upload Your Book",
+      "description": "Drag and drop any book file (PDF, EPUB, TXT) into ReadSage. Our AI processes it in seconds and organizes it by chapters and topics."
+    },
+    "step2": {
+      "title": "Choose Chapters & Get Quizzes",
+      "description": "Select specific chapters or topics you want to study. AI instantly generates comprehensive quizzes with multiple question types, from MCQ to code challenges."
+    },
+    "step3": {
+      "title": "Track Progress & Get Feedback",
+      "description": "Answer questions and receive instant detailed explanations. Monitor your completion percentage, accuracy scores, daily streaks, and watch your comprehension improve."
+    }
+  },
+  "benefits": {
+    "title": "Perfect for Students, Self-Learners, and Professionals",
+    "item1": "Students: Ace exams with targeted chapter quizzes and instant feedback on your weak areas",
+    "item2": "Self-Learners: Master technical books with practice questions and spaced repetition",
+    "item3": "Professionals: Retain knowledge from business and industry books through active recall",
+    "item4": "Exam Prep: Test yourself before the real exam with realistic practice questions",
+    "item5": "Active Learning: Transform passive reading into engaging practice with immediate feedback",
+    "stat1Label": "Question Types",
+    "stat2Label": "AI Accuracy",
+    "stat3Label": "Early Users"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "sectionSubtitle": "Everything you need to know about ReadSage",
+    "q1": {
+      "question": "What file formats does ReadSage support?",
+      "answer": "ReadSage supports PDF, EPUB, and TXT formats. You can upload textbooks, novels, technical manuals, academic papers, or any learning material in these formats."
+    },
+    "q2": {
+      "question": "How does ReadSage generate questions?",
+      "answer": "Our AI analyzes your book's content, identifying key concepts, facts, and relationships. It then generates diverse question types (MCQ, code, equations, essays) tailored to the material's complexity and subject matter."
+    },
+    "q3": {
+      "question": "Can I choose specific chapters or topics?",
+      "answer": "Yes! ReadSage automatically divides your book into chapters and topics. You can select specific sections to create targeted quizzes, perfect for exam prep or reviewing difficult material."
+    },
+    "q4": {
+      "question": "What types of questions can ReadSage create?",
+      "answer": "ReadSage generates 10+ question types including Multiple Choice (MCQ), Single Choice, Text Answers, Mathematical Equations, Code Challenges, Essay Questions, and more - adapted to your book's subject."
+    },
+    "q5": {
+      "question": "Is my book data private and secure?",
+      "answer": "Absolutely! All your books and data are encrypted and stored securely on our servers. We respect your privacy and never share your data with third parties. Your reading progress and quiz results are private to you only. ReadSage is fully GDPR compliant."
+    },
+    "q6": {
+      "question": "How does progress tracking work?",
+      "answer": "ReadSage tracks your chapter completion percentage, accuracy scores for each quiz, daily learning streaks, and question difficulty levels. You can visualize your improvement over time with detailed analytics dashboards."
+    },
+    "q7": {
+      "question": "Can I use ReadSage for exam preparation?",
+      "answer": "Yes! ReadSage is perfect for exam prep. Upload your study materials, select relevant chapters, and generate practice tests. Get instant feedback with detailed explanations to identify and strengthen weak areas before your exam."
+    },
+    "q8": {
+      "question": "Does ReadSage work with textbooks?",
+      "answer": "Absolutely! ReadSage excels with textbooks across all subjects - mathematics, chemistry, history, programming, literature, physics, biology, business, and more. It adapts question types to match the subject matter."
+    }
+  },
+  "cta": {
+    "title": "Ready to Transform Your Learning?",
+    "subtitle": "Join our waitlist and be among the first to experience AI-powered book mastery with instant quizzes, progress tracking, and detailed feedback.",
+    "emailPlaceholder": "Enter your email",
+    "ctaButton": "Join the Waitlist",
+    "formNote": "We respect your privacy. Unsubscribe at any time.",
+    "successMessage": "Amazing! Check your email for confirmation.",
+    "socialProof": "Join 500+ learners already on the waitlist"
+  },
+  "footer": {
+    "tagline": "Master any book with AI-generated quizzes",
+    "product": "Product",
+    "legal": "Legal",
+    "connect": "Connect",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "contactUs": "Contact Us",
+    "copyright": "© 2025 ReadSage. All rights reserved."
+  }
+}
