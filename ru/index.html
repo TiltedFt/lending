@@ -166,24 +166,38 @@
           <span class="logo-icon">📚</span>
           <span class="logo-text">ReadSage</span>
         </div>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-toggle" aria-label="Toggle menu">
+          <span class="hamburger-icon"></span>
+        </button>
+
+        <!-- Navigation Links -->
         <div class="nav-links">
-<div class="language-switcher">
-            <select id="lang-select" onchange="switchLanguage(this.value)">
-              <option value="en">🇺🇸 English</option>
-              <option value="es">🇪🇸 Español</option>
-              <option value="fr">🇫🇷 Français</option>
-              <option value="pt">🇵🇹 Português</option>
-              <option value="ru" selected>🇷🇺 Русский</option>
-              <option value="uk">🇺🇦 Українська</option>
-              <option value="tr">🇹🇷 Türkçe</option>
-              <option value="de">🇩🇪 Deutsch</option>
-            </select>
+          <div class="language-switcher">
+            <button class="lang-select-btn" id="lang-select-btn">
+              <span class="lang-current">🇷🇺 Русский</span>
+              <span class="lang-arrow">▼</span>
+            </button>
+            <div class="lang-dropdown" id="lang-dropdown">
+              <a href="/en/" class="lang-option" data-lang="en">🇺🇸 English</a>
+              <a href="/es/" class="lang-option" data-lang="es">🇪🇸 Español</a>
+              <a href="/fr/" class="lang-option" data-lang="fr">🇫🇷 Français</a>
+              <a href="/pt/" class="lang-option" data-lang="pt">🇵🇹 Português</a>
+              <a href="/ru/" class="lang-option active" data-lang="ru">🇷🇺 Русский</a>
+              <a href="/uk/" class="lang-option" data-lang="uk">🇺🇦 Українська</a>
+              <a href="/tr/" class="lang-option" data-lang="tr">🇹🇷 Türkçe</a>
+              <a href="/de/" class="lang-option" data-lang="de">🇩🇪 Deutsch</a>
+            </div>
           </div>
           <a href="#features" class="nav-link">Возможности</a>
           <a href="#how-it-works" class="nav-link">Как Это Работает</a>
           <a href="#waitlist" class="btn btn-primary-small">Получить Ранний Доступ</a>
         </div>
       </nav>
+
+      <!-- Mobile Menu Overlay -->
+      <div class="mobile-menu-overlay"></div>
     </header>
 
     <!-- Hero Section -->

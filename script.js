@@ -116,15 +116,94 @@ document.querySelectorAll('input[type="email"]').forEach(input => {
     input.addEventListener('blur', function() {
         const email = this.value;
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        
+
         if (email && !emailRegex.test(email)) {
             this.style.borderColor = '#ef4444';
         } else {
             this.style.borderColor = '';
         }
     });
-    
+
     input.addEventListener('input', function() {
         this.style.borderColor = '';
     });
 });
+
+// Mobile Menu Toggle
+const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+const navLinks = document.querySelector('.nav-links');
+const mobileMenuOverlay = document.querySelector('.mobile-menu-overlay');
+const body = document.body;
+
+function toggleMobileMenu() {
+    mobileMenuToggle.classList.toggle('active');
+    navLinks.classList.toggle('active');
+    mobileMenuOverlay.classList.toggle('active');
+
+    // Prevent body scroll when menu is open
+    if (navLinks.classList.contains('active')) {
+        body.style.overflow = 'hidden';
+    } else {
+        body.style.overflow = '';
+    }
+}
+
+function closeMobileMenu() {
+    mobileMenuToggle.classList.remove('active');
+    navLinks.classList.remove('active');
+    mobileMenuOverlay.classList.remove('active');
+    body.style.overflow = '';
+}
+
+// Toggle menu on button click
+if (mobileMenuToggle) {
+    mobileMenuToggle.addEventListener('click', toggleMobileMenu);
+}
+
+// Close menu when clicking on overlay
+if (mobileMenuOverlay) {
+    mobileMenuOverlay.addEventListener('click', closeMobileMenu);
+}
+
+// Close menu when clicking on nav links
+document.querySelectorAll('.nav-link, .btn-primary-small').forEach(link => {
+    link.addEventListener('click', () => {
+        if (window.innerWidth <= 768) {
+            closeMobileMenu();
+        }
+    });
+});
+
+// Custom Language Dropdown
+const langSelectBtn = document.getElementById('lang-select-btn');
+const langDropdown = document.getElementById('lang-dropdown');
+
+function toggleLangDropdown(e) {
+    e.stopPropagation();
+    langSelectBtn.classList.toggle('active');
+    langDropdown.classList.toggle('active');
+}
+
+function closeLangDropdown() {
+    langSelectBtn.classList.remove('active');
+    langDropdown.classList.remove('active');
+}
+
+// Toggle dropdown on button click
+if (langSelectBtn) {
+    langSelectBtn.addEventListener('click', toggleLangDropdown);
+}
+
+// Close dropdown when clicking outside
+document.addEventListener('click', (e) => {
+    if (langDropdown && !e.target.closest('.language-switcher')) {
+        closeLangDropdown();
+    }
+});
+
+// Prevent dropdown from closing when clicking inside it
+if (langDropdown) {
+    langDropdown.addEventListener('click', (e) => {
+        e.stopPropagation();
+    });
+}

@@ -13,10 +13,16 @@
     <link rel="alternate" hreflang="uk" href="https://hiregenix.app/uk/" />
     <link rel="alternate" hreflang="tr" href="https://hiregenix.app/tr/" />
     <link rel="alternate" hreflang="de" href="https://hiregenix.app/de/" />
-    <link rel="alternate" hreflang="x-default" href="https://hiregenix.app/en/" />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://hiregenix.app/en/"
+    />
 
     <!-- Primary Meta Tags -->
-    <title>ReadSage - Meistern Sie Bücher mit KI-Quiz | Leseverständnis-Tool</title>
+    <title>
+      ReadSage - Meistern Sie Bücher mit KI-Quiz | Leseverständnis-Tool
+    </title>
     <meta
       name="title"
       content="ReadSage - Meistern Sie Bücher mit KI-Quiz | Leseverständnis-Tool"
@@ -166,24 +172,44 @@
           <span class="logo-icon">📚</span>
           <span class="logo-text">ReadSage</span>
         </div>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-toggle" aria-label="Toggle menu">
+          <span class="hamburger-icon"></span>
+        </button>
+
+        <!-- Navigation Links -->
         <div class="nav-links">
-<div class="language-switcher">
-            <select id="lang-select" onchange="switchLanguage(this.value)">
-              <option value="en">🇺🇸 English</option>
-              <option value="es">🇪🇸 Español</option>
-              <option value="fr">🇫🇷 Français</option>
-              <option value="pt">🇵🇹 Português</option>
-              <option value="ru">🇷🇺 Русский</option>
-              <option value="uk">🇺🇦 Українська</option>
-              <option value="tr">🇹🇷 Türkçe</option>
-              <option value="de" selected>🇩🇪 Deutsch</option>
-            </select>
+          <div class="language-switcher">
+            <button class="lang-select-btn" id="lang-select-btn">
+              <span class="lang-current">🇩🇪 Deutsch</span>
+              <span class="lang-arrow">▼</span>
+            </button>
+            <div class="lang-dropdown" id="lang-dropdown">
+              <a href="/en/" class="lang-option" data-lang="en">🇺🇸 English</a>
+              <a href="/es/" class="lang-option" data-lang="es">🇪🇸 Español</a>
+              <a href="/fr/" class="lang-option" data-lang="fr">🇫🇷 Français</a>
+              <a href="/pt/" class="lang-option" data-lang="pt">🇵🇹 Português</a>
+              <a href="/ru/" class="lang-option active" data-lang="ru"
+                >🇷🇺 Русский</a
+              >
+              <a href="/uk/" class="lang-option" data-lang="uk"
+                >🇺🇦 Українська</a
+              >
+              <a href="/tr/" class="lang-option" data-lang="tr">🇹🇷 Türkçe</a>
+              <a href="/de/" class="lang-option" data-lang="de">🇩🇪 Deutsch</a>
+            </div>
           </div>
           <a href="#features" class="nav-link">Funktionen</a>
           <a href="#how-it-works" class="nav-link">Wie Es Funktioniert</a>
-          <a href="#waitlist" class="btn btn-primary-small">Frühen Zugang Erhalten</a>
+          <a href="#waitlist" class="btn btn-primary-small"
+            >Frühen Zugang Erhalten</a
+          >
         </div>
       </nav>
+
+      <!-- Mobile Menu Overlay -->
+      <div class="mobile-menu-overlay"></div>
     </header>
 
     <!-- Hero Section -->
@@ -195,7 +221,11 @@
             <span class="gradient-text">KI-generierten Quiz</span>
           </h1>
           <p class="hero-subtitle fade-in">
-            Laden Sie jedes Buch hoch und erhalten Sie sofortige KI-Quiz aus bestimmten Kapiteln oder Themen. Testen Sie Ihr Wissen mit Multiple Choice, Code-Herausforderungen, Gleichungen und mehr. Verfolgen Sie Ihren Fortschritt und bestehen Sie Ihre Prüfungen mit detailliertem Feedback.
+            Laden Sie jedes Buch hoch und erhalten Sie sofortige KI-Quiz aus
+            bestimmten Kapiteln oder Themen. Testen Sie Ihr Wissen mit Multiple
+            Choice, Code-Herausforderungen, Gleichungen und mehr. Verfolgen Sie
+            Ihren Fortschritt und bestehen Sie Ihre Prüfungen mit detailliertem
+            Feedback.
           </p>
 
           <!-- Hero Email Form -->
@@ -214,14 +244,17 @@
               </button>
             </div>
             <p class="form-note">
-              Schließen Sie sich über 500 Lernenden auf der Warteliste an. Kein Spam, niemals.
+              Schließen Sie sich über 500 Lernenden auf der Warteliste an. Kein
+              Spam, niemals.
             </p>
           </form>
 
           <!-- Success Message -->
           <div class="success-message" id="success-message">
             <span class="success-icon">✓</span>
-            <p>Danke! Sie sind auf der Liste. Wir benachrichtigen Sie beim Start.</p>
+            <p>
+              Danke! Sie sind auf der Liste. Wir benachrichtigen Sie beim Start.
+            </p>
           </div>
         </div>
 
@@ -234,7 +267,8 @@
             </div>
             <div class="card-body">
               <p class="question">
-                <strong>Frage 3 von 10:</strong> Finden Sie die Ableitung von f(x) = x³ + 2x
+                <strong>Frage 3 von 10:</strong> Finden Sie die Ableitung von
+                f(x) = x³ + 2x
               </p>
               <div class="progress-bar">
                 <div class="progress-fill" style="width: 75%"></div>
@@ -249,7 +283,9 @@
     <!-- Funktionen Section -->
     <section class="features" id="features">
       <div class="container">
-        <h2 class="section-title">Alles, Was Sie Brauchen, Um Jedes Buch zu Meistern</h2>
+        <h2 class="section-title">
+          Alles, Was Sie Brauchen, Um Jedes Buch zu Meistern
+        </h2>
         <p class="section-subtitle">
           KI-gestützte Tools für aktives Lernen und Prüfungsvorbereitung
         </p>
@@ -260,7 +296,10 @@
             <div class="feature-icon">🤖</div>
             <h3 class="feature-title">KI-generierten Quiz</h3>
             <p class="feature-description">
-              Generieren Sie sofort umfassende Quiz aus jedem Buch. Erhalten Sie über 10 Fragetypen einschließlich Multiple Choice, Code-Herausforderungen, Gleichungen und Essay-Fragen, die auf Ihr Material zugeschnitten sind.
+              Generieren Sie sofort umfassende Quiz aus jedem Buch. Erhalten Sie
+              über 10 Fragetypen einschließlich Multiple Choice,
+              Code-Herausforderungen, Gleichungen und Essay-Fragen, die auf Ihr
+              Material zugeschnitten sind.
             </p>
           </div>
 
@@ -269,7 +308,10 @@
             <div class="feature-icon">🎯</div>
             <h3 class="feature-title">Kapitel- und Themenauswahl</h3>
             <p class="feature-description">
-              Wählen Sie bestimmte Kapitel oder Themen zum Fokussieren. Erstellen Sie gezielte Quiz für die Prüfungsvorbereitung oder überprüfen Sie schwierige Abschnitte, ohne das gesamte Buch durchzugehen.
+              Wählen Sie bestimmte Kapitel oder Themen zum Fokussieren.
+              Erstellen Sie gezielte Quiz für die Prüfungsvorbereitung oder
+              überprüfen Sie schwierige Abschnitte, ohne das gesamte Buch
+              durchzugehen.
             </p>
           </div>
 
@@ -278,7 +320,10 @@
             <div class="feature-icon">📊</div>
             <h3 class="feature-title">Fortschritts-Dashboard</h3>
             <p class="feature-description">
-              Verfolgen Sie Kapitelabschlussprozentsatz, Genauigkeitswerte, tägliche Lernserien und Fragenschwierigkeitsgrade. Visualisieren Sie Ihre Verbesserung im Laufe der Zeit mit detaillierten Analysen.
+              Verfolgen Sie Kapitelabschlussprozentsatz, Genauigkeitswerte,
+              tägliche Lernserien und Fragenschwierigkeitsgrade. Visualisieren
+              Sie Ihre Verbesserung im Laufe der Zeit mit detaillierten
+              Analysen.
             </p>
           </div>
 
@@ -287,7 +332,9 @@
             <div class="feature-icon">💬</div>
             <h3 class="feature-title">Sofortiges Detailliertes Feedback</h3>
             <p class="feature-description">
-              Erhalten Sie sofortige Erklärungen für jede Antwort. Verstehen Sie, warum eine Antwort richtig oder falsch ist, mit KI-generierten Einblicken, die Ihr Verständnis vertiefen.
+              Erhalten Sie sofortige Erklärungen für jede Antwort. Verstehen
+              Sie, warum eine Antwort richtig oder falsch ist, mit
+              KI-generierten Einblicken, die Ihr Verständnis vertiefen.
             </p>
           </div>
 
@@ -296,7 +343,9 @@
             <div class="feature-icon">📝</div>
             <h3 class="feature-title">Mehrere Frageformate</h3>
             <p class="feature-description">
-              Üben Sie mit verschiedenen Fragetypen: Multiple Choice, Single Choice, Textantworten, Mathematische Gleichungen, Code-Herausforderungen und Essay-Fragen für alle Fächer.
+              Üben Sie mit verschiedenen Fragetypen: Multiple Choice, Single
+              Choice, Textantworten, Mathematische Gleichungen,
+              Code-Herausforderungen und Essay-Fragen für alle Fächer.
             </p>
           </div>
 
@@ -305,7 +354,9 @@
             <div class="feature-icon">📚</div>
             <h3 class="feature-title">Universelle Buchunterstützung</h3>
             <p class="feature-description">
-              Laden Sie Bücher in jedem Format hoch - PDF, EPUB oder TXT. Funktioniert mit Lehrbüchern, Romanen, technischen Handbüchern, wissenschaftlichen Artikeln und jedem Lernmaterial, das Sie haben.
+              Laden Sie Bücher in jedem Format hoch - PDF, EPUB oder TXT.
+              Funktioniert mit Lehrbüchern, Romanen, technischen Handbüchern,
+              wissenschaftlichen Artikeln und jedem Lernmaterial, das Sie haben.
             </p>
           </div>
         </div>
@@ -317,7 +368,8 @@
       <div class="container">
         <h2 class="section-title">Über 10 Fragetypen für Jedes Fach</h2>
         <p class="section-subtitle">
-          Von Mathegleichungen bis Code-Herausforderungen - ReadSage deckt alles ab
+          Von Mathegleichungen bis Code-Herausforderungen - ReadSage deckt alles
+          ab
         </p>
 
         <div class="question-examples">
@@ -329,7 +381,8 @@
             </div>
             <div class="example-body">
               <p class="example-question">
-                <strong>Aus dem Analysis-Lehrbuch, Kapitel 3:</strong><br />Finden Sie die Ableitung von f(x) = x³ + 2x
+                <strong>Aus dem Analysis-Lehrbuch, Kapitel 3:</strong
+                ><br />Finden Sie die Ableitung von f(x) = x³ + 2x
               </p>
               <div class="example-options mcq">
                 <label class="option">
@@ -360,7 +413,8 @@
             </div>
             <div class="example-body">
               <p class="example-question">
-                <strong>Aus "1984" von George Orwell:</strong><br />Was ist der Hauptzweck von Neusprech in Ozeanien?
+                <strong>Aus "1984" von George Orwell:</strong><br />Was ist der
+                Hauptzweck von Neusprech in Ozeanien?
               </p>
               <div class="example-options single">
                 <label class="option">
@@ -412,7 +466,8 @@
             </div>
             <div class="example-body">
               <p class="example-question">
-                <strong>Aus Chemie 101, Kapitel 4:</strong><br />Gleichen Sie diese chemische Gleichung aus:
+                <strong>Aus Chemie 101, Kapitel 4:</strong><br />Gleichen Sie
+                diese chemische Gleichung aus:
               </p>
               <div class="example-options equation">
                 <div class="equation-display">H₂ + O₂ → H₂O</div>
@@ -435,7 +490,8 @@
             <div class="example-body">
               <p class="example-question">
                 <strong>Aus "Clean Code" von Robert Martin:</strong
-                ><br />Implementieren Sie eine Funktion zum Umkehren einer Zeichenkette:
+                ><br />Implementieren Sie eine Funktion zum Umkehren einer
+                Zeichenkette:
               </p>
               <div class="example-options code">
                 <pre class="code-block">def reverse_string(s: str) -> str:
@@ -453,7 +509,9 @@
     <section class="how-it-works" id="how-it-works">
       <div class="container">
         <h2 class="section-title">Wie Es Funktioniert</h2>
-        <p class="section-subtitle">Drei einfache Schritte zu intelligentem Lernen</p>
+        <p class="section-subtitle">
+          Drei einfache Schritte zu intelligentem Lernen
+        </p>
 
         <div class="steps">
           <!-- Step 1 -->
@@ -462,7 +520,9 @@
             <div class="step-content">
               <h3 class="step-title">Laden Sie Ihr Buch Hoch</h3>
               <p class="step-description">
-                Ziehen Sie jede Buchdatei (PDF, EPUB, TXT) in ReadSage. Unsere KI verarbeitet es in Sekunden und organisiert es nach Kapiteln und Themen.
+                Ziehen Sie jede Buchdatei (PDF, EPUB, TXT) in ReadSage. Unsere
+                KI verarbeitet es in Sekunden und organisiert es nach Kapiteln
+                und Themen.
               </p>
             </div>
           </div>
@@ -471,9 +531,13 @@
           <div class="step scroll-fade">
             <div class="step-number">2</div>
             <div class="step-content">
-              <h3 class="step-title">Wählen Sie Kapitel und Erhalten Sie Quiz</h3>
+              <h3 class="step-title">
+                Wählen Sie Kapitel und Erhalten Sie Quiz
+              </h3>
               <p class="step-description">
-                Wählen Sie bestimmte Kapitel oder Themen aus, die Sie studieren möchten. KI generiert sofort umfassende Quiz mit mehreren Fragetypen, von Multiple Choice bis Code-Herausforderungen.
+                Wählen Sie bestimmte Kapitel oder Themen aus, die Sie studieren
+                möchten. KI generiert sofort umfassende Quiz mit mehreren
+                Fragetypen, von Multiple Choice bis Code-Herausforderungen.
               </p>
             </div>
           </div>
@@ -482,9 +546,14 @@
           <div class="step scroll-fade">
             <div class="step-number">3</div>
             <div class="step-content">
-              <h3 class="step-title">Verfolgen Sie Fortschritt und Erhalten Sie Feedback</h3>
+              <h3 class="step-title">
+                Verfolgen Sie Fortschritt und Erhalten Sie Feedback
+              </h3>
               <p class="step-description">
-                Beantworten Sie Fragen und erhalten Sie sofortige detaillierte Erklärungen. Überwachen Sie Ihren Abschlussprozentsatz, Genauigkeitswerte, tägliche Serien und beobachten Sie, wie sich Ihr Verständnis verbessert.
+                Beantworten Sie Fragen und erhalten Sie sofortige detaillierte
+                Erklärungen. Überwachen Sie Ihren Abschlussprozentsatz,
+                Genauigkeitswerte, tägliche Serien und beobachten Sie, wie sich
+                Ihr Verständnis verbessert.
               </p>
             </div>
           </div>
@@ -504,31 +573,37 @@
               <li class="benefit-item">
                 <span class="benefit-icon">✓</span>
                 <span
-                  ><strong>Studenten:</strong> Bestehen Sie Prüfungen mit gezielten Kapitel-Quiz und sofortigem Feedback zu Ihren Schwachstellen</span
+                  ><strong>Studenten:</strong> Bestehen Sie Prüfungen mit
+                  gezielten Kapitel-Quiz und sofortigem Feedback zu Ihren
+                  Schwachstellen</span
                 >
               </li>
               <li class="benefit-item">
                 <span class="benefit-icon">✓</span>
                 <span
-                  ><strong>Autodidakten:</strong> Meistern Sie technische Bücher mit Übungsfragen und räumlicher Wiederholung</span
+                  ><strong>Autodidakten:</strong> Meistern Sie technische Bücher
+                  mit Übungsfragen und räumlicher Wiederholung</span
                 >
               </li>
               <li class="benefit-item">
                 <span class="benefit-icon">✓</span>
                 <span
-                  ><strong>Fachleute:</strong> Behalten Sie Wissen aus Wirtschafts- und Branchenbüchern durch aktives Erinnern</span
+                  ><strong>Fachleute:</strong> Behalten Sie Wissen aus
+                  Wirtschafts- und Branchenbüchern durch aktives Erinnern</span
                 >
               </li>
               <li class="benefit-item">
                 <span class="benefit-icon">✓</span>
                 <span
-                  ><strong>Prüfungsvorbereitung:</strong> Testen Sie sich vor der echten Prüfung mit realistischen Übungsfragen</span
+                  ><strong>Prüfungsvorbereitung:</strong> Testen Sie sich vor
+                  der echten Prüfung mit realistischen Übungsfragen</span
                 >
               </li>
               <li class="benefit-item">
                 <span class="benefit-icon">✓</span>
                 <span
-                  ><strong>Aktives Lernen:</strong> Verwandeln Sie passives Lesen in ansprechende Praxis mit sofortigem Feedback</span
+                  ><strong>Aktives Lernen:</strong> Verwandeln Sie passives
+                  Lesen in ansprechende Praxis mit sofortigem Feedback</span
                 >
               </li>
             </ul>
@@ -565,14 +640,20 @@
               Welche Dateiformate unterstützt ReadSage?
             </h3>
             <p class="faq-answer">
-              ReadSage unterstützt PDF-, EPUB- und TXT-Formate. Sie können Lehrbücher, Romane, technische Handbücher, wissenschaftliche Artikel oder jedes Lernmaterial in diesen Formaten hochladen.
+              ReadSage unterstützt PDF-, EPUB- und TXT-Formate. Sie können
+              Lehrbücher, Romane, technische Handbücher, wissenschaftliche
+              Artikel oder jedes Lernmaterial in diesen Formaten hochladen.
             </p>
           </div>
 
           <div class="faq-item scroll-fade">
             <h3 class="faq-question">Wie generiert ReadSage Fragen?</h3>
             <p class="faq-answer">
-              Unsere KI analysiert den Inhalt Ihres Buches und identifiziert Schlüsselkonzepte, Fakten und Beziehungen. Dann generiert sie verschiedene Fragetypen (Multiple Choice, Code, Gleichungen, Essays), die auf die Komplexität des Materials und das Fach zugeschnitten sind.
+              Unsere KI analysiert den Inhalt Ihres Buches und identifiziert
+              Schlüsselkonzepte, Fakten und Beziehungen. Dann generiert sie
+              verschiedene Fragetypen (Multiple Choice, Code, Gleichungen,
+              Essays), die auf die Komplexität des Materials und das Fach
+              zugeschnitten sind.
             </p>
           </div>
 
@@ -581,7 +662,10 @@
               Kann ich bestimmte Kapitel oder Themen auswählen?
             </h3>
             <p class="faq-answer">
-              Ja! ReadSage unterteilt Ihr Buch automatisch in Kapitel und Themen. Sie können bestimmte Abschnitte auswählen, um gezielte Quiz zu erstellen, die sich perfekt für die Prüfungsvorbereitung oder das Überprüfen schwieriger Materialien eignen.
+              Ja! ReadSage unterteilt Ihr Buch automatisch in Kapitel und
+              Themen. Sie können bestimmte Abschnitte auswählen, um gezielte
+              Quiz zu erstellen, die sich perfekt für die Prüfungsvorbereitung
+              oder das Überprüfen schwieriger Materialien eignen.
             </p>
           </div>
 
@@ -590,21 +674,35 @@
               Welche Arten von Fragen kann ReadSage erstellen?
             </h3>
             <p class="faq-answer">
-              ReadSage generiert über 10 Fragetypen einschließlich Multiple Choice, Single Choice, Textantworten, Mathematische Gleichungen, Code-Herausforderungen, Essay-Fragen und mehr - angepasst an das Fach Ihres Buches.
+              ReadSage generiert über 10 Fragetypen einschließlich Multiple
+              Choice, Single Choice, Textantworten, Mathematische Gleichungen,
+              Code-Herausforderungen, Essay-Fragen und mehr - angepasst an das
+              Fach Ihres Buches.
             </p>
           </div>
 
           <div class="faq-item scroll-fade">
-            <h3 class="faq-question">Sind meine Buchdaten privat und sicher?</h3>
+            <h3 class="faq-question">
+              Sind meine Buchdaten privat und sicher?
+            </h3>
             <p class="faq-answer">
-              Absolut! Alle Ihre Bücher und Daten sind verschlüsselt und werden sicher auf unseren Servern gespeichert. Wir respektieren Ihre Privatsphäre und teilen Ihre Daten niemals mit Dritten. Ihr Lesefortschritt und Quiz-Ergebnisse sind nur für Sie privat. ReadSage ist vollständig DSGVO-konform.
+              Absolut! Alle Ihre Bücher und Daten sind verschlüsselt und werden
+              sicher auf unseren Servern gespeichert. Wir respektieren Ihre
+              Privatsphäre und teilen Ihre Daten niemals mit Dritten. Ihr
+              Lesefortschritt und Quiz-Ergebnisse sind nur für Sie privat.
+              ReadSage ist vollständig DSGVO-konform.
             </p>
           </div>
 
           <div class="faq-item scroll-fade">
-            <h3 class="faq-question">Wie funktioniert die Fortschrittsverfolgung?</h3>
+            <h3 class="faq-question">
+              Wie funktioniert die Fortschrittsverfolgung?
+            </h3>
             <p class="faq-answer">
-              ReadSage verfolgt Ihren Kapitelabschlussprozentsatz, Genauigkeitswerte für jedes Quiz, tägliche Lernserien und Fragenschwierigkeitsgrade. Sie können Ihre Verbesserung im Laufe der Zeit mit detaillierten Analyse-Dashboards visualisieren.
+              ReadSage verfolgt Ihren Kapitelabschlussprozentsatz,
+              Genauigkeitswerte für jedes Quiz, tägliche Lernserien und
+              Fragenschwierigkeitsgrade. Sie können Ihre Verbesserung im Laufe
+              der Zeit mit detaillierten Analyse-Dashboards visualisieren.
             </p>
           </div>
 
@@ -613,14 +711,21 @@
               Kann ich ReadSage für die Prüfungsvorbereitung verwenden?
             </h3>
             <p class="faq-answer">
-              Ja! ReadSage ist perfekt für die Prüfungsvorbereitung. Laden Sie Ihre Lernmaterialien hoch, wählen Sie relevante Kapitel aus und generieren Sie Übungstests. Erhalten Sie sofortiges Feedback mit detaillierten Erklärungen, um Schwachstellen vor Ihrer Prüfung zu identifizieren und zu stärken.
+              Ja! ReadSage ist perfekt für die Prüfungsvorbereitung. Laden Sie
+              Ihre Lernmaterialien hoch, wählen Sie relevante Kapitel aus und
+              generieren Sie Übungstests. Erhalten Sie sofortiges Feedback mit
+              detaillierten Erklärungen, um Schwachstellen vor Ihrer Prüfung zu
+              identifizieren und zu stärken.
             </p>
           </div>
 
           <div class="faq-item scroll-fade">
             <h3 class="faq-question">Funktioniert ReadSage mit Lehrbüchern?</h3>
             <p class="faq-answer">
-              Absolut! ReadSage zeichnet sich durch Lehrbücher in allen Fächern aus - Mathematik, Chemie, Geschichte, Programmierung, Literatur, Physik, Biologie, Wirtschaft und mehr. Es passt Fragetypen an das Fach an.
+              Absolut! ReadSage zeichnet sich durch Lehrbücher in allen Fächern
+              aus - Mathematik, Chemie, Geschichte, Programmierung, Literatur,
+              Physik, Biologie, Wirtschaft und mehr. Es passt Fragetypen an das
+              Fach an.
             </p>
           </div>
         </div>
@@ -633,7 +738,9 @@
         <div class="cta-content scroll-fade">
           <h2 class="cta-title">Bereit, Ihr Lernen zu Transformieren?</h2>
           <p class="cta-subtitle">
-            Treten Sie unserer Warteliste bei und gehören Sie zu den Ersten, die KI-gestütztes Buchlernen mit sofortigen Quiz, Fortschrittsverfolgung und detailliertem Feedback erleben.
+            Treten Sie unserer Warteliste bei und gehören Sie zu den Ersten, die
+            KI-gestütztes Buchlernen mit sofortigen Quiz, Fortschrittsverfolgung
+            und detailliertem Feedback erleben.
           </p>
 
           <!-- CTA Email Form -->
@@ -672,7 +779,8 @@
               <div class="avatar">+500</div>
             </div>
             <p class="social-proof-text">
-              Schließen Sie sich über 500 Lernenden an, die bereits auf der Warteliste stehen
+              Schließen Sie sich über 500 Lernenden an, die bereits auf der
+              Warteliste stehen
             </p>
           </div>
         </div>
@@ -697,14 +805,18 @@
             <div class="footer-column">
               <h4 class="footer-title">Produkt</h4>
               <a href="#features" class="footer-link">Funktionen</a>
-              <a href="#how-it-works" class="footer-link">Wie Es Funktioniert</a>
+              <a href="#how-it-works" class="footer-link"
+                >Wie Es Funktioniert</a
+              >
               <a href="#faq" class="footer-link">FAQ</a>
               <a href="#waitlist" class="footer-link">Frühen Zugang Erhalten</a>
             </div>
 
             <div class="footer-column">
               <h4 class="footer-title">Legal</h4>
-              <a href="privacy.html" class="footer-link">Datenschutzrichtlinie</a>
+              <a href="privacy.html" class="footer-link"
+                >Datenschutzrichtlinie</a
+              >
               <a href="privacy.html#terms" class="footer-link"
                 >Nutzungsbedingungen</a
               >
@@ -801,11 +913,11 @@
 
     <!-- JavaScript -->
     <script src="../script.js"></script>
-  
+
     <script>
       function switchLanguage(lang) {
-        localStorage.setItem('preferred-lang', lang);
-        window.location.href = '/' + lang + '/';
+        localStorage.setItem("preferred-lang", lang);
+        window.location.href = "/" + lang + "/";
       }
     </script>
   </body>
