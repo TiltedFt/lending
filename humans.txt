@@ -1,0 +1,18 @@
+/* TEAM */
+Product: ReadSage
+Website: https://hiregenix.app
+Contact: contact@hiregenix.app
+Description: AI-powered book learning tool - Master any book with instant quizzes
+
+/* THANKS */
+AI Assistant: Claude by Anthropic
+Design: Custom responsive design
+Development: Vanilla HTML/CSS/JS
+
+/* SITE */
+Standards: HTML5, CSS3, ES6+ JavaScript
+Components: Vanilla JS (no frameworks)
+Software: VS Code
+Doctype: HTML5
+SEO: Optimized for Google, ChatGPT, Perplexity, Claude
+Last update: 2024-10-17

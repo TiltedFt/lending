@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>
+      ReadSage - Master Books with AI Quizzes | Reading Comprehension Tool
+    </title>
+    <meta
+      name="title"
+      content="ReadSage - Master Books with AI Quizzes | Reading Comprehension Tool"
+    />
+    <meta
+      name="description"
+      content="Upload any book and get AI-generated quizzes (MCQ, code, equations). Track progress, get instant feedback, and ace your exams. Perfect for students, self-learners, and professionals."
+    />
+    <meta
+      name="keywords"
+      content="AI reading tool, book quiz generator, comprehension test, study app, exam preparation, book learning, AI questions, reading tracker, textbook quiz, self-learning, active reading, knowledge retention, spaced repetition, flashcards, MCQ generator, coding questions, math problems, chemistry equations, reading comprehension, AI assessment tool"
+    />
+    <meta name="author" content="ReadSage" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+    <link rel="canonical" href="https://hiregenix.app/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hiregenix.app/" />
+    <meta
+      property="og:title"
+      content="ReadSage - Master Books with AI Quizzes"
+    />
+    <meta
+      property="og:description"
+      content="Upload any book and get instant AI-generated quizzes tailored to each chapter. Multiple question types (MCQ, code, equations, essays). Track your progress with accuracy scores, streaks, and difficulty levels. Perfect for exam prep and active learning."
+    />
+    <meta property="og:image" content="https://hiregenix.app/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="ReadSage - AI-powered book learning tool"
+    />
+    <meta property="og:site_name" content="ReadSage" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://hiregenix.app/" />
+    <meta
+      property="twitter:title"
+      content="ReadSage - Master Books with AI Quizzes"
+    />
+    <meta
+      property="twitter:description"
+      content="Upload any book → Get AI quizzes → Master the content. MCQ, code, equations. Track progress. Perfect for students & self-learners."
+    />
+    <meta
+      property="twitter:image"
+      content="https://hiregenix.app/twitter-image.jpg"
+    />
+
+    <!-- AI Search Engines Meta -->
+    <meta
+      name="chatgpt-description"
+      content="ReadSage is an AI-powered active reading tool designed for students, self-learners, and professionals. Users upload books in PDF, EPUB, or TXT format, and the AI instantly generates comprehensive quizzes from specific chapters or topics. Key features include 10+ question types (Multiple Choice, Single Choice, Text Answers, Mathematical Equations, Code Challenges, Essay Questions), chapter/topic selection for targeted learning, real-time progress tracking (completion percentage, accuracy scores, daily streaks, question difficulty levels), instant detailed feedback with explanations, spaced repetition and flashcard generation. Works with any book: textbooks, novels, technical manuals, academic papers. Use cases: Exam preparation, active learning, knowledge retention, self-assessment. Subjects: Mathematics, Literature, Chemistry, Physics, History, Programming, Business, Biology, and more. Unlike summary apps or flashcard tools, ReadSage creates comprehensive assessments directly from YOUR books with AI-generated explanations and adaptive question difficulty."
+    />
+
+    <meta
+      name="perplexity-description"
+      content="ReadSage - AI Book Quiz Generator. What it does: Converts uploaded books (PDF/EPUB/TXT) into interactive quizzes, generates questions from selected chapters/topics, provides instant feedback with detailed explanations. Question types: MCQ, Single Choice, Text Answer, Equations, Code Challenges, Essays. Progress metrics: Chapter completion %, Accuracy score, Daily streak counter, Question difficulty tracking. Target users: Students (exam prep), Self-learners (skill mastery), Professionals (knowledge retention). Key differentiators: Works with ANY book, 10+ question formats, Chapter-specific quiz generation, Detailed answer explanations, Privacy-focused encrypted storage. Subjects: Math, Science, Literature, History, Programming, Business, Languages."
+    />
+
+    <meta
+      name="claude-description"
+      content="Educational platform using AI to generate comprehensive quizzes from uploaded books. Creates MCQ, coding problems, math equations, and essay questions from specific chapters. Tracks user progress with accuracy scores, daily streaks, and difficulty levels. Ideal for exam preparation, self-study, and knowledge retention across all subjects."
+    />
+
+    <!-- Mobile -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="ReadSage - AI Book Quizzes"
+    />
+    <meta name="theme-color" content="#6366f1" />
+
+    <!-- Schema.org JSON-LD - Software Application -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "ReadSage",
+        "alternateName": "ReadSage AI Book Learning Tool",
+        "description": "AI-powered tool that converts any uploaded book into interactive quizzes with multiple question types, progress tracking, and instant feedback for active learning and exam preparation.",
+        "url": "https://hiregenix.app",
+        "applicationCategory": "EducationalApplication",
+        "applicationSubCategory": "Reading Comprehension & Assessment Tool",
+        "operatingSystem": "Web-based",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "AI quiz generation from books",
+          "10+ question types (MCQ, code, equations)",
+          "Chapter and topic selection",
+          "Progress tracking dashboard",
+          "Instant detailed feedback",
+          "Spaced repetition",
+          "Flashcard generation",
+          "Encrypted data storage",
+          "Multi-format support (PDF, EPUB, TXT)"
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "500"
+        }
+      }
+    </script>
+
+    <!-- Schema.org JSON-LD - Organization -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "ReadSage",
+        "url": "https://hiregenix.app",
+        "logo": "https://hiregenix.app/logo.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "contact@hiregenix.app",
+          "contactType": "customer support"
+        },
+        "sameAs": ["https://www.producthunt.com/@readsage"]
+      }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav container">
+        <div class="logo">
+          <span class="logo-icon">📚</span>
+          <span class="logo-text">ReadSage</span>
+        </div>
+        <div class="nav-links">
+          <a href="#features" class="nav-link">Features</a>
+          <a href="#how-it-works" class="nav-link">How It Works</a>
+          <a href="#waitlist" class="btn btn-primary-small">Get Early Access</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title fade-in">
+            Master Any Book with
+            <span class="gradient-text">AI-Generated Quizzes</span>
+          </h1>
+          <p class="hero-subtitle fade-in">
+            Upload any book and get instant AI quizzes from specific chapters or
+            topics. Test your knowledge with MCQ, code challenges, equations,
+            and more. Track your progress and ace your exams with detailed
+            feedback.
+          </p>
+
+          <!-- Hero Email Form -->
+          <form class="email-form fade-in" id="hero-form">
+            <div class="form-group">
+              <input
+                type="email"
+                class="email-input"
+                placeholder="Enter your email"
+                required
+                aria-label="Email address"
+                name="email"
+              />
+              <button type="submit" class="btn btn-primary">
+                Get Early Access
+              </button>
+            </div>
+            <p class="form-note">
+              Join 500+ learners on the waitlist. No spam, ever.
+            </p>
+          </form>
+
+          <!-- Success Message -->
+          <div class="success-message" id="success-message">
+            <span class="success-icon">✓</span>
+            <p>Thanks! You're on the list. We'll notify you when we launch.</p>
+          </div>
+        </div>
+
+        <!-- Hero Visual -->
+        <div class="hero-visual fade-in">
+          <div class="visual-card card-1">
+            <div class="card-header">
+              <span class="card-icon">📖</span>
+              <span class="card-title">Chapter 5: Calculus Basics</span>
+            </div>
+            <div class="card-body">
+              <p class="question">
+                <strong>Question 3 of 10:</strong> Find the derivative of f(x) =
+                x³ + 2x
+              </p>
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 75%"></div>
+              </div>
+              <p class="progress-text">75% Complete • Accuracy: 87%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+      <div class="container">
+        <h2 class="section-title">Everything You Need to Master Any Book</h2>
+        <p class="section-subtitle">
+          AI-powered tools for active learning and exam preparation
+        </p>
+
+        <div class="features-grid">
+          <!-- Feature 1 -->
+          <div class="feature-card scroll-fade">
+            <div class="feature-icon">🤖</div>
+            <h3 class="feature-title">AI-Generated Quizzes</h3>
+            <p class="feature-description">
+              Generate comprehensive quizzes instantly from any book. Get 10+
+              question types including MCQ, code challenges, equations, and
+              essay questions tailored to your material.
+            </p>
+          </div>
+
+          <!-- Feature 2 -->
+          <div class="feature-card scroll-fade">
+            <div class="feature-icon">🎯</div>
+            <h3 class="feature-title">Chapter & Topic Selection</h3>
+            <p class="feature-description">
+              Choose specific chapters or topics to focus on. Create targeted
+              quizzes for exam prep or review difficult sections without going
+              through the entire book.
+            </p>
+          </div>
+
+          <!-- Feature 3 -->
+          <div class="feature-card scroll-fade">
+            <div class="feature-icon">📊</div>
+            <h3 class="feature-title">Progress Dashboard</h3>
+            <p class="feature-description">
+              Track chapter completion percentage, accuracy scores, daily
+              learning streaks, and question difficulty levels. Visualize your
+              improvement over time with detailed analytics.
+            </p>
+          </div>
+
+          <!-- Feature 4 -->
+          <div class="feature-card scroll-fade">
+            <div class="feature-icon">💬</div>
+            <h3 class="feature-title">Instant Detailed Feedback</h3>
+            <p class="feature-description">
+              Get immediate explanations for every answer. Understand why an
+              answer is correct or incorrect with AI-generated insights that
+              deepen your comprehension.
+            </p>
+          </div>
+
+          <!-- Feature 5 -->
+          <div class="feature-card scroll-fade">
+            <div class="feature-icon">📝</div>
+            <h3 class="feature-title">Multiple Question Formats</h3>
+            <p class="feature-description">
+              Practice with diverse question types: Multiple Choice, Single
+              Choice, Text Answers, Mathematical Equations, Code Challenges, and
+              Essay Questions for all subjects.
+            </p>
+          </div>
+
+          <!-- Feature 6 -->
+          <div class="feature-card scroll-fade">
+            <div class="feature-icon">📚</div>
+            <h3 class="feature-title">Universal Book Support</h3>
+            <p class="feature-description">
+              Upload books in any format - PDF, EPUB, or TXT. Works with
+              textbooks, novels, technical manuals, academic papers, and any
+              learning material you have.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Question Types Section -->
+    <section class="question-types">
+      <div class="container">
+        <h2 class="section-title">10+ Question Types for Every Subject</h2>
+        <p class="section-subtitle">
+          From math equations to code challenges - ReadSage covers it all
+        </p>
+
+        <div class="question-examples">
+          <!-- Math MCQ -->
+          <div class="question-example scroll-fade">
+            <div class="example-header">
+              <span class="example-badge math">Mathematics</span>
+              <span class="example-type">Multiple Choice</span>
+            </div>
+            <div class="example-body">
+              <p class="example-question">
+                <strong>From Calculus Textbook, Chapter 3:</strong><br />Find
+                the derivative of f(x) = x³ + 2x
+              </p>
+              <div class="example-options mcq">
+                <label class="option">
+                  <input type="checkbox" disabled />
+                  <span>3x² + 2</span>
+                </label>
+                <label class="option">
+                  <input type="checkbox" disabled checked />
+                  <span>3x² + 2x</span>
+                </label>
+                <label class="option">
+                  <input type="checkbox" disabled />
+                  <span>x² + 2</span>
+                </label>
+                <label class="option">
+                  <input type="checkbox" disabled />
+                  <span>3x³ + 2</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Literature Single Choice -->
+          <div class="question-example scroll-fade">
+            <div class="example-header">
+              <span class="example-badge literature">Literature</span>
+              <span class="example-type">Single Choice</span>
+            </div>
+            <div class="example-body">
+              <p class="example-question">
+                <strong>From "1984" by George Orwell:</strong><br />What is the
+                primary purpose of Newspeak in Oceania?
+              </p>
+              <div class="example-options single">
+                <label class="option">
+                  <input type="radio" name="lit" disabled />
+                  <span>To simplify communication</span>
+                </label>
+                <label class="option">
+                  <input type="radio" name="lit" disabled checked />
+                  <span>To limit freedom of thought</span>
+                </label>
+                <label class="option">
+                  <input type="radio" name="lit" disabled />
+                  <span>To improve education</span>
+                </label>
+                <label class="option">
+                  <input type="radio" name="lit" disabled />
+                  <span>To unite nations</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- History Text Answer -->
+          <div class="question-example scroll-fade">
+            <div class="example-header">
+              <span class="example-badge history">History</span>
+              <span class="example-type">Text Answer</span>
+            </div>
+            <div class="example-body">
+              <p class="example-question">
+                <strong>From "Sapiens" by Yuval Noah Harari:</strong
+                ><br />Explain the Cognitive Revolution in 2-3 sentences.
+              </p>
+              <div class="example-options text">
+                <textarea
+                  class="text-input"
+                  placeholder="Type your answer here..."
+                  disabled
+                ></textarea>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chemistry Equation -->
+          <div class="question-example scroll-fade">
+            <div class="example-header">
+              <span class="example-badge chemistry">Chemistry</span>
+              <span class="example-type">Equation</span>
+            </div>
+            <div class="example-body">
+              <p class="example-question">
+                <strong>From Chemistry 101, Chapter 4:</strong><br />Balance
+                this chemical equation:
+              </p>
+              <div class="example-options equation">
+                <div class="equation-display">H₂ + O₂ → H₂O</div>
+                <input
+                  type="text"
+                  class="equation-input"
+                  placeholder="Enter balanced equation..."
+                  disabled
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Programming Code -->
+          <div class="question-example scroll-fade">
+            <div class="example-header">
+              <span class="example-badge programming">Programming</span>
+              <span class="example-type">Code Challenge</span>
+            </div>
+            <div class="example-body">
+              <p class="example-question">
+                <strong>From "Clean Code" by Robert Martin:</strong
+                ><br />Implement a function to reverse a string:
+              </p>
+              <div class="example-options code">
+                <pre class="code-block">def reverse_string(s: str) -> str:
+    <span class="code-comment"># Your code here</span>
+    <span class="code-cursor">|</span>
+</pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+      <div class="container">
+        <h2 class="section-title">How It Works</h2>
+        <p class="section-subtitle">Three simple steps to smarter learning</p>
+
+        <div class="steps">
+          <!-- Step 1 -->
+          <div class="step scroll-fade">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h3 class="step-title">Upload Your Book</h3>
+              <p class="step-description">
+                Drag and drop any book file (PDF, EPUB, TXT) into ReadSage. Our
+                AI processes it in seconds and organizes it by chapters and
+                topics.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step scroll-fade">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h3 class="step-title">Choose Chapters & Get Quizzes</h3>
+              <p class="step-description">
+                Select specific chapters or topics you want to study. AI
+                instantly generates comprehensive quizzes with multiple question
+                types, from MCQ to code challenges.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step scroll-fade">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h3 class="step-title">Track Progress & Get Feedback</h3>
+              <p class="step-description">
+                Answer questions and receive instant detailed explanations.
+                Monitor your completion percentage, accuracy scores, daily
+                streaks, and watch your comprehension improve.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+      <div class="container">
+        <div class="benefits-content">
+          <div class="benefits-text scroll-fade">
+            <h2 class="benefits-title">
+              Perfect for Students, Self-Learners, and Professionals
+            </h2>
+            <ul class="benefits-list">
+              <li class="benefit-item">
+                <span class="benefit-icon">✓</span>
+                <span
+                  ><strong>Students:</strong> Ace exams with targeted chapter
+                  quizzes and instant feedback on your weak areas</span
+                >
+              </li>
+              <li class="benefit-item">
+                <span class="benefit-icon">✓</span>
+                <span
+                  ><strong>Self-Learners:</strong> Master technical books with
+                  practice questions and spaced repetition</span
+                >
+              </li>
+              <li class="benefit-item">
+                <span class="benefit-icon">✓</span>
+                <span
+                  ><strong>Professionals:</strong> Retain knowledge from
+                  business and industry books through active recall</span
+                >
+              </li>
+              <li class="benefit-item">
+                <span class="benefit-icon">✓</span>
+                <span
+                  ><strong>Exam Prep:</strong> Test yourself before the real
+                  exam with realistic practice questions</span
+                >
+              </li>
+              <li class="benefit-item">
+                <span class="benefit-icon">✓</span>
+                <span
+                  ><strong>Active Learning:</strong> Transform passive reading
+                  into engaging practice with immediate feedback</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="benefits-visual scroll-fade">
+            <div class="stat-card">
+              <div class="stat-number">10+</div>
+              <div class="stat-label">Question Types</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">95%</div>
+              <div class="stat-label">AI Accuracy</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">500+</div>
+              <div class="stat-label">Early Users</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+      <div class="container">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">
+          Everything you need to know about ReadSage
+        </p>
+
+        <div class="faq-grid">
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">
+              What file formats does ReadSage support?
+            </h3>
+            <p class="faq-answer">
+              ReadSage supports PDF, EPUB, and TXT formats. You can upload
+              textbooks, novels, technical manuals, academic papers, or any
+              learning material in these formats.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">How does ReadSage generate questions?</h3>
+            <p class="faq-answer">
+              Our AI analyzes your book's content, identifying key concepts,
+              facts, and relationships. It then generates diverse question types
+              (MCQ, code, equations, essays) tailored to the material's
+              complexity and subject matter.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">
+              Can I choose specific chapters or topics?
+            </h3>
+            <p class="faq-answer">
+              Yes! ReadSage automatically divides your book into chapters and
+              topics. You can select specific sections to create targeted
+              quizzes, perfect for exam prep or reviewing difficult material.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">
+              What types of questions can ReadSage create?
+            </h3>
+            <p class="faq-answer">
+              ReadSage generates 10+ question types including Multiple Choice
+              (MCQ), Single Choice, Text Answers, Mathematical Equations, Code
+              Challenges, Essay Questions, and more - adapted to your book's
+              subject.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">Is my book data private and secure?</h3>
+            <p class="faq-answer">
+              Absolutely! All your books and data are encrypted and stored
+              securely on our servers. We respect your privacy and never share
+              your data with third parties. Your reading progress and quiz
+              results are private to you only. ReadSage is fully GDPR compliant.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">How does progress tracking work?</h3>
+            <p class="faq-answer">
+              ReadSage tracks your chapter completion percentage, accuracy
+              scores for each quiz, daily learning streaks, and question
+              difficulty levels. You can visualize your improvement over time
+              with detailed analytics dashboards.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">
+              Can I use ReadSage for exam preparation?
+            </h3>
+            <p class="faq-answer">
+              Yes! ReadSage is perfect for exam prep. Upload your study
+              materials, select relevant chapters, and generate practice tests.
+              Get instant feedback with detailed explanations to identify and
+              strengthen weak areas before your exam.
+            </p>
+          </div>
+
+          <div class="faq-item scroll-fade">
+            <h3 class="faq-question">Does ReadSage work with textbooks?</h3>
+            <p class="faq-answer">
+              Absolutely! ReadSage excels with textbooks across all subjects -
+              mathematics, chemistry, history, programming, literature, physics,
+              biology, business, and more. It adapts question types to match the
+              subject matter.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="cta" id="waitlist">
+      <div class="container">
+        <div class="cta-content scroll-fade">
+          <h2 class="cta-title">Ready to Transform Your Learning?</h2>
+          <p class="cta-subtitle">
+            Join our waitlist and be among the first to experience AI-powered
+            book mastery with instant quizzes, progress tracking, and detailed
+            feedback.
+          </p>
+
+          <!-- CTA Email Form -->
+          <form class="email-form" id="cta-form">
+            <div class="form-group">
+              <input
+                type="email"
+                class="email-input"
+                placeholder="Enter your email"
+                required
+                aria-label="Email address"
+                name="email"
+              />
+              <button type="submit" class="btn btn-primary">
+                Join the Waitlist
+              </button>
+            </div>
+            <p class="form-note">
+              We respect your privacy. Unsubscribe at any time.
+            </p>
+          </form>
+
+          <!-- Success Message -->
+          <div class="success-message" id="cta-success-message">
+            <span class="success-icon">✓</span>
+            <p>Amazing! Check your email for confirmation.</p>
+          </div>
+
+          <!-- Social Proof -->
+          <div class="social-proof">
+            <div class="avatars">
+              <div class="avatar">👤</div>
+              <div class="avatar">👤</div>
+              <div class="avatar">👤</div>
+              <div class="avatar">👤</div>
+              <div class="avatar">+500</div>
+            </div>
+            <p class="social-proof-text">
+              Join 500+ learners already on the waitlist
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <div class="logo">
+              <span class="logo-icon">📚</span>
+              <span class="logo-text">ReadSage</span>
+            </div>
+            <p class="footer-tagline">
+              Master any book with AI-generated quizzes
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <div class="footer-column">
+              <h4 class="footer-title">Product</h4>
+              <a href="#features" class="footer-link">Features</a>
+              <a href="#how-it-works" class="footer-link">How It Works</a>
+              <a href="#faq" class="footer-link">FAQ</a>
+              <a href="#waitlist" class="footer-link">Get Early Access</a>
+            </div>
+
+            <div class="footer-column">
+              <h4 class="footer-title">Legal</h4>
+              <a href="privacy.html" class="footer-link">Privacy Policy</a>
+              <a href="privacy.html#terms" class="footer-link"
+                >Terms of Service</a
+              >
+            </div>
+
+            <div class="footer-column">
+              <h4 class="footer-title">Connect</h4>
+              <a href="mailto:contact@hiregenix.app" class="footer-link"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 ReadSage. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- FAQ Schema for Rich Snippets -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What file formats does ReadSage support?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ReadSage supports PDF, EPUB, and TXT formats. You can upload textbooks, novels, technical manuals, academic papers, or any learning material in these formats."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does ReadSage generate questions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Our AI analyzes your book's content, identifying key concepts, facts, and relationships. It then generates diverse question types (MCQ, code, equations, essays) tailored to the material's complexity and subject matter."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I choose specific chapters or topics?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes! ReadSage automatically divides your book into chapters and topics. You can select specific sections to create targeted quizzes, perfect for exam prep or reviewing difficult material."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What types of questions can ReadSage create?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ReadSage generates 10+ question types including Multiple Choice (MCQ), Single Choice, Text Answers, Mathematical Equations, Code Challenges, Essay Questions, and more - adapted to your book's subject."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is my book data private and secure?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutely! All your books and data are encrypted and stored securely on our servers. We respect your privacy and never share your data with third parties. Your reading progress and quiz results are private to you only. ReadSage is fully GDPR compliant."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does progress tracking work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ReadSage tracks your chapter completion percentage, accuracy scores for each quiz, daily learning streaks, and question difficulty levels. You can visualize your improvement over time with detailed analytics dashboards."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use ReadSage for exam preparation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes! ReadSage is perfect for exam prep. Upload your study materials, select relevant chapters, and generate practice tests. Get instant feedback with detailed explanations to identify and strengthen weak areas before your exam."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does ReadSage work with textbooks?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutely! ReadSage excels with textbooks across all subjects - mathematics, chemistry, history, programming, literature, physics, biology, business, and more. It adapts question types to match the subject matter."
+            }
+          }
+        ]
+      }
+    </script>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
